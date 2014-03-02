@@ -8,7 +8,7 @@
 		<type>Pseudo-class</type>
 	</item>
 
-	<item search="php array()">
+	<item search="php array">
 		<name>array()</name>
 		<note>array() == new Array() == []</note>
 		<resume>Create a new array</resume>
@@ -16,7 +16,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="NodeJS listen()">
+	<item search="nodejs listen">
 		<name>listen()</name>
 		<note></note>
 		<resume>Server listen on given port attribute</resume>

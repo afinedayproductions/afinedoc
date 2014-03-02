@@ -15,7 +15,7 @@ var searchHandler = {
 
 	onSearchChange: function() {
 
-		var search = this._input.value;
+		var search = this._input.value.toLowerCase();
 		var cachedItemHandler = [];
 
 		// If search is empty, we clear all articles
@@ -35,10 +35,6 @@ var searchHandler = {
 			}
 		});
 
-		// COMPARE TEMPORARY ITEMHANDLER & ITEMHANDLER
-		// IF DIFFERENT, CLEAR ITEMHANDLER & ASSIGN TEMPORARY ITEMHANDLER TO THE ITEMHANDLER
-		// ELSE, NO CHANGE TO THE PAGE
-
 		// We compare cached items & the current items
 		if(!itemHandler.compareArrays(cachedItemHandler)) {
 
@@ -57,10 +53,8 @@ var searchHandler = {
 
 			});
 
-			
-
 		} // end if cached items do not fit the current research
-		else { console.log('Cached items fit the current research'); }
+		else console.log('Cached items fit the current research');
 		// end if chached items fit the current research
 
 
@@ -101,7 +95,7 @@ var itemHandler = {
 
 	init: function() {
 		this.items = [];
-	},
+	}
 
 };
 /* END ITEMHANDLER */
