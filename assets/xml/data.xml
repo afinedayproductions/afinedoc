@@ -1,0 +1,26 @@
+<?xml version= "1.0"?>
+<items>
+	<item search="css :valid">
+		<name>:valid</name>
+		<note></note>
+		<resume>True if input is not empty and required</resume>
+		<tech>CSS</tech>
+		<type>Pseudo-class</type>
+	</item>
+
+	<item search="php array()">
+		<name>array()</name>
+		<note>array() == new Array() == []</note>
+		<resume>Create a new array</resume>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="NodeJS listen()">
+		<name>listen()</name>
+		<note></note>
+		<resume>Server listen on given port attribute</resume>
+		<tech>NodeJS</tech>
+		<type>Function</type>
+	</item>
+</items>

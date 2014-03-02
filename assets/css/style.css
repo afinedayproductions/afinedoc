@@ -1,0 +1,207 @@
+/* MISC. */
+*, input, textarea {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+body {
+	background: #fffffc;
+	font-family: 'Duru Sans';
+	font-size: 1.1rem;
+	line-height: 1.4;
+	-webkit-font-smoothing: antialiased;
+}
+
+#content, header {
+	margin: auto;
+	width: 35rem;
+} 
+
+input, textarea {
+	border: 0;
+	outline: 0;
+}
+
+/* MISC. */
+
+/* HEADER */
+
+header {
+	margin-top: 1rem;
+}
+
+header h1 {
+	font-family: 'Chaparral pro';
+	font-size: 2.5rem;
+	margin-bottom: -1rem;
+}
+header h2 {
+	color: #888;
+	font-size: 0.85rem;
+}
+
+/* END HEADER */
+
+
+
+/* ARTICLE */
+
+article {
+	margin-top: 2rem;
+}
+
+article .tech {
+	background: #aaa;
+	color: #fff;
+	padding-right: 1rem;
+	text-align: right;
+}
+
+article .title {
+	border-left: .15rem solid #aaa;
+	border-radius: 0 2px 2px 0;
+	padding: .5rem 1rem;
+
+	-moz-transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+}
+article .title:hover, article .tech:hover + .title {
+	background: #f2f3f5;
+}
+article .title a, article .title span {
+	display: block;
+}
+article .title .link-title {
+	font-size: 1.5rem;
+}
+article .title .subtitle {
+	color: #888;
+	font-size: 0.85rem;
+}
+
+/* fix by tech */
+article.css .tech {
+	background: #d45b43;
+}
+article.css .title {
+	border-left: .15rem solid #d45b43;
+}
+
+article.php .tech {
+	background: #8c8cc5;
+}
+article.php .title {
+	border-left: .15rem solid #8c8cc5;
+}
+/* end fix by tech */
+
+/* END ARTICLE */
+
+
+
+/* #INPUT-LABEL */
+
+#input-label {
+	position: relative;
+
+	height: 5.25rem; /* fix padding transition problem */
+	overflow: hidden;
+}
+
+/* normal state */
+#input-label input {
+	border: .15rem solid #aaa;
+	border-radius: 2px;
+	display: block;
+	font-size: 1.75rem;
+	margin-top: 1rem;
+	padding: 1rem 0.5rem;
+	width: 100%;
+
+	-moz-transition: all 0.2s;
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+#input-label label {
+	position: absolute;
+	top: 100%; right: 0; bottom: 0; left: 0;
+
+	border-radius: 2px;
+	color: #fff;
+	font-size: 0.85rem;
+	padding-left: 1rem;
+	text-transform: uppercase;
+
+	-moz-transition: 
+		top 0.2s,
+		background 0.2s,
+		padding 0.2s;
+	-webkit-transition: 
+		top 0.2s,
+		background 0.2s,
+		padding 0.2s;
+	transition: 
+		top 0.2s,
+		background 0.2s,
+		padding-top 0.2s;
+}
+/* end normal state */
+
+/* when focused or valid
+	:valid is when input is required & not empty
+*/
+#input-label input:focus, #input-label input:valid {
+	border-color: #be9d58;
+	padding-top: 0.4rem;
+	padding-bottom: 1.6rem;
+}
+
+#input-label input:not(:focus):valid {
+	border: .15rem solid #aaa;
+	padding-top: 0.4rem;
+	padding-bottom: 1.6rem;
+}
+
+#input-label input:focus + label, #input-label input:valid + label {
+	top: auto;
+
+	background: #be9d58;
+}
+
+#input-label input:not(:focus):valid + label {
+	background: #aaa; 
+}
+/* end focused or valid */
+
+/*
+
+/* END .INPUT LABEL */
+
+
+
+/* LOADING SCREEN */
+#loading-screen {
+	position: fixed;
+	top: 0; right: 0; bottom: 0; left: 0;
+
+	background: #000;
+	background: rgba(0,0,0,.5);
+}
+
+#loading-screen img {
+	position: fixed;
+	top: 50%; right: 0; left: 0;
+
+	margin: auto;
+	margin-top: -24px; /*!! MAGIC NUMBER : WILL BE DELETE WHEN 100% CSS/JS LOADER */
+
+}
