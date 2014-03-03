@@ -26,6 +26,7 @@ code {
 	border-radius: 3px;
 	font-size: 1.35em; /* em, not rem */
 	padding: 0 .33rem 1px;
+	white-space: nowrap;
 }
 
 #content, header {
@@ -153,26 +154,24 @@ article.php .title {
 }
 #input-label label {
 	position: absolute;
-	top: 100%; right: 0; bottom: 0; left: 0;
+	top: auto; right: 0; bottom: 0; left: 0;
 
 	border-radius: 2px;
 	color: #fff;
 	font-size: 0.85rem;
+	height: 0;
 	padding-left: 1rem;
 	text-transform: uppercase;
 
 	-moz-transition: 
-		top 0.2s,
 		background 0.2s,
 		padding 0.2s;
 	-webkit-transition: 
-		top 0.2s,
 		background 0.2s,
 		padding 0.2s;
 	transition: 
-		top 0.2s,
 		background 0.2s,
-		padding-top 0.2s;
+		padding 0.2s;
 }
 /* end normal state */
 
@@ -192,9 +191,8 @@ article.php .title {
 }
 
 #input-label input:focus + label, #input-label input:valid + label {
-	top: auto;
-
 	background: #be9d58;
+	padding-bottom: 1.2rem;
 }
 
 #input-label input:not(:focus):valid + label {
