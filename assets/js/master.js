@@ -139,11 +139,19 @@ var viewRenderer = {
 		this._titleLink.className = 'link-title';
 		this._titleLink.href = '#LINK';
 		this._titleLink.innerHTML = item.querySelector('name').innerHTML;
-		this._titleSpan = document.createElement('span');
-		this._titleSpan.className = 'subtitle';
-		this._titleSpan.innerHTML = item.querySelector('resume').innerHTML;
+		this._titleType = document.createElement('span');
+		this._titleType.className = 'type';
+		this._titleType.innerHTML = item.querySelector('type').innerHTML;
+		this._titleSubtitle = document.createElement('span');
+		this._titleSubtitle.className = 'subtitle';
+		this._titleSubtitle.innerHTML = item.querySelector('resume').innerHTML;
+		this._titleNote = document.createElement('span');
+		this._titleNote.className = 'note';
+		this._titleNote.innerHTML = item.querySelector('note').innerHTML;
 		this._title.appendChild(this._titleLink);
-		this._title.appendChild(this._titleSpan);
+		this._title.appendChild(this._titleType);
+		this._title.appendChild(this._titleSubtitle);
+		this._title.appendChild(this._titleNote);
 
 		this._article.appendChild(this._tech);
 		this._article.appendChild(this._title);

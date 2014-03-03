@@ -69,6 +69,14 @@ article:last-of-type {
 	margin-bottom: 2rem;
 }
 
+article .note, article .type {
+	color: #888;
+	font-size: 0.85rem;
+}
+article .note {
+	margin-top: 1rem;
+}
+
 article .tech {
 	background: #aaa;
 	color: #fff;
@@ -96,7 +104,8 @@ article .title .link-title {
 }
 article .title .subtitle {
 	color: #888;
-	font-size: 0.85rem;
+	font-size: 1rem;
+	margin-top: .5rem;
 }
 
 /* fix by tech */
