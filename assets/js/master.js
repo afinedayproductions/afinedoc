@@ -12,7 +12,7 @@ var searchHandler = {
 			// If the search is part of the available searches for the item
 			if(itemSearch.search(tech + ' ' + name) > -1) {
 				// Return the item
-				returnedItem = item;
+				if(!returnedItem) returnedItem = item;
 			}
 
 		});
@@ -308,33 +308,43 @@ var LoadingScreen = {
 		// Loading screen background
 		this._el = document.createElement('div');
 		this._el.id = 'loading-screen';
-		this._el.className = 'hidden';
 
 		// Loader
-		//! FOR NOW AN IMAGE, WILL BE 100%CSS/JS AFTER
-		var loader = document.createElement('img');
-		loader.className = 'vertical-aligned';
-		loader.height = '48';
-		loader.width = '48';
-		loader.src = 'http://www.globedrivein.com/wp-content/plugins/nice-login-register-widget/images/loading_transparent.gif';
+		var loader = document.createElement('div');
+		loader.className = 'loader';
 		this._el.appendChild(loader);
 
 	},
 	
 	init: function() {
 
-		// If the loading screen does not exist, we create it
-		if(!this._el) this.createScreen();
-		else return false;
-
+		// timeOut
 		this.hideTimeout = Date.now() + this.MINI_SHOWTIME;
-		document.body.appendChild(this._el);
+
+		// If the loading screen does not exist, we create it
+		if(!this._el) {
+			this.createScreen();
+			document.body.appendChild(this._el);
+		}
+		else { this._el.className = 'loader'; }
+		
 
 	},
 
 	over: function() {
 		if(!this._el) return false;
-		this._el.parentNode.removeChild(this._el);
+
+		// If we have to wait for the minimum showtime, we replay the function after a timeout
+		var timeToWait = Date.now() - this.hideTimeout;
+		if(timeToWait < 0) {
+			window.setTimeout(function() {
+				this.over()
+			}.bind(this), -timeToWait);
+		}
+		else {
+			// Hide the loading screen
+			this._el.classList.add('hidden');
+		}
 	}
 
 };
@@ -352,7 +362,7 @@ window.Afinedoc = {
 
 			LoadingScreen.init();
 
-		}, 100);
+		}, 0);
 
 		// We create the article's wrapper
 		//Afinedoc.pageHandler.wrapper();

@@ -220,17 +220,78 @@ article.php .title, article.php .description {
 	position: fixed;
 	top: 0; right: 0; bottom: 0; left: 0;
 
-	background: #000;
-	background: rgba(0,0,0,.5);
+	background: #1a1a1a;
+
+	-moz-transition: opacity .3s, z-index 0 .3s;
+	-webkit-transition: opacity .3s, z-index 0 .3s;
+	transition: opacity .3s, z-index 0 .3s;
+}
+#loading-screen.hidden {
+	opacity: 0;
+
+	z-index: -1;
 }
 
-#loading-screen img {
+#loading-screen .loader {
 	position: fixed;
 	top: 50%; right: 0; left: 0;
-
+	
+	box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;
+	display: inline-block;
 	margin: auto;
-	margin-top: -24px; /*!! MAGIC NUMBER : WILL BE DELETE WHEN 100% CSS/JS LOADER */
+	margin-top: -.5rem;
+	height: 1rem;
+	width: 1rem;
+	
+	-moz-animation: dots 5s infinite ease-in-out;
+	-webkit-animation: dots 5s infinite ease-in-out;
+	animation: dots 5s infinite ease-in-out;
+}
 
+@-moz-keyframes dots {
+	0% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	8.33% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	16.67% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 2rem 2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	25% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	33.33% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 -2rem -2rem 0 1rem;}
+	41.67% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	50% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	58.33% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	66.67% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 -2rem -2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	75% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	83.33% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 2rem 2rem 0 1rem;}
+	91.67% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	100% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+}
+@-webkit-keyframes dots {
+	0% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	8.33% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	16.67% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 2rem 2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	25% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	33.33% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 -2rem -2rem 0 1rem;}
+	41.67% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	50% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	58.33% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	66.67% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 -2rem -2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	75% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	83.33% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 2rem 2rem 0 1rem;}
+	91.67% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	100% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+}
+@keyframes dots {
+	0% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	8.33% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	16.67% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 2rem 2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	25% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	33.33% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 -2rem -2rem 0 1rem;}
+	41.67% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	50% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	58.33% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	66.67% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 -2rem -2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	75% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
+	83.33% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 2rem 2rem 0 1rem;}
+	91.67% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	100% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
 }
 /* END LOADING SCREEN */
 
