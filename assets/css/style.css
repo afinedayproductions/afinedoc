@@ -156,6 +156,7 @@ article.php .title {
 	position: absolute;
 	top: auto; right: 0; bottom: 0; left: 0;
 
+	background: #aaa;
 	border-radius: 2px;
 	color: #fff;
 	font-size: 0.85rem;
@@ -196,7 +197,7 @@ article.php .title {
 }
 
 #input-label input:not(:focus):valid + label {
-	background: #aaa; 
+	background: #aaa;
 }
 /* end focused or valid */
 
