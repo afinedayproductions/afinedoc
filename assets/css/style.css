@@ -20,6 +20,14 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 
+code {
+	background: rgba(255,255,255,.85);
+	border: 1px solid #eee;
+	border-radius: 3px;
+	font-size: 1.35em; /* em, not rem */
+	padding: 0 .33rem 1px;
+}
+
 #content, header {
 	margin: auto;
 	width: 35rem;
@@ -56,6 +64,9 @@ header h2 {
 
 article {
 	margin-top: 2rem;
+}
+article:last-of-type {
+	margin-bottom: 2rem;
 }
 
 article .tech {
