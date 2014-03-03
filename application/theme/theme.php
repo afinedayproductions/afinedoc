@@ -37,6 +37,15 @@
 		<div id="content">
 			<?php echo $output ; ?>
 		</div>
+
+		<footer>
+			<p>
+				©2014+ <?php echo anchor('', 'Afinedoc.com'); ?> 
+				<br>
+				By par <?php echo anchor('http://www.afinedayproductions.fr', 'F.Mathis — afinedayproductions', array('title' => 'www.afinedayproductions.fr — F.Mathis', 'target' => '_blank')); ?>
+			</p>
+		</footer>
+		<!-- end footer -->
 		
 		<!-- JAVASCRIPT -->
 		<?php foreach($js as $url): ?>

@@ -13,7 +13,7 @@ a {
 }
 
 body {
-	background: #fffffc;
+	background: #fcfcf9;
 	font-family: 'Duru Sans';
 	font-size: 1.1rem;
 	line-height: 1.4;
@@ -29,6 +29,9 @@ code {
 	white-space: nowrap;
 }
 
+#content {
+	padding-bottom: 3rem; /* footer height */
+}
 #content, header {
 	margin: auto;
 	width: 35rem;
@@ -68,6 +71,11 @@ article {
 }
 article:last-of-type {
 	margin-bottom: 2rem;
+}
+
+article .description {
+	border-left: .15rem solid #aaa;
+	padding: .5rem 1rem;
 }
 
 article .note, article .type {
@@ -113,14 +121,14 @@ article .title .subtitle {
 article.css .tech {
 	background: #d45b43;
 }
-article.css .title {
+article.css .title, article.css .description {
 	border-left: .15rem solid #d45b43;
 }
 
 article.php .tech {
 	background: #8c8cc5;
 }
-article.php .title {
+article.php .title, article.php .description {
 	border-left: .15rem solid #8c8cc5;
 }
 /* end fix by tech */
@@ -224,3 +232,19 @@ article.php .title {
 	margin-top: -24px; /*!! MAGIC NUMBER : WILL BE DELETE WHEN 100% CSS/JS LOADER */
 
 }
+/* END LOADING SCREEN */
+
+/* FOOTER */
+footer {
+	position: fixed;
+	top: auto; right: 0; bottom: 0; left: 0;
+
+	background: #fcfcf9;
+	border-top: 1px solid #aaa;
+	color: #888;
+	font-size: 0.85rem;
+	margin: auto;
+	padding: .5rem 0;
+	width: 35rem;
+}
+/* END FOOTER */

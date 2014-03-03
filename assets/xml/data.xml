@@ -1,7 +1,7 @@
 <?xml version= "1.0"?>
 <items>
 	<item search="css :after ::after">
-		<description></description>
+		<description>LOREM IPSUM SIT DOLOR AMET</description>
 		<name>:after</name>
 		<note><strong>Alias:</strong> <code>::after</code></note>
 		<resume>Create a pseudo-element whom is the last child of the matched element</resume>
@@ -447,7 +447,7 @@
 		<resume>Specify a transition when an element style property changes</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
-		<type>Pseudo-class</type>
+		<type>Property</type>
 	</item>
 
 	<item search="css transition-delay transition delay">
@@ -457,7 +457,7 @@
 		<resume>Sets a delay before a transition is played</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
-		<type>Pseudo-class</type>
+		<type>Property</type>
 	</item>
 
 	<item search="css transition-duration transition duration">
@@ -467,7 +467,7 @@
 		<resume>Sets how long a transition need to be played</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
-		<type>Pseudo-class</type>
+		<type>Property</type>
 	</item>
 
 	<item search="css transition-property transition property">
@@ -477,7 +477,7 @@
 		<resume>Specify what properties shall be affect by the transition</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
-		<type>Pseudo-class</type>
+		<type>Property</type>
 	</item>
 
 	<item search="css :valid">

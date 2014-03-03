@@ -1,4 +1,25 @@
 var searchHandler = {
+
+	findItem: function(tech, name) {
+
+		var returnedItem = false;
+
+		[].forEach.call(this.documentXML.querySelectorAll('item'), function(item) {
+
+			// Value of the search attribute of the item
+			var itemSearch = item.attributes.search.value;
+
+			// If the search is part of the available searches for the item
+			if(itemSearch.search(tech + ' ' + name) > -1) {
+				// Return the item
+				returnedItem = item;
+			}
+
+		});
+
+		return returnedItem;
+
+	},
 	
 	init: function(documentXML) {
 
@@ -7,6 +28,9 @@ var searchHandler = {
 
 		// XML document loaded
 		this.documentXML = documentXML;
+
+		// Set cache to true
+		this._cache = true;
 
 		// init the itemHandler
 		itemHandler.init();
@@ -25,7 +49,7 @@ var searchHandler = {
 		}
 		
 		[].forEach.call(this.documentXML.querySelectorAll('item'), function(item) {
-			// current value of the input
+			// Value of the search attribute of the item
 			var itemSearch = item.attributes.search.value;
 
 			// If the search is part of the available searches for the item
@@ -36,12 +60,13 @@ var searchHandler = {
 		});
 
 		// We compare cached items & the current items
-		if(!itemHandler.compareArrays(cachedItemHandler)) {
+		if(!itemHandler.compareArrays(cachedItemHandler) || this._cache == false) {
 
 			console.log('Cached items DO NOT fit the current research');
 
 			// We affect the cached itemHandler to the main itemHandler
 			itemHandler.items = cachedItemHandler;
+			this._cache = true;
 
 			// We clear all current article elements
 			viewRenderer.clearRenderer();
@@ -52,6 +77,9 @@ var searchHandler = {
 				viewRenderer.createArticle(item);
 
 			});
+
+			// We call the detailHandler to be able to show the full article
+			detailHandler.init();
 
 		} // end if cached items do not fit the current research
 		else console.log('Cached items fit the current research');
@@ -66,6 +94,7 @@ var searchHandler = {
 };
 /* END SEARCHHANDLER */
 
+/* ITEMHANDLER */
 var itemHandler = {
 
 	add: function(item) {
@@ -120,47 +149,109 @@ var viewRenderer = {
 
 	createArticle: function(item) {
 
+		// Create resume article
+		this.createResumeArticle(item);
+
+		// Add every part in the article
+		this._article.appendChild(this._tech);
+		this._article.appendChild(this._title);
+		document.querySelector('#content').appendChild(this._article);
+
+	},
+
+	createFullArticle: function(item) {
+
+		// Create resume article
+		this.createResumeArticle(item);
+
+		this._description = document.createElement('div');
+		this._description.className = 'description';
+		this._description.innerHTML = item.querySelector('description').innerHTML;
+		this._titleNote = document.createElement('div');
+		this._titleNote.className = 'note';
+		var textNote = item.querySelector('note').innerHTML;
+		this._titleNote.innerHTML = textNote;
+
+
+		// Add every part in the article
+		this._article.appendChild(this._tech);
+		this._article.appendChild(this._title);
+		this._article.appendChild(this._description);
+		if(textNote.length > 0)
+			this._description.appendChild(this._titleNote);
+
+		// We clear all articles
+		this.clearRenderer();
+
+		// We show the article
+		document.querySelector('#content').appendChild(this._article);
+
+		// We declare cache as false for any search changes
+		searchHandler._cache = false;
+
+	},
+
+	createResumeArticle: function(item) {
+
 		// creating article
 		this._article = document.createElement('article');
 		this._article.className = item.querySelector('tech').innerHTML.toLowerCase();
 
 		// creating .tech
+		var tech = item.querySelector('tech').innerHTML;
 		this._tech = document.createElement('div');
 		this._tech.className = 'tech';
-		this._techLink = document.createElement('a');
-		this._techLink.href ='#LINK';
-		this._techLink.innerHTML = item.querySelector('tech').innerHTML;
+		this._techLink = document.createElement('span');
+		this._techLink.innerHTML = tech;
 		this._tech.appendChild(this._techLink);
 
 		// creating .title
+		var name = item.querySelector('name').innerHTML;
 		this._title = document.createElement('div');
 		this._title.className = 'title';
 		this._titleLink = document.createElement('a');
 		this._titleLink.className = 'link-title';
-		this._titleLink.href = '#LINK';
-		this._titleLink.innerHTML = item.querySelector('name').innerHTML;
+		this._titleLink.href = '#' + tech.toLowerCase() + '-' + name.toLowerCase();
+		this._titleLink.innerHTML = name;
 		this._titleType = document.createElement('span');
 		this._titleType.className = 'type';
 		this._titleType.innerHTML = item.querySelector('type').innerHTML;
 		this._titleSubtitle = document.createElement('span');
 		this._titleSubtitle.className = 'subtitle';
 		this._titleSubtitle.innerHTML = item.querySelector('resume').innerHTML;
-		this._titleNote = document.createElement('span');
-		this._titleNote.className = 'note';
-		this._titleNote.innerHTML = item.querySelector('note').innerHTML;
 		this._title.appendChild(this._titleLink);
 		this._title.appendChild(this._titleType);
 		this._title.appendChild(this._titleSubtitle);
-		this._title.appendChild(this._titleNote);
-
-		this._article.appendChild(this._tech);
-		this._article.appendChild(this._title);
-		document.querySelector('#content').appendChild(this._article);
-
 	}
 
 };
 /* END VIEWRENDERER */
+
+/* DETAILHANDLER */
+var detailHandler = {
+
+	init: function() {
+
+		[].forEach.call(document.querySelectorAll('article .title a'), function(link) {
+			link.addEventListener('click', function(e) {
+
+				// With the tech and the name, we can find again what was the clicked article
+				var tech = this.parentNode.parentNode.querySelector('.tech span').innerHTML.toLowerCase();
+				var name = this.innerHTML.toLowerCase();
+
+				// We search for the item
+				var item = searchHandler.findItem(tech, name);	
+
+				// We create the full render
+				viewRenderer.createFullArticle(item);			
+
+			}, false);
+		});
+
+	}
+
+};
+/* END DETAILHANDLER */
 
 /* DATAXMLLOADER */
 var dataXMLLoader = {
