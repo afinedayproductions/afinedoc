@@ -1,5 +1,16 @@
 <?xml version= "1.0"?>
 <items>
+
+	<item search="php addslashes">
+		<description></description>
+		<name>addslashes()</name>
+		<note></note>
+		<resume>Add a backslash before quotes, double-quotes and backslashes in string variables</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
 	<item search="css :after ::after">
 		<description>LOREM IPSUM SIT DOLOR AMET</description>
 		<name>:after</name>
@@ -8,6 +19,96 @@
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-element</type>
+	</item>
+
+	<item search="php array">
+		<description></description>
+		<name>array()</name>
+		<note><strong>Alias:</strong> <code>new Array()</code> — <code>[]</code></note>
+		<resume>Create a new array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php array_diff array diff">
+		<description></description>
+		<name>array_diff()</name>
+		<note></note>
+		<resume>Computes the difference between arrays</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php array_pop array pop">
+		<description></description>
+		<name>array_pop()</name>
+		<note></note>
+		<resume>Remove the last element of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php array_push array push">
+		<description></description>
+		<name>array_push()</name>
+		<note></note>
+		<resume>Add one or more elements in the end of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php array_shift array shift">
+		<description></description>
+		<name>array_shift()</name>
+		<note></note>
+		<resume>Remove the first element of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php array_slice array slice">
+		<description></description>
+		<name>array_slice()</name>
+		<note></note>
+		<resume>Extract a slice of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php array_unshift array unshift">
+		<description></description>
+		<name>array_unshift()</name>
+		<note></note>
+		<resume>Add one or more elements in the beginning of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php arsort">
+		<description></description>
+		<name>arsort()</name>
+		<note></note>
+		<resume>Sort an array in reverse order and maintain key association</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php asort">
+		<description></description>
+		<name>asort()</name>
+		<note></note>
+		<resume>Sort an array and maintain key association</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
 	</item>
 
 	<item search="css background">
@@ -68,6 +169,36 @@
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
+	</item>
+
+	<item search="php base64_decode base64 decode">
+		<description></description>
+		<name>base64_decode()</name>
+		<note></note>
+		<resume>Decode data encoded with MIME base64</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php base64_encode base64 encode">
+		<description></description>
+		<name>base64_encode()</name>
+		<note></note>
+		<resume>Encode data with MIME base64</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php basename">
+		<description></description>
+		<name>basename()</name>
+		<note></note>
+		<resume>Returns the ending element of a path</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
 	</item>
 
 	<item search="css :before ::before">
@@ -190,6 +321,46 @@
 		<type>Property</type>
 	</item>
 
+	<item search="php ceil">
+		<description></description>
+		<name>ceil()</name>
+		<note></note>
+		<resume>Round decimal numbers up</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php chmod">
+		<description></description>
+		<name>chmod()</name>
+		<note></note>
+		<resume>Changes the file mode</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php chown">
+		<description></description>
+		<name>chown()</name>
+		<note></note>
+		<resume>Changes the file owner</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php closedir">
+		<description></description>
+		<name>closedir()</name>
+		<note></note>
+		<resume>Close a directory handle</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
 	<item search="css color">
 		<description></description>
 		<name>color</name>
@@ -200,6 +371,56 @@
 		<type>Property</type>
 	</item>
 
+	<item search="php copy">
+		<description></description>
+		<name>copy()</name>
+		<note></note>
+		<resume>Copies a file</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php count">
+		<description></description>
+		<name>count()</name>
+		<note><strong>Alias:</strong> <code>sizeof</code></note>
+		<resume>Count elements in an array or count something in a Countable object</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php current">
+		<description></description>
+		<name>current()</name>
+		<note></note>
+		<resume>Return the current pointed element in an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php date">
+		<description></description>
+		<name>date()</name>
+		<note></note>
+		<resume>Format a date</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php date_default_timezone_set date default timezone set">
+		<description></description>
+		<name>date_default_timezone_set()</name>
+		<note></note>
+		<resume>Sets the default timezone used by date / time functions</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
 	<item search="css display">
 		<description></description>
 		<name>display</name>
@@ -208,6 +429,76 @@
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
+	</item>
+
+	<item search="php echo">
+		<description></description>
+		<name>echo</name>
+		<note></note>
+		<resume>Output strings</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Key-word</type>
+	</item>
+
+	<item search="php end">
+		<description></description>
+		<name>end()</name>
+		<note></note>
+		<resume>Point to the last element of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php empty">
+		<description></description>
+		<name>empty()</name>
+		<note></note>
+		<resume>Finds whether an element is empty</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php fclose">
+		<description></description>
+		<name>fclose()</name>
+		<note></note>
+		<resume>Close an open file pointer</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php file_exist file exist">
+		<description></description>
+		<name>file_exist()</name>
+		<note></note>
+		<resume>Checks whether a file or a directory exists</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php filesize">
+		<description></description>
+		<name>filesize()</name>
+		<note></note>
+		<resume>Gets file size in bytes</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php floor">
+		<description></description>
+		<name>floor()</name>
+		<note></note>
+		<resume>Round decimal number down</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
 	</item>
 
 	<item search="css :focus">
@@ -290,6 +581,26 @@
 		<type>Property</type>
 	</item>
 
+	<item search="php fopen">
+		<description></description>
+		<name>fopen()</name>
+		<note></note>
+		<resume>Open a file</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php hash">
+		<description></description>
+		<name>hash()</name>
+		<note></note>
+		<resume>Returns a hash string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
 	<item search="css height">
 		<description></description>
 		<name>height</name>
@@ -298,6 +609,196 @@
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
+	</item>
+
+	<item search="php implode">
+		<description></description>
+		<name>implode()</name>
+		<note><strong>Alias:</strong> <code>join</code></note>
+		<resume>Converts a string into an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php is_array is array">
+		<description></description>
+		<name>is_array()</name>
+		<note></note>
+		<resume>Finds whether an element is an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php is_bool is bool">
+		<description></description>
+		<name>is_bool()</name>
+		<note></note>
+		<resume>Finds whether an element is a boolean</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php is_dir is dir">
+		<description></description>
+		<name>is_dir()</name>
+		<note></note>
+		<resume>Finds whether an element is a directory</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php is_file is file">
+		<description></description>
+		<name>is_file()</name>
+		<note></note>
+		<resume>Finds whether an element is a file</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php is_float is float">
+		<description></description>
+		<name>is_float()</name>
+		<note></note>
+		<resume>Finds whether an element is a float</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php is_int is int">
+		<description></description>
+		<name>is_int()</name>
+		<note></note>
+		<resume>Finds whether an element is an integer</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php is_nan is nan">
+		<description></description>
+		<name>is_nan()</name>
+		<note></note>
+		<resume>Finds whether an element is <code>NaN</code> (Not a Number)</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php is_null is null">
+		<description></description>
+		<name>is_null()</name>
+		<note></note>
+		<resume>Finds whether an element is <code>NULL</code></resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php is_numeric is numeric">
+		<description></description>
+		<name>is_numeric()</name>
+		<note></note>
+		<resume>Finds whether an element is a number or a numeric string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php is_object is object">
+		<description></description>
+		<name>is_object()</name>
+		<note></note>
+		<resume>Finds whether an element is an object</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php is_string is string">
+		<description></description>
+		<name>is_string()</name>
+		<note></note>
+		<resume>Finds whether an element is a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php is_uploaded_file is uploaded file">
+		<description></description>
+		<name>is_uploaded_file()</name>
+		<note></note>
+		<resume>Finds whether an element was uploaded by HTTP POST</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php isset">
+		<description></description>
+		<name>isset()</name>
+		<note></note>
+		<resume>Finds whether a variable exists and is not <code>NULL</code></resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php json_decode json decode">
+		<description></description>
+		<name>json_decode()</name>
+		<note></note>
+		<resume>Converts a JSON string into an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php json_encode json encode">
+		<description></description>
+		<name>json_encode()</name>
+		<note></note>
+		<resume>Converts an element into a JSON string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php key">
+		<description></description>
+		<name>key()</name>
+		<note></note>
+		<resume>Return the key value of the current element pointed in an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php krsort">
+		<description></description>
+		<name>krsort()</name>
+		<note></note>
+		<resume>Sort an array in reverse order by key</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php ksort">
+		<description></description>
+		<name>ksort()</name>
+		<note></note>
+		<resume>Sort an array by key</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
 	</item>
 
 	<item search="css line-height line height">
@@ -310,6 +811,26 @@
 		<type>Property</type>
 	</item>
 
+	<item search="php ltrim">
+		<description></description>
+		<name>ltrim()</name>
+		<note></note>
+		<resume>Removes characters from the left extremity of a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php mail">
+		<description></description>
+		<name>mail()</name>
+		<note></note>
+		<resume>Send a mail</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
 	<item search="css margin">
 		<description></description>
 		<name>margin</name>
@@ -320,6 +841,46 @@
 		<type>Property</type>
 	</item>
 
+	<item search="php mkdir">
+		<description></description>
+		<name>mkdir()</name>
+		<note></note>
+		<resume>Creates a directory</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php mt_rand mt rand">
+		<description></description>
+		<name>mt_rand()</name>
+		<note></note>
+		<resume>Generates a random number</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php next">
+		<description></description>
+		<name>next()</name>
+		<note></note>
+		<resume>Point to the next element of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php nl2br">
+		<description></description>
+		<name>nl2br()</name>
+		<note></note>
+		<resume>Converts all new line in a string into an HTML line break</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
 	<item search="css :not">
 		<description></description>
 		<name>:not(<code>selector</code>)</name>
@@ -328,6 +889,16 @@
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
+	</item>
+
+	<item search="php opendir">
+		<description></description>
+		<name>opendir()</name>
+		<note></note>
+		<resume>Open a directory handle</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
 	</item>
 
 	<item search="css outline">
@@ -410,6 +981,56 @@
 		<type>Property</type>
 	</item>
 
+	<item search="php pi">
+		<description></description>
+		<name>pi()</name>
+		<note></note>
+		<resume>Return the value of pi</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php pow">
+		<description></description>
+		<name>pow()</name>
+		<note></note>
+		<resume>Returns an exponential value</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php prev">
+		<description></description>
+		<name>prev()</name>
+		<note></note>
+		<resume>Point to the previous element of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php readdir">
+		<description></description>
+		<name>readdir()</name>
+		<note></note>
+		<resume>Read an entry from a directory handle</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php rename">
+		<description></description>
+		<name>rename()</name>
+		<note></note>
+		<resume>Rename a file of a directory</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
 	<item search="css :required">
 		<description></description>
 		<name>:required</name>
@@ -418,6 +1039,176 @@
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
+	</item>
+
+	<item search="php reset">
+		<description></description>
+		<name>reset()</name>
+		<note></note>
+		<resume>Point to the first element of an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php rmdir">
+		<description></description>
+		<name>rmdir()</name>
+		<note></note>
+		<resume>Remove an empty directory</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php rsort">
+		<description></description>
+		<name>rsort()</name>
+		<note></note>
+		<resume>Sort an array in reverse order but don't maintain index association</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php rtrim">
+		<description></description>
+		<name>rtrim()</name>
+		<note></note>
+		<resume>Removes characters from the right extremity of a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php serialize">
+		<description></description>
+		<name>serialize()</name>
+		<note></note>
+		<resume>Converts an element into a storable representation</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php shuffle">
+		<description></description>
+		<name>shuffle()</name>
+		<note></note>
+		<resume>Randomize the order of elements in an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php sqrt">
+		<description></description>
+		<name>sqrt()</name>
+		<note></note>
+		<resume>Returns the square root of an element</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php sort">
+		<description></description>
+		<name>sort()</name>
+		<note></note>
+		<resume>Sort an array but don't maintain index association</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php str_replace str replace">
+		<description></description>
+		<name>str_replace()</name>
+		<note></note>
+		<resume>Randomly shuffles a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php str_shuffle str shuffle">
+		<description></description>
+		<name>str_shuffle()</name>
+		<note></note>
+		<resume>Replace all occurrences of the search string with the replacement string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php strip_tags strip tags">
+		<description></description>
+		<name>strip_tags()</name>
+		<note></note>
+		<resume>Removes HTML and PHP tags from a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php strlen">
+		<description></description>
+		<name>strlen()</name>
+		<note></note>
+		<resume>Returns the string length</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php strpos">
+		<description></description>
+		<name>strpos()</name>
+		<note></note>
+		<resume>Find the position of the first occurrence of a character in a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php strrchr">
+		<description></description>
+		<name>strrchr()</name>
+		<note></note>
+		<resume>Find the last occurrence of a character in a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php strrpos">
+		<description></description>
+		<name>strrpos()</name>
+		<note></note>
+		<resume>Find the position of the last occurrence of a character in a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php strstr">
+		<description></description>
+		<name>strstr()</name>
+		<note><strong>Alias:</strong> <code>strchr</code></note>
+		<resume>Find the first occurrence of a character in a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php substr">
+		<description></description>
+		<name>substr()</name>
+		<note></note>
+		<resume>Returns part of a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
 	</item>
 
 	<item search="css text-align text align">
@@ -438,6 +1229,16 @@
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
+	</item>
+
+	<item search="php time">
+		<description></description>
+		<name>time()</name>
+		<note></note>
+		<resume>Return the current timestamp</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
 	</item>
 
 	<item search="css transition">
@@ -480,6 +1281,36 @@
 		<type>Property</type>
 	</item>
 
+	<item search="php trim">
+		<description></description>
+		<name>trim()</name>
+		<note></note>
+		<resume>Remove characters from both extremities of a string</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php unlink">
+		<description></description>
+		<name>unlink()</name>
+		<note><strong>Alias:</strong> <code>delete</code></note>
+		<resume>Deletes a file</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="php unserialize">
+		<description></description>
+		<name>unserialize()</name>
+		<note></note>
+		<resume>Converts a storable representation into an PHP value</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
 	<item search="css :valid">
 		<description></description>
 		<name>:valid</name>
@@ -488,6 +1319,16 @@
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
+	</item>
+
+	<item search="php var_dump var dump">
+		<description></description>
+		<name>var_dump()</name>
+		<note></note>
+		<resume>Dumps information about a variable</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
 	</item>
 
 	<item search="css width">
@@ -500,15 +1341,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="php array">
-		<description></description>
-		<name>array()</name>
-		<note><strong>Alias:</strong> <code>array()</code> — <code>new Array()</code> — <code>[]</code></note>
-		<resume>Create a new array</resume>
-		<seealso></seealso>
-		<tech>PHP</tech>
-		<type>Function</type>
-	</item>
+
 
 	<item search="nodejs listen">
 		<description></description>

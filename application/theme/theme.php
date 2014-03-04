@@ -23,7 +23,7 @@
 
 		<header>
 
-			<h1>Afinedoc</h1>
+			<h1><?php echo anchor('', 'Afinedoc'); ?></h1>
 			<h2>No punchline.</h2>
 
 			<div id="input-label">
