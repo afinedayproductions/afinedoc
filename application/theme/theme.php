@@ -16,7 +16,6 @@
 		<?php endforeach; ?>
 
 		<script src="<?php echo js_url('master'); ?>"></script>
-
 	</head>
 
 	<body>
@@ -26,10 +25,21 @@
 			<h1><?php echo anchor('', 'Afinedoc'); ?></h1>
 			<h2>No punchline.</h2>
 
+			<div id="technology">
+				<ul>
+					<li>CSS</li>
+					<li>JavaScript</li>
+					<li>NodeJS</li>
+					<li>PHP</li>
+				</ul>
+			</div>
+			<!-- end #technology -->
+
 			<div id="input-label">
 				<input id="search" name="search" type="search" placeholder="Your search…" required>
 				<label for="search">Your search</label>
 			</div>
+			<!-- end #input-label -->
 
 		</header>
 		<!-- end header -->
@@ -49,7 +59,7 @@
 		
 		<!-- JAVASCRIPT -->
 		<?php foreach($js as $url): ?>
-		    <script type="text/javascript" src="<?php echo $url; ?>"></script>
+		    <script src="<?php echo $url; ?>"></script>
 		<?php endforeach; ?>
 
 	</body>

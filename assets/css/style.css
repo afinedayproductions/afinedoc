@@ -240,7 +240,7 @@ article.php .title, article.php .description {
 	margin-top: -.125rem;
 	height: .25rem;
 	width: .25rem;
-	
+
 	-moz-animation: dots 5s infinite ease-in-out;
 	-webkit-animation: dots 5s infinite ease-in-out;
 	animation: dots 5s infinite ease-in-out;
