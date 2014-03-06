@@ -218,7 +218,7 @@ article.php .title, article.php .description {
 	position: fixed;
 	top: 0; right: 0; bottom: 0; left: 0;
 
-	background: #1a1a1a;
+	background: #ececec;
 
 	-moz-transition: opacity .3s, z-index 0 .3s;
 	-webkit-transition: opacity .3s, z-index 0 .3s;
@@ -234,12 +234,12 @@ article.php .title, article.php .description {
 	position: fixed;
 	top: 50%; right: 0; left: 0;
 	
-	box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;
+	box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;
 	display: inline-block;
 	margin: auto;
-	margin-top: -.5rem;
-	height: 1rem;
-	width: 1rem;
+	margin-top: -.125rem;
+	height: .25rem;
+	width: .25rem;
 	
 	-moz-animation: dots 5s infinite ease-in-out;
 	-webkit-animation: dots 5s infinite ease-in-out;
@@ -247,49 +247,49 @@ article.php .title, article.php .description {
 }
 
 @-moz-keyframes dots {
-	0% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	8.33% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	16.67% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 2rem 2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	25% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	33.33% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 -2rem -2rem 0 1rem;}
-	41.67% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	50% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	58.33% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	66.67% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 -2rem -2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	75% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	83.33% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 2rem 2rem 0 1rem;}
-	91.67% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	100% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	0% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	8.33% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	16.67% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 1rem 1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	25% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	33.33% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 -1rem -1rem 0 .5rem;}
+	41.67% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	50% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	58.33% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	66.67% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 -1rem -1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	75% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	83.33% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 1rem 1rem 0 .5rem;}
+	91.67% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	100% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
 }
 @-webkit-keyframes dots {
-	0% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	8.33% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	16.67% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 2rem 2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	25% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	33.33% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 -2rem -2rem 0 1rem;}
-	41.67% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	50% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	58.33% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	66.67% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 -2rem -2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	75% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	83.33% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 2rem 2rem 0 1rem;}
-	91.67% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	100% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	0% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	8.33% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	16.67% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 1rem 1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	25% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	33.33% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 -1rem -1rem 0 .5rem;}
+	41.67% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	50% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	58.33% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	66.67% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 -1rem -1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	75% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	83.33% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 1rem 1rem 0 .5rem;}
+	91.67% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	100% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
 }
 @keyframes dots {
-	0% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	8.33% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	16.67% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 2rem 2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	25% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	33.33% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 -2rem -2rem 0 1rem;}
-	41.67% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	50% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	58.33% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 -2rem 2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	66.67% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 -2rem -2rem 0 1rem, #be9d58 -2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	75% {box-shadow: #aaa 2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem -2rem 0 1rem, #8c8cc5 2rem -2rem 0 1rem;}
-	83.33% {box-shadow: #aaa 2rem 2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 2rem 2rem 0 1rem;}
-	91.67% {box-shadow: #aaa -2rem 2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
-	100% {box-shadow: #aaa -2rem -2rem 0 1rem, #d45b43 2rem -2rem 0 1rem, #be9d58 2rem 2rem 0 1rem, #8c8cc5 -2rem 2rem 0 1rem;}
+	0% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	8.33% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	16.67% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 1rem 1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	25% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	33.33% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 -1rem -1rem 0 .5rem;}
+	41.67% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	50% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	58.33% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 -1rem 1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	66.67% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 -1rem -1rem 0 .5rem, #be9d58 -1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	75% {box-shadow: #aaa 1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem -1rem 0 .5rem, #8c8cc5 1rem -1rem 0 .5rem;}
+	83.33% {box-shadow: #aaa 1rem 1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 1rem 1rem 0 .5rem;}
+	91.67% {box-shadow: #aaa -1rem 1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
+	100% {box-shadow: #aaa -1rem -1rem 0 .5rem, #d45b43 1rem -1rem 0 .5rem, #be9d58 1rem 1rem 0 .5rem, #8c8cc5 -1rem 1rem 0 .5rem;}
 }
 /* END LOADING SCREEN */
 
