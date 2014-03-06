@@ -63,6 +63,33 @@ header h2 {
 /* END HEADER */
 
 
+/* MENU */
+menu ul {
+	border: 3px;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	margin-top: .5rem;
+}
+menu li {
+	align-items: flex-start;
+	background: #fff;
+	border: 1px solid #ccc;
+	border-left: none;
+	cursor: pointer;
+	display: flex;
+	font-size: .85rem;
+	padding: .33rem .67rem;
+}
+menu li:first-of-type {
+	border-left: 1px solid #ccc;
+	border-radius: 3px 0 0 3px;
+}
+menu li:last-of-type {
+	border-radius: 0 3px 3px 0;
+}
+/* END MENU */
+
 
 /* ARTICLE */
 

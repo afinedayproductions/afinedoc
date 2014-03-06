@@ -25,15 +25,14 @@
 			<h1><?php echo anchor('', 'Afinedoc'); ?></h1>
 			<h2>No punchline.</h2>
 
-			<div id="technology">
+			<menu>
 				<ul>
 					<li>CSS</li>
 					<li>JavaScript</li>
 					<li>NodeJS</li>
 					<li>PHP</li>
 				</ul>
-			</div>
-			<!-- end #technology -->
+			</menu>
 
 			<div id="input-label">
 				<input id="search" name="search" type="search" placeholder="Your search…" required>
