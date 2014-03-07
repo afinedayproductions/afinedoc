@@ -69,7 +69,8 @@ var searchHandler = {
 		// We compare cached items & the current items
 		if(this._cache == false || !itemHandler.compareArrays(cachedItemHandler)) {
 
-			console.log('Cached items DO NOT fit the current research');
+			//! LOG
+			console.log('Create new articles');
 
 			// We affect the cached itemHandler to the main itemHandler
 			itemHandler.items = cachedItemHandler;
@@ -89,12 +90,8 @@ var searchHandler = {
 			detailHandler.init();
 
 		} // end if cached items do not fit the current research
-		else console.log('Cached items fit the current research');
+		else console.log('Keep cached articles'); //! LOG
 		// end if chached items fit the current research
-
-
-		//alert(itemHandler.items[0].attributes.search.value);
-
 
 	}, // end searchHandler.onSearchChange()
 
@@ -121,7 +118,7 @@ var searchHandler = {
 				this.onSearchChange();
 
 				//! LOG
-				console.log('selectedTechnology: ' + this.selectedTechnology);
+				console.log('Display only ' + this.selectedTechnology + ' articles');
 
 			}.bind(this));
 
@@ -313,6 +310,7 @@ var dataXMLLoader = {
 			var parser = new DOMParser();
 			var xml = parser.parseFromString(xhr.responseText, "text/xml");
 
+			//! LOG
 			console.log('XML document loaded');
 
 			// Once we got the XML data, we can init handling searches

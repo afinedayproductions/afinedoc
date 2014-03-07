@@ -42,7 +42,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="js array.forEach array foreach">
+	<item search="js array.foreach array foreach">
 		<description></description>
 		<name>Array.forEach()</name>
 		<note></note>
