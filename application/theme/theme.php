@@ -47,7 +47,7 @@
 			</menu>
 
 			<div id="input-label">
-				<input id="search" name="search" type="search" placeholder="Your search…" required>
+				<input id="search" name="search" type="text" placeholder="Your search…" required>
 				<label for="search">Your search</label>
 			</div>
 			<!-- end #input-label -->
