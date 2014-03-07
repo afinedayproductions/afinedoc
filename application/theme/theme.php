@@ -27,10 +27,22 @@
 
 			<menu>
 				<ul>
-					<li>CSS</li>
-					<li>JavaScript</li>
-					<li>NodeJS</li>
-					<li>PHP</li>
+					<li>
+						<input type="radio" name="technologies" value="css" id="css">
+						<label for="css">CSS</label>
+					</li>
+					<li>
+						<input type="radio" name="technologies" value="js" id="js">
+						<label for="js">JavaScript</label>
+					</li>
+					<li>
+						<input type="radio" name="technologies" value="nodejs" id="nodejs">
+						<label for="nodejs">NodeJS</label>
+					</li>
+					<li>
+						<input type="radio" name="technologies" value="php" id="php">
+						<label for="php">PHP</label>
+					</li>
 				</ul>
 			</menu>
 

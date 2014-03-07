@@ -73,13 +73,10 @@ menu ul {
 }
 menu li {
 	align-items: flex-start;
-	background: #fff;
 	border: 1px solid #ccc;
 	border-left: none;
-	cursor: pointer;
 	display: flex;
 	font-size: .85rem;
-	padding: .33rem .67rem;
 }
 menu li:first-of-type {
 	border-left: 1px solid #ccc;
@@ -88,6 +85,25 @@ menu li:first-of-type {
 menu li:last-of-type {
 	border-radius: 0 3px 3px 0;
 }
+menu input {
+	display: none;
+}
+menu input:checked + label {
+	background: #ddd;
+}
+menu label {
+	background: #fff;
+	cursor: pointer;
+	padding: .33rem .67rem;
+	
+	-moz-transition: all .3s;
+	-webkit-transition: all .3s;
+	transition: all .3s;
+}
+menu label:hover {
+	background: #eee;
+}
+
 /* END MENU */
 
 

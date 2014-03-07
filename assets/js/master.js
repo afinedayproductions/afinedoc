@@ -19,7 +19,7 @@ var searchHandler = {
 
 		return returnedItem;
 
-	},
+	}, // end searchHandler.findItem()
 	
 	init: function(documentXML) {
 
@@ -31,6 +31,9 @@ var searchHandler = {
 
 		// Set cache to true
 		this._cache = true;
+
+		// We handle the selected technology
+		this.selectTechnology();
 
 		// init the itemHandler
 		itemHandler.init();
@@ -51,9 +54,12 @@ var searchHandler = {
 		[].forEach.call(this.documentXML.querySelectorAll('item'), function(item) {
 			// Value of the search attribute of the item
 			var itemSearch = item.attributes.search.value;
+			// Technology of the item
+			var tech = item.querySelector('tech').innerHTML.toLowerCase();
 
 			// If the search is part of the available searches for the item
-			if(itemSearch.search(search) > -1) {
+			// && corresponds to the selected technology OR there is not selected tech
+			if(itemSearch.search(search) > -1 && (tech == searchHandler.selectedTechnology || !searchHandler.selectedTechnology)) {
 				// Add it to the cached itemHandler
 				cachedItemHandler.push(item);
 			}
@@ -89,7 +95,40 @@ var searchHandler = {
 		//alert(itemHandler.items[0].attributes.search.value);
 
 
-	} // end searchHandler.onSearchChange()
+	}, // end searchHandler.onSearchChange()
+
+	// Handle the selectedTechnology + the radio inputs
+	selectTechnology: function() {
+
+		[].forEach.call(document.querySelectorAll('menu input'), function(input) {
+
+			input.addEventListener('click', function() {
+
+				// If input.value == the selected tech
+				// (because it's always input.checked)
+				if(input.value == this.selectedTechnology) {
+					// We unchecked the radio input
+					input.checked = false;
+					// We set the selectedTechnology to default
+					this.selectedTechnology = false;
+				}
+				// If we select a technology, we affect the value
+				else
+					this.selectedTechnology = input.value;
+
+				// In both case, we throw searchHandler.onSearchChange
+				this.onSearchChange();
+
+				//! LOG
+				console.log('selectedTechnology: ' + this.selectedTechnology);
+
+			}.bind(this));
+
+		}.bind(this));
+
+	}, // end selecTechnology
+
+	selectedTechnology: false
 
 };
 /* END SEARCHHANDLER */

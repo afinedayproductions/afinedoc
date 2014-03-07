@@ -331,6 +331,16 @@
 		<type>Function</type>
 	</item>
 
+	<item search="css :checked">
+		<description></description>
+		<name>:checked</name>
+		<note></note>
+		<resume>Select an input when checked</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Pseudo-class</type>
+	</item>
+
 	<item search="php chmod">
 		<description></description>
 		<name>chmod()</name>
@@ -399,6 +409,16 @@
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
+	</item>
+
+	<item search="php cursor">
+		<description></description>
+		<name>cursor</name>
+		<note></note>
+		<resume>Specify the cursor appearance when over an element</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Property</type>
 	</item>
 
 	<item search="php date">
