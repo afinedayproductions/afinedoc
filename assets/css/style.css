@@ -66,8 +66,13 @@ header h2 {
 /* MENU */
 menu ul {
 	border: 3px;
-	display: flex;
+	display: -moz-box;		/* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-box;		/* TWEENER - IE 10 */
+	display: -webkit-box;	/* OLD - iOS 6-, Safari 3.1-6 */
+	display: -webkit-flex;	/* NEW - Chrome28-, Safari 7.1 */
+	display: flex;			/* NEW, Spec - Chrome29+ Firefox 20+, Opera 12.1 & 17+ */
 	flex-wrap: wrap;
+	justify-content: flex-start; /* flex default */
 	list-style: none;
 	margin-top: .5rem;
 }
@@ -94,6 +99,7 @@ menu input:checked + label {
 menu label {
 	background: #fff;
 	cursor: pointer;
+	display: block;
 	padding: .33rem .67rem;
 	
 	-moz-transition: all .3s;
@@ -196,7 +202,7 @@ article.php .title, article.php .description {
 	display: block;
 	font-size: 1.75rem;
 	height: 3.75rem;
-	padding: 1rem 0.5rem;
+	padding: 0 0.5rem;
 	width: 100%;
 
 	-moz-transition: all 0.2s;
@@ -232,14 +238,12 @@ article.php .title, article.php .description {
 */
 #input-label input:focus, #input-label input:valid {
 	border-color: #be9d58;
-	padding-top: 0.4rem;
-	padding-bottom: 1.6rem;
+	padding-bottom: 1rem;
 }
 
 #input-label input:not(:focus):valid {
 	border: .15rem solid #aaa;
-	padding-top: 0.4rem;
-	padding-bottom: 1.6rem;
+	padding-bottom: 1rem;
 }
 
 #input-label input:focus + label, #input-label input:valid + label {

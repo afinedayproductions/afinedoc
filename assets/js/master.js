@@ -55,7 +55,7 @@ var searchHandler = {
 			// Value of the search attribute of the item
 			var itemSearch = item.attributes.search.value;
 			// Technology of the item
-			var tech = item.querySelector('tech').innerHTML.toLowerCase();
+			var tech = item.querySelector('tech').textContent.toLowerCase();
 
 			// If the search is part of the available searches for the item
 			// && corresponds to the selected technology OR there is not selected tech
@@ -205,11 +205,11 @@ var viewRenderer = {
 
 		this._description = document.createElement('div');
 		this._description.className = 'description';
-		this._description.innerHTML = item.querySelector('description').innerHTML;
+		this._description.textContent = item.querySelector('description').textContent;
 		this._titleNote = document.createElement('div');
 		this._titleNote.className = 'note';
-		var textNote = item.querySelector('note').innerHTML;
-		this._titleNote.innerHTML = textNote;
+		var textNote = item.querySelector('note').textContent;
+		this._titleNote.textContent = textNote;
 
 
 		// Add every part in the article
@@ -234,30 +234,30 @@ var viewRenderer = {
 
 		// creating article
 		this._article = document.createElement('article');
-		this._article.className = item.querySelector('tech').innerHTML.toLowerCase();
+		this._article.className = item.querySelector('tech').textContent.toLowerCase();
 
 		// creating .tech
-		var tech = item.querySelector('tech').innerHTML;
+		var tech = item.querySelector('tech').textContent;
 		this._tech = document.createElement('div');
 		this._tech.className = 'tech';
 		this._techLink = document.createElement('span');
-		this._techLink.innerHTML = tech;
+		this._techLink.textContent = tech;
 		this._tech.appendChild(this._techLink);
 
 		// creating .title
-		var name = item.querySelector('name').innerHTML;
+		var name = item.querySelector('name').textContent;
 		this._title = document.createElement('div');
 		this._title.className = 'title';
 		this._titleLink = document.createElement('a');
 		this._titleLink.className = 'link-title';
 		this._titleLink.href = '#' + tech.toLowerCase() + '-' + name.toLowerCase();
-		this._titleLink.innerHTML = name;
+		this._titleLink.textContent = name;
 		this._titleType = document.createElement('span');
 		this._titleType.className = 'type';
-		this._titleType.innerHTML = item.querySelector('type').innerHTML;
+		this._titleType.textContent = item.querySelector('type').textContent;
 		this._titleSubtitle = document.createElement('span');
 		this._titleSubtitle.className = 'subtitle';
-		this._titleSubtitle.innerHTML = item.querySelector('resume').innerHTML;
+		this._titleSubtitle.textContent = item.querySelector('resume').textContent;
 		this._title.appendChild(this._titleLink);
 		this._title.appendChild(this._titleType);
 		this._title.appendChild(this._titleSubtitle);
@@ -275,8 +275,8 @@ var detailHandler = {
 			link.addEventListener('click', function(e) {
 
 				// With the tech and the name, we can find again what was the clicked article
-				var tech = this.parentNode.parentNode.querySelector('.tech span').innerHTML.toLowerCase();
-				var name = this.innerHTML.toLowerCase();
+				var tech = this.parentNode.parentNode.querySelector('.tech span').textContent.toLowerCase();
+				var name = this.textContent.toLowerCase();
 
 				// We search for the item
 				var item = searchHandler.findItem(tech, name);	
