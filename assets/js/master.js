@@ -206,11 +206,11 @@ var viewRenderer = {
 
 		this._description = document.createElement('div');
 		this._description.className = 'description';
-		this._description.textContent = item.querySelector('description').textContent;
+		this._description.innerHTML = item.querySelector('description').textContent;
 		this._titleNote = document.createElement('div');
 		this._titleNote.className = 'note';
 		var textNote = item.querySelector('note').textContent;
-		this._titleNote.textContent = textNote;
+		this._titleNote.innerHTML = textNote;
 
 
 		// Add every part in the article
@@ -242,7 +242,7 @@ var viewRenderer = {
 		this._tech = document.createElement('div');
 		this._tech.className = 'tech';
 		this._techLink = document.createElement('span');
-		this._techLink.textContent = tech;
+		this._techLink.innerHTML = tech;
 		this._tech.appendChild(this._techLink);
 
 		// creating .title
@@ -252,13 +252,13 @@ var viewRenderer = {
 		this._titleLink = document.createElement('a');
 		this._titleLink.className = 'link-title';
 		this._titleLink.href = '#' + tech.toLowerCase() + '-' + name.toLowerCase();
-		this._titleLink.textContent = name;
+		this._titleLink.innerHTML = name;
 		this._titleType = document.createElement('span');
 		this._titleType.className = 'type';
-		this._titleType.textContent = item.querySelector('type').textContent;
+		this._titleType.innerHTML = item.querySelector('type').textContent;
 		this._titleSubtitle = document.createElement('span');
 		this._titleSubtitle.className = 'subtitle';
-		this._titleSubtitle.textContent = item.querySelector('resume').textContent;
+		this._titleSubtitle.innerHTML = item.querySelector('resume').textContent;
 		this._title.appendChild(this._titleLink);
 		this._title.appendChild(this._titleType);
 		this._title.appendChild(this._titleSubtitle);
