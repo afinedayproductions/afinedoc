@@ -47,6 +47,7 @@ var searchHandler = {
 
 		// If search is empty, we clear all articles
 		if(search.length < 1) {
+			this._cache = false;
 			viewRenderer.clearRenderer();
 			return false;
 		}
@@ -66,7 +67,7 @@ var searchHandler = {
 		});
 
 		// We compare cached items & the current items
-		if(!itemHandler.compareArrays(cachedItemHandler) || this._cache == false) {
+		if(this._cache == false || !itemHandler.compareArrays(cachedItemHandler)) {
 
 			console.log('Cached items DO NOT fit the current research');
 
