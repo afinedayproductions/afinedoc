@@ -67,10 +67,10 @@ var searchHandler = {
 		});
 
 		// We compare cached items & the current items
-		if(this._cache == false || !itemHandler.compareArrays(cachedItemHandler)) {
+		if(this._cache === false || !itemHandler.compareArrays(cachedItemHandler)) {
 
 			//! LOG
-			console.log('Create new articles');
+			window.console.log('Create new articles');
 
 			// We affect the cached itemHandler to the main itemHandler
 			itemHandler.items = cachedItemHandler;
@@ -90,7 +90,7 @@ var searchHandler = {
 			detailHandler.init();
 
 		} // end if cached items do not fit the current research
-		else console.log('Keep cached articles'); //! LOG
+		else window.console.log('Keep cached articles'); //! LOG
 		// end if chached items fit the current research
 
 	}, // end searchHandler.onSearchChange()
@@ -118,7 +118,7 @@ var searchHandler = {
 				this.onSearchChange();
 
 				//! LOG
-				console.log('Display only ' + this.selectedTechnology + ' articles');
+				window.console.log('Display only ' + this.selectedTechnology + ' articles');
 
 			}.bind(this));
 
@@ -270,17 +270,17 @@ var detailHandler = {
 	init: function() {
 
 		[].forEach.call(document.querySelectorAll('article .title a'), function(link) {
-			link.addEventListener('click', function(e) {
+			link.addEventListener('click', function() {
 
 				// With the tech and the name, we can find again what was the clicked article
 				var tech = this.parentNode.parentNode.querySelector('.tech span').textContent.toLowerCase();
 				var name = this.textContent.toLowerCase();
 
 				// We search for the item
-				var item = searchHandler.findItem(tech, name);	
+				var item = searchHandler.findItem(tech, name);
 
 				// We create the full render
-				viewRenderer.createFullArticle(item);			
+				viewRenderer.createFullArticle(item);
 
 			}, false);
 		});
@@ -299,7 +299,7 @@ var dataXMLLoader = {
 		var xhr = new XMLHttpRequest();
 		xhr.open('GET', 'assets/xml/data.xml');
 		//xhr.responseType = 'document';
-		xhr.onreadystatechange = function(event) {
+		xhr.onreadystatechange = function() {
 
 			// IF NO RESPONSE
 			if (xhr.readyState != XMLHttpRequest.DONE) return false;
@@ -308,10 +308,10 @@ var dataXMLLoader = {
 			var xml = xhr.responseXML;
 
 			var parser = new DOMParser();
-			var xml = parser.parseFromString(xhr.responseText, "text/xml");
+			xml = parser.parseFromString(xhr.responseText, 'text/xml');
 
 			//! LOG
-			console.log('XML document loaded');
+			window.console.log('XML document loaded');
 
 			// Once we got the XML data, we can init handling searches
 			searchHandler.init(xml);
@@ -323,60 +323,30 @@ var dataXMLLoader = {
 };
 /* END DATAXMLLOADER */
 
-/* ITEMDATAXML */
-var ItemDataXML = {
-
-	// Max items returned by the XML doc & showed to the user
-	MAX_ITEMS: 10,
-
-	cachedSearch: {},
-
-};
-/* END ITEMDATAXML */
 
 /* LOADINGSCREEN */
 var LoadingScreen = {
 
 	// Show for minimum 1 second
 	MINI_SHOWTIME: 1000,
-
-	// Effective creation of the screen
-	createScreen: function() {
-
-		// Loading screen background
-		this._el = document.createElement('div');
-		this._el.id = 'loading-screen';
-
-		// Loader
-		var loader = document.createElement('div');
-		loader.className = 'loader';
-		this._el.appendChild(loader);
-
-	},
 	
 	init: function() {
 
-		// timeOut
-		this.hideTimeout = Date.now() + this.MINI_SHOWTIME;
+		// We select the loading screen
+		this._el = document.querySelector('#loading-screen');
 
-		// If the loading screen does not exist, we create it
-		if(!this._el) {
-			this.createScreen();
-			document.body.appendChild(this._el);
-		}
-		else { this._el.className = 'loader'; }
-		
+		// timeOut before we can hide #loading-screen
+		this.hideTimeout = Date.now() + this.MINI_SHOWTIME;
 
 	},
 
 	over: function() {
-		if(!this._el) return false;
 
 		// If we have to wait for the minimum showtime, we replay the function after a timeout
 		var timeToWait = Date.now() - this.hideTimeout;
 		if(timeToWait < 0) {
 			window.setTimeout(function() {
-				this.over()
+				this.over();
 			}.bind(this), -timeToWait);
 		}
 		else {
@@ -394,24 +364,15 @@ window.Afinedoc = {
 
 	init: function() {
 
-		// Wait 100ms showing the loading screen
-		// It will not be showed for short loads
-		var loadingTimeout = window.setTimeout(function() {
+		// First, we init the loading screen
+		LoadingScreen.init();
 
-			LoadingScreen.init();
-
-		}, 0);
-
-		// We create the article's wrapper
-		//Afinedoc.pageHandler.wrapper();
+		// We load XML document
 		dataXMLLoader.load();
 
-		//! WHEN THE PAGE IS FULLY LOADED, HIDE THE LOADING-SCREEN
-		//! WILL BE REPLACE IN Afinedoc.init() WHEN INTERFACE ITEMS WOULD BE LOADED
+		// When the page is fully loaded, hide the loading screen
 		window.addEventListener('load', function() {
 
-			// We don't need the loading screen's timeout
-			window.clearTimeout(loadingTimeout);
 			LoadingScreen.over();
 
 		}, false);
@@ -424,6 +385,6 @@ window.Afinedoc = {
 
 /* MAIN */
 document.addEventListener('DOMContentLoaded', function() {
-	Afinedoc.init();
+	window.Afinedoc.init();
 });
 /* END MAIN FUCNTION */

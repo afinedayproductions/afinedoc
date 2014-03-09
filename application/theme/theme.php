@@ -20,6 +20,11 @@
 
 	<body>
 
+		<div id="loading-screen">
+			<div class="loader"></div>
+		</div>
+		<!-- en #loading-screen -->
+
 		<header>
 
 			<h1><?php echo anchor('', 'Afinedoc'); ?></h1>
