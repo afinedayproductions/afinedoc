@@ -60,6 +60,13 @@ header h2 {
 	font-size: 0.85rem;
 }
 
+header sup {
+	color: #888;
+	font-size: .75rem;
+	text-transform: uppercase;
+	vertical-align: 1.25rem;
+}
+
 /* END HEADER */
 
 

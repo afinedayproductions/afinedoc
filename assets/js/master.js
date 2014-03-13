@@ -60,7 +60,7 @@ var searchHandler = {
 
 			// If the search is part of the available searches for the item
 			// && corresponds to the selected technology OR there is not selected tech
-			if(itemSearch.search(search) > -1 && (tech == searchHandler.selectedTechnology || !searchHandler.selectedTechnology)) {
+			if((search == '*' || itemSearch.search(search) > -1) && (tech == searchHandler.selectedTechnology || !searchHandler.selectedTechnology)) {
 				// Add it to the cached itemHandler
 				cachedItemHandler.push(item);
 			}

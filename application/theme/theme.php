@@ -27,11 +27,15 @@
 
 		<header>
 
-			<h1><?php echo anchor('', 'Afinedoc'); ?></h1>
-			<h2>No punchline.</h2>
+			<h1><?php echo anchor('', 'Afinedoc<sup>alpha</sup>'); ?></h1>
+			<h2>Don't forget the *.</h2>
 
 			<menu>
 				<ul>
+					<li>
+						<input type="radio" name="technologies" value="angularjs" id="angularjs">
+						<label for="angularjs">AngularJS</label>
+					</li>
 					<li>
 						<input type="radio" name="technologies" value="css" id="css">
 						<label for="css">CSS</label>
@@ -40,10 +44,12 @@
 						<input type="radio" name="technologies" value="js" id="js">
 						<label for="js">JavaScript</label>
 					</li>
+					<!--
 					<li>
 						<input type="radio" name="technologies" value="nodejs" id="nodejs">
 						<label for="nodejs">NodeJS</label>
 					</li>
+					-->
 					<li>
 						<input type="radio" name="technologies" value="php" id="php">
 						<label for="php">PHP</label>
@@ -52,7 +58,7 @@
 			</menu>
 
 			<div id="input-label">
-				<input id="search" name="search" type="text" placeholder="Your search…" required>
+				<input id="search" name="search" type="text" placeholder="Your search: array, *, …" required>
 				<label for="search">Your search</label>
 			</div>
 			<!-- end #input-label -->

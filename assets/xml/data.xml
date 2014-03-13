@@ -2,7 +2,47 @@
 
 <items>
 
-	<item search="php addslashes">
+	<item search="$http">
+		<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, quibusdam reiciendis eum placeat mollitia quae sapiente nostrum omnis non illo nesciunt odio ut ipsam distinctio dolores ipsum dolore.</description>
+		<name>$http</name>
+		<note></note>
+		<resume>Facilitates communication with the remote HTTP servers via the XMLHttpRequest object or via JSONP</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Service</type>
+	</item>
+
+	<item search="$q">
+		<description></description>
+		<name>$q</name>
+		<note></note>
+		<resume>A promise / deferred implementation</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Service</type>
+	</item>
+
+	<item search="$rootScope">
+		<description></description>
+		<name>$rootScope</name>
+		<note></note>
+		<resume>Global scope of the application</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Service</type>
+	</item>
+
+	<item search="scope">
+		<description></description>
+		<name>$scope</name>
+		<note></note>
+		<resume>Current scope of the controller</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Service</type>
+	</item>
+
+	<item search="addslashes">
 		<description></description>
 		<name>addslashes()</name>
 		<note></note>
@@ -12,8 +52,8 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css :after ::after">
-		<description>LOREM IPSUM SIT DOLOR AMET</description>
+	<item search=":after ::after">
+		<description></description>
 		<name>:after</name>
 		<note><strong>Alias:</strong> &lt;code&gt;::after&lt;/code&gt;</note>
 		<resume>Create a pseudo-element whom is the last child of the matched element</resume>
@@ -22,7 +62,27 @@
 		<type>Pseudo-element</type>
 	</item>
 
-	<item search="php array">
+	<item search="angular.foreach angular foreach">
+		<description></description>
+		<name>angular.forEach()</name>
+		<note></note>
+		<resume>Executes a provided function once per array or object element</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="angular.module angular module">
+		<description></description>
+		<name>angular.module()</name>
+		<note></note>
+		<resume>Create, register and retrieve Angular modules</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="array">
 		<description></description>
 		<name>array()</name>
 		<note><strong>Alias:</strong> &lt;code&gt;new Array()&lt;/code&gt; — &lt;code&gt;[]&lt;/code&gt;</note>
@@ -32,7 +92,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php array_diff array diff">
+	<item search="array_diff array diff">
 		<description></description>
 		<name>array_diff()</name>
 		<note></note>
@@ -42,7 +102,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="js array.foreach array foreach">
+	<item search="array.foreach array foreach">
 		<description></description>
 		<name>Array.forEach()</name>
 		<note></note>
@@ -52,7 +112,7 @@
 		<type>Method</type>
 	</item>
 
-	<item search="js array.length array length">
+	<item search="array.length array length">
 		<description></description>
 		<name>Array.length</name>
 		<note></note>
@@ -62,7 +122,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="php array_pop array pop">
+	<item search="array_pop array pop">
 		<description></description>
 		<name>array_pop()</name>
 		<note></note>
@@ -72,7 +132,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="js array.pop array pop">
+	<item search="array.pop array pop">
 		<description></description>
 		<name>Array.pop()</name>
 		<note></note>
@@ -82,7 +142,7 @@
 		<type>Method</type>
 	</item>
 
-	<item search="php array_push array push">
+	<item search="array_push array push">
 		<description></description>
 		<name>array_push()</name>
 		<note></note>
@@ -92,7 +152,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="js array.push array push">
+	<item search="array.push array push">
 		<description></description>
 		<name>Array.push()</name>
 		<note></note>
@@ -102,7 +162,7 @@
 		<type>Method</type>
 	</item>
 
-	<item search="php array_shift array shift">
+	<item search="array_shift array shift">
 		<description></description>
 		<name>array_shift()</name>
 		<note></note>
@@ -112,7 +172,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="js array.shift array shift">
+	<item search="array.shift array shift">
 		<description></description>
 		<name>Array.shift()</name>
 		<note></note>
@@ -122,7 +182,7 @@
 		<type>Method</type>
 	</item>
 
-	<item search="php array_slice array slice">
+	<item search="array_slice array slice">
 		<description></description>
 		<name>array_slice()</name>
 		<note></note>
@@ -132,7 +192,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="js array.slice array slice">
+	<item search="array.slice array slice">
 		<description></description>
 		<name>Array.slice()</name>
 		<note></note>
@@ -142,7 +202,7 @@
 		<type>Method</type>
 	</item>
 
-	<item search="php array_unshift array unshift">
+	<item search="array_unshift array unshift">
 		<description></description>
 		<name>array_unshift()</name>
 		<note></note>
@@ -152,7 +212,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="js array.unshift array unshift">
+	<item search="array.unshift array unshift">
 		<description></description>
 		<name>Array.unshift()</name>
 		<note></note>
@@ -162,7 +222,7 @@
 		<type>Method</type>
 	</item>
 
-	<item search="php arsort">
+	<item search="arsort">
 		<description></description>
 		<name>arsort()</name>
 		<note></note>
@@ -172,7 +232,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php asort">
+	<item search="asort">
 		<description></description>
 		<name>asort()</name>
 		<note></note>
@@ -182,7 +242,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css background">
+	<item search="background">
 		<description></description>
 		<name>background</name>
 		<note><strong>Shortcut for:</strong> &lt;code&gt;background-color&lt;/code&gt; — &lt;code&gt;background-image&lt;/code&gt; — &lt;code&gt;background-position&lt;/code&gt; — &lt;code&gt;background-repeat&lt;/code&gt; and &lt;code&gt;background-attachment&lt;/code&gt;</note>
@@ -192,7 +252,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css background-attachment background attachment">
+	<item search="background-attachment background attachment">
 		<description></description>
 		<name>background-attachment</name>
 		<note></note>
@@ -202,7 +262,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css background-color background color">
+	<item search="background-color background color">
 		<description></description>
 		<name>background-color</name>
 		<note></note>
@@ -212,7 +272,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css background-image background image">
+	<item search="background-image background image">
 		<description></description>
 		<name>background-image</name>
 		<note></note>
@@ -222,7 +282,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css background-position background position">
+	<item search="background-position background position">
 		<description></description>
 		<name>background-position</name>
 		<note></note>
@@ -232,7 +292,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css background-repeat background repeat">
+	<item search="background-repeat background repeat">
 		<description></description>
 		<name>background-repeat</name>
 		<note></note>
@@ -242,7 +302,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="php base64_decode base64 decode">
+	<item search="base64_decode base64 decode">
 		<description></description>
 		<name>base64_decode()</name>
 		<note></note>
@@ -252,7 +312,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php base64_encode base64 encode">
+	<item search="base64_encode base64 encode">
 		<description></description>
 		<name>base64_encode()</name>
 		<note></note>
@@ -262,7 +322,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php basename">
+	<item search="basename">
 		<description></description>
 		<name>basename()</name>
 		<note></note>
@@ -272,7 +332,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css :before ::before">
+	<item search=":before ::before">
 		<description></description>
 		<name>:before</name>
 		<note><strong>Alias:</strong> &lt;code&gt;::before&lt;/code&gt;</note>
@@ -282,7 +342,7 @@
 		<type>Pseudo-element</type>
 	</item>
 
-	<item search="css border">
+	<item search="border">
 		<description></description>
 		<name>border</name>
 		<note><strong>Shortcut for:</strong> &lt;code&gt;border-bottom&lt;/code&gt; — &lt;code&gt;border-left&lt;/code&gt; — &lt;code&gt;border-right&lt;/code&gt; and &lt;code&gt;border-top&lt;/code&gt;</note>
@@ -292,7 +352,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css border-bottom border bottom">
+	<item search="border-bottom border bottom">
 		<description></description>
 		<name>border-bottom</name>
 		<note><strong>Shortcut for:</strong> &lt;code&gt;border-bottom-color&lt;/code&gt; — &lt;code&gt;border-bottom-style&lt;/code&gt; and &lt;code&gt;border-bottom-width&lt;/code&gt;</note>
@@ -302,7 +362,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css border-bottom-left-radius border bottom left radius">
+	<item search="border-bottom-left-radius border bottom left radius">
 		<description></description>
 		<name>border-bottom-left-radius</name>
 		<note></note>
@@ -312,7 +372,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css border-bottom-right-radius border bottom right radius">
+	<item search="border-bottom-right-radius border bottom right radius">
 		<description></description>
 		<name>border-bottom-right-radius</name>
 		<note></note>
@@ -322,7 +382,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css border-left border left">
+	<item search="border-left border left">
 		<description></description>
 		<name>border-left</name>
 		<note><strong>Shortcut for:</strong> &lt;code&gt;border-left-color&lt;/code&gt; — &lt;code&gt;border-left-style&lt;/code&gt; and &lt;code&gt;border-left-width&lt;/code&gt;</note>
@@ -332,7 +392,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css border-radius border radius">
+	<item search="border-radius border radius">
 		<description></description>
 		<name>border-radius</name>
 		<note><strong>Shortcut for:</strong> &lt;code&gt;border-bottom-left-radius&lt;/code&gt; — &lt;code&gt;border-bottom-right-radius&lt;/code&gt; — &lt;code&gt;border-top-left-radius&lt;/code&gt; and &lt;code&gt;border-top-right-radius&lt;/code&gt;</note>
@@ -342,7 +402,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css border-right border right">
+	<item search="border-right border right">
 		<description></description>
 		<name>border-right</name>
 		<note><strong>Shortcut for:</strong> &lt;code&gt;border-right-color&lt;/code&gt; — &lt;code&gt;border-right-style&lt;/code&gt; and &lt;code&gt;border-right-width&lt;/code&gt;</note>
@@ -352,7 +412,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css border-top border top">
+	<item search="border-top border top">
 		<description></description>
 		<name>border-top</name>
 		<note><strong>Shortcut for:</strong> &lt;code&gt;border-top-color&lt;/code&gt; — &lt;code&gt;border-top-style&lt;/code&gt; and &lt;code&gt;border-top-width&lt;/code&gt;</note>
@@ -362,7 +422,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css border-top-left-radius border top left radius">
+	<item search="border-top-left-radius border top left radius">
 		<description></description>
 		<name>border-top-left-radius</name>
 		<note></note>
@@ -372,7 +432,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css border-top-right-radius border top right radius">
+	<item search="border-top-right-radius border top right radius">
 		<description></description>
 		<name>border-top-right-radius</name>
 		<note></note>
@@ -382,7 +442,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css box-sizing box sizing">
+	<item search="box-sizing box sizing">
 		<description></description>
 		<name>box-sizing</name>
 		<note></note>
@@ -392,7 +452,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="php ceil">
+	<item search="ceil">
 		<description></description>
 		<name>ceil()</name>
 		<note></note>
@@ -402,7 +462,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css :checked">
+	<item search=":checked">
 		<description></description>
 		<name>:checked</name>
 		<note></note>
@@ -412,7 +472,7 @@
 		<type>Pseudo-class</type>
 	</item>
 
-	<item search="php chmod">
+	<item search="chmod">
 		<description></description>
 		<name>chmod()</name>
 		<note></note>
@@ -422,7 +482,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php chown">
+	<item search="chown">
 		<description></description>
 		<name>chown()</name>
 		<note></note>
@@ -432,7 +492,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php closedir">
+	<item search="closedir">
 		<description></description>
 		<name>closedir()</name>
 		<note></note>
@@ -442,7 +502,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css color">
+	<item search="color">
 		<description></description>
 		<name>color</name>
 		<note></note>
@@ -452,7 +512,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="php copy">
+	<item search="copy">
 		<description></description>
 		<name>copy()</name>
 		<note></note>
@@ -462,7 +522,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php count">
+	<item search="count">
 		<description></description>
 		<name>count()</name>
 		<note><strong>Alias:</strong> &lt;code&gt;sizeof&lt;/code&gt;</note>
@@ -472,7 +532,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php current">
+	<item search="current">
 		<description></description>
 		<name>current()</name>
 		<note></note>
@@ -482,7 +542,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php cursor">
+	<item search="cursor">
 		<description></description>
 		<name>cursor</name>
 		<note></note>
@@ -492,7 +552,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="php date">
+	<item search="date">
 		<description></description>
 		<name>date()</name>
 		<note></note>
@@ -502,7 +562,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php date_default_timezone_set date default timezone set">
+	<item search="date_default_timezone_set date default timezone set">
 		<description></description>
 		<name>date_default_timezone_set()</name>
 		<note></note>
@@ -512,7 +572,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="js date.now date now">
+	<item search="date.now date now">
 		<description></description>
 		<name>Date.now()</name>
 		<note></note>
@@ -522,7 +582,7 @@
 		<type>Method</type>
 	</item>
 
-	<item search="css display">
+	<item search="display">
 		<description></description>
 		<name>display</name>
 		<note></note>
@@ -532,7 +592,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="php echo">
+	<item search="echo">
 		<description></description>
 		<name>echo</name>
 		<note></note>
@@ -542,7 +602,7 @@
 		<type>Key-word</type>
 	</item>
 
-	<item search="php end">
+	<item search="end">
 		<description></description>
 		<name>end()</name>
 		<note></note>
@@ -552,7 +612,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php empty">
+	<item search="empty">
 		<description></description>
 		<name>empty()</name>
 		<note></note>
@@ -562,7 +622,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php fclose">
+	<item search="fclose">
 		<description></description>
 		<name>fclose()</name>
 		<note></note>
@@ -572,7 +632,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php file_exist file exist">
+	<item search="file_exist file exist">
 		<description></description>
 		<name>file_exist()</name>
 		<note></note>
@@ -582,7 +642,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php filesize">
+	<item search="filesize">
 		<description></description>
 		<name>filesize()</name>
 		<note></note>
@@ -592,7 +652,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php floor">
+	<item search="floor">
 		<description></description>
 		<name>floor()</name>
 		<note></note>
@@ -602,7 +662,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css :focus">
+	<item search=":focus">
 		<description></description>
 		<name>:focus</name>
 		<note></note>
@@ -612,7 +672,7 @@
 		<type>Pseudo-class</type>
 	</item>
 
-	<item search="js function.bind function bind">
+	<item search="function.bind function bind">
 		<description></description>
 		<name>Function.bind()</name>
 		<note></note>
@@ -622,7 +682,7 @@
 		<type>Method</type>
 	</item>
 
-	<item search="css font">
+	<item search="font">
 		<description></description>
 		<name>font</name>
 		<note><strong>Shortcut for:</strong> &lt;code&gt;font-family&lt;/code&gt; — &lt;code&gt;font-size&lt;/code&gt; — &lt;code&gt;font-weight&lt;/code&gt; — &lt;code&gt;font-style&lt;/code&gt; — &lt;code&gt;font-variant&lt;/code&gt; and &lt;code&gt;line-height&lt;/code&gt;</note>
@@ -632,7 +692,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css font-family font family">
+	<item search="font-family font family">
 		<description></description>
 		<name>font-family</name>
 		<note></note>
@@ -642,7 +702,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css font-size font size">
+	<item search="font-size font size">
 		<description></description>
 		<name>font-size</name>
 		<note></note>
@@ -652,7 +712,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css -webkit-font-smoothing webkit-font-smoothing webkit font-smoothing webkit font smoothing">
+	<item search="-webkit-font-smoothing webkit-font-smoothing webkit font-smoothing webkit font smoothing">
 		<description></description>
 		<name>-webkit-font-smoothing</name>
 		<note>Only in webkit browser</note>
@@ -662,7 +722,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css font-style font style">
+	<item search="font-style font style">
 		<description></description>
 		<name>font-style</name>
 		<note></note>
@@ -672,7 +732,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css font-variant font variant">
+	<item search="font-variant font variant">
 		<description></description>
 		<name>font-variant</name>
 		<note></note>
@@ -682,7 +742,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css font-weight font weight">
+	<item search="font-weight font weight">
 		<description></description>
 		<name>font-weight</name>
 		<note></note>
@@ -692,7 +752,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="php fopen">
+	<item search="fopen">
 		<description></description>
 		<name>fopen()</name>
 		<note></note>
@@ -702,7 +762,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php hash">
+	<item search="hash">
 		<description></description>
 		<name>hash()</name>
 		<note></note>
@@ -712,7 +772,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css height">
+	<item search="height">
 		<description></description>
 		<name>height</name>
 		<note></note>
@@ -722,7 +782,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="php implode">
+	<item search="implode">
 		<description></description>
 		<name>implode()</name>
 		<note><strong>Alias:</strong> &lt;code&gt;join&lt;/code&gt;</note>
@@ -732,7 +792,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php is_array is array">
+	<item search="is_array is array">
 		<description></description>
 		<name>is_array()</name>
 		<note></note>
@@ -742,7 +802,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php is_bool is bool">
+	<item search="is_bool is bool">
 		<description></description>
 		<name>is_bool()</name>
 		<note></note>
@@ -752,7 +812,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php is_dir is dir">
+	<item search="is_dir is dir">
 		<description></description>
 		<name>is_dir()</name>
 		<note></note>
@@ -762,7 +822,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php is_file is file">
+	<item search="is_file is file">
 		<description></description>
 		<name>is_file()</name>
 		<note></note>
@@ -772,7 +832,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php is_float is float">
+	<item search="is_float is float">
 		<description></description>
 		<name>is_float()</name>
 		<note></note>
@@ -782,7 +842,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php is_int is int">
+	<item search="is_int is int">
 		<description></description>
 		<name>is_int()</name>
 		<note></note>
@@ -792,7 +852,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php is_nan is nan">
+	<item search="is_nan is nan">
 		<description></description>
 		<name>is_nan()</name>
 		<note></note>
@@ -802,7 +862,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php is_null is null">
+	<item search="is_null is null">
 		<description></description>
 		<name>is_null()</name>
 		<note></note>
@@ -812,7 +872,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php is_numeric is numeric">
+	<item search="is_numeric is numeric">
 		<description></description>
 		<name>is_numeric()</name>
 		<note></note>
@@ -822,7 +882,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php is_object is object">
+	<item search="is_object is object">
 		<description></description>
 		<name>is_object()</name>
 		<note></note>
@@ -832,7 +892,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php is_string is string">
+	<item search="is_string is string">
 		<description></description>
 		<name>is_string()</name>
 		<note></note>
@@ -842,7 +902,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php is_uploaded_file is uploaded file">
+	<item search="is_uploaded_file is uploaded file">
 		<description></description>
 		<name>is_uploaded_file()</name>
 		<note></note>
@@ -852,7 +912,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php isset">
+	<item search="isset">
 		<description></description>
 		<name>isset()</name>
 		<note></note>
@@ -862,7 +922,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php json_decode json decode">
+	<item search="json_decode json decode">
 		<description></description>
 		<name>json_decode()</name>
 		<note></note>
@@ -872,7 +932,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php json_encode json encode">
+	<item search="json_encode json encode">
 		<description></description>
 		<name>json_encode()</name>
 		<note></note>
@@ -882,7 +942,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php key">
+	<item search="key">
 		<description></description>
 		<name>key()</name>
 		<note></note>
@@ -892,7 +952,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php krsort">
+	<item search="krsort">
 		<description></description>
 		<name>krsort()</name>
 		<note></note>
@@ -902,7 +962,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php ksort">
+	<item search="ksort">
 		<description></description>
 		<name>ksort()</name>
 		<note></note>
@@ -912,7 +972,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css line-height line height">
+	<item search="line-height line height">
 		<description></description>
 		<name>line-height</name>
 		<note></note>
@@ -922,7 +982,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="php ltrim">
+	<item search="ltrim">
 		<description></description>
 		<name>ltrim()</name>
 		<note></note>
@@ -932,7 +992,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php mail">
+	<item search="mail">
 		<description></description>
 		<name>mail()</name>
 		<note></note>
@@ -942,7 +1002,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css margin">
+	<item search="margin">
 		<description></description>
 		<name>margin</name>
 		<note></note>
@@ -952,7 +1012,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="php mkdir">
+	<item search="mkdir">
 		<description></description>
 		<name>mkdir()</name>
 		<note></note>
@@ -962,7 +1022,47 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php mt_rand mt rand">
+	<item search="module.config module config">
+		<description></description>
+		<name>module.config()</name>
+		<note></note>
+		<resume>Configure providers or constant</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="module.controller module controller">
+		<description></description>
+		<name>module.controller()</name>
+		<note></note>
+		<resume>Creates a custom controller</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="module.factory module factory">
+		<description></description>
+		<name>module.factory()</name>
+		<note></note>
+		<resume>Creates a custom factory</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="module.service module service">
+		<description></description>
+		<name>module.service()</name>
+		<note></note>
+		<resume>Creates a custom service</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="mt_rand mt rand">
 		<description></description>
 		<name>mt_rand()</name>
 		<note></note>
@@ -972,7 +1072,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php next">
+	<item search="next">
 		<description></description>
 		<name>next()</name>
 		<note></note>
@@ -982,7 +1082,57 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php nl2br">
+	<item search="ng-app ngapp">
+		<description></description>
+		<name>ng-app</name>
+		<note></note>
+		<resume>Auto-bootstrap an AngularJS application</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Attribute</type>
+	</item>
+
+	<item search="ng-controller ngcontroller">
+		<description></description>
+		<name>ng-controller</name>
+		<note></note>
+		<resume>Attaches a controller to the view element</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Attribute</type>
+	</item>
+
+	<item search="ng-hide nghide">
+		<description></description>
+		<name>ng-hide</name>
+		<note></note>
+		<resume>Hides or shows the given HTML element based on the expression provided</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Attribute</type>
+	</item>
+
+	<item search="ng-show ngshow">
+		<description></description>
+		<name>ng-show</name>
+		<note></note>
+		<resume>Shows or hides the given HTML element based on the expression provided</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Attribute</type>
+	</item>
+
+	<item search="ng-view ngview">
+		<description></description>
+		<name>ng-view</name>
+		<note>Implements the &lt;$route&gt; module</note>
+		<resume>Includes the rendered template of the current route into the main layout (index.html) file.</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Attribute</type>
+	</item>
+
+	<item search="nl2br">
 		<description></description>
 		<name>nl2br()</name>
 		<note></note>
@@ -992,7 +1142,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css :not">
+	<item search=":not">
 		<description></description>
 		<name>:not(&lt;code&gt;selector&lt;/code&gt;)</name>
 		<note></note>
@@ -1002,7 +1152,7 @@
 		<type>Pseudo-class</type>
 	</item>
 
-	<item search="php opendir">
+	<item search="opendir">
 		<description></description>
 		<name>opendir()</name>
 		<note></note>
@@ -1012,7 +1162,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css outline">
+	<item search="outline">
 		<description></description>
 		<name>outline</name>
 		<note><strong>Shortcut for:</strong> &lt;code&gt;outline-color&lt;/code&gt; — &lt;code&gt;outline-width&lt;/code&gt; and &lt;code&gt;outline-style&lt;/code&gt;</note>
@@ -1022,7 +1172,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css outline-color outline color">
+	<item search="outline-color outline color">
 		<description></description>
 		<name>outline-color</name>
 		<note></note>
@@ -1032,7 +1182,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css outline-style outline style">
+	<item search="outline-style outline style">
 		<description></description>
 		<name>outline-style</name>
 		<note></note>
@@ -1042,7 +1192,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css outline-width outline width">
+	<item search="outline-width outline width">
 		<description></description>
 		<name>outline-width</name>
 		<note></note>
@@ -1052,7 +1202,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css overflow">
+	<item search="overflow">
 		<description></description>
 		<name>overflow</name>
 		<note></note>
@@ -1062,7 +1212,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css overflow-x">
+	<item search="overflow-x">
 		<description></description>
 		<name>overflow-x</name>
 		<note></note>
@@ -1072,7 +1222,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css overflow-y">
+	<item search="overflow-y">
 		<description></description>
 		<name>overflow-y</name>
 		<note></note>
@@ -1082,7 +1232,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css padding">
+	<item search="padding">
 		<description></description>
 		<name>padding</name>
 		<note><strong>Shortcut for:</strong> &lt;code&gt;padding-bottom&lt;/code&gt; — &lt;code&gt;padding-left&lt;/code&gt; — &lt;code&gt;padding-right&lt;/code&gt; and &lt;code&gt;padding-top&lt;/code&gt;</note>
@@ -1092,7 +1242,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="js parseFloat parse float">
+	<item search="parseFloat parse float">
 		<description></description>
 		<name>parseFloat()</name>
 		<note></note>
@@ -1102,7 +1252,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="js parseInt parse int">
+	<item search="parseInt parse int">
 		<description></description>
 		<name>parseInt()</name>
 		<note></note>
@@ -1112,7 +1262,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php pi">
+	<item search="pi">
 		<description></description>
 		<name>pi()</name>
 		<note></note>
@@ -1122,7 +1272,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php pow">
+	<item search="pow">
 		<description></description>
 		<name>pow()</name>
 		<note></note>
@@ -1132,7 +1282,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php prev">
+	<item search="prev">
 		<description></description>
 		<name>prev()</name>
 		<note></note>
@@ -1142,7 +1292,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php readdir">
+	<item search="readdir">
 		<description></description>
 		<name>readdir()</name>
 		<note></note>
@@ -1152,7 +1302,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php rename">
+	<item search="rename">
 		<description></description>
 		<name>rename()</name>
 		<note></note>
@@ -1162,7 +1312,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css :required">
+	<item search=":required">
 		<description></description>
 		<name>:required</name>
 		<note></note>
@@ -1172,7 +1322,7 @@
 		<type>Pseudo-class</type>
 	</item>
 
-	<item search="php reset">
+	<item search="reset">
 		<description></description>
 		<name>reset()</name>
 		<note></note>
@@ -1182,7 +1332,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php rmdir">
+	<item search="rmdir">
 		<description></description>
 		<name>rmdir()</name>
 		<note></note>
@@ -1192,7 +1342,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php rsort">
+	<item search="rsort">
 		<description></description>
 		<name>rsort()</name>
 		<note></note>
@@ -1202,7 +1352,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php rtrim">
+	<item search="rtrim">
 		<description></description>
 		<name>rtrim()</name>
 		<note></note>
@@ -1212,7 +1362,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php serialize">
+	<item search="serialize">
 		<description></description>
 		<name>serialize()</name>
 		<note></note>
@@ -1222,7 +1372,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php shuffle">
+	<item search="shuffle">
 		<description></description>
 		<name>shuffle()</name>
 		<note></note>
@@ -1232,7 +1382,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php sqrt">
+	<item search="sqrt">
 		<description></description>
 		<name>sqrt()</name>
 		<note></note>
@@ -1242,7 +1392,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php sort">
+	<item search="sort">
 		<description></description>
 		<name>sort()</name>
 		<note></note>
@@ -1252,7 +1402,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php str_replace str replace">
+	<item search="str_replace str replace">
 		<description></description>
 		<name>str_replace()</name>
 		<note></note>
@@ -1262,7 +1412,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php str_shuffle str shuffle">
+	<item search="str_shuffle str shuffle">
 		<description></description>
 		<name>str_shuffle()</name>
 		<note></note>
@@ -1272,7 +1422,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php strip_tags strip tags">
+	<item search="strip_tags strip tags">
 		<description></description>
 		<name>strip_tags()</name>
 		<note></note>
@@ -1282,7 +1432,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php strlen">
+	<item search="strlen">
 		<description></description>
 		<name>strlen()</name>
 		<note></note>
@@ -1292,7 +1442,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php strpos">
+	<item search="strpos">
 		<description></description>
 		<name>strpos()</name>
 		<note></note>
@@ -1302,7 +1452,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php strrchr">
+	<item search="strrchr">
 		<description></description>
 		<name>strrchr()</name>
 		<note></note>
@@ -1312,7 +1462,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php strrpos">
+	<item search="strrpos">
 		<description></description>
 		<name>strrpos()</name>
 		<note></note>
@@ -1322,7 +1472,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php strstr">
+	<item search="strstr">
 		<description></description>
 		<name>strstr()</name>
 		<note><strong>Alias:</strong> &lt;code&gt;strchr&lt;/code&gt;</note>
@@ -1332,7 +1482,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php substr">
+	<item search="substr">
 		<description></description>
 		<name>substr()</name>
 		<note></note>
@@ -1342,7 +1492,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css text-align text align">
+	<item search="text-align text align">
 		<description></description>
 		<name>text-align</name>
 		<note></note>
@@ -1352,7 +1502,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css text-decoration text decoration">
+	<item search="text-decoration text decoration">
 		<description></description>
 		<name>text-decoration</name>
 		<note></note>
@@ -1362,7 +1512,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="php time">
+	<item search="time">
 		<description></description>
 		<name>time()</name>
 		<note></note>
@@ -1372,7 +1522,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css transition">
+	<item search="transition">
 		<description></description>
 		<name>transition</name>
 		<note><strong>Shortcut for:</strong> &lt;code&gt;transition-property&lt;/code&gt; — &lt;code&gt;transition-duration&lt;/code&gt; — &lt;code&gt;transition-delay&lt;/code&gt; and &lt;code&gt;transition-timing-function&lt;/code&gt;</note>
@@ -1382,7 +1532,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css transition-delay transition delay">
+	<item search="transition-delay transition delay">
 		<description></description>
 		<name>transition-delay</name>
 		<note></note>
@@ -1392,7 +1542,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css transition-duration transition duration">
+	<item search="transition-duration transition duration">
 		<description></description>
 		<name>transition-duration</name>
 		<note></note>
@@ -1402,7 +1552,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="css transition-property transition property">
+	<item search="transition-property transition property">
 		<description></description>
 		<name>transition-property</name>
 		<note></note>
@@ -1412,7 +1562,7 @@
 		<type>Property</type>
 	</item>
 
-	<item search="php trim">
+	<item search="trim">
 		<description></description>
 		<name>trim()</name>
 		<note></note>
@@ -1422,7 +1572,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php unlink">
+	<item search="unlink">
 		<description></description>
 		<name>unlink()</name>
 		<note><strong>Alias:</strong> &lt;code&gt;delete&lt;/code&gt;</note>
@@ -1432,7 +1582,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="php unserialize">
+	<item search="unserialize">
 		<description></description>
 		<name>unserialize()</name>
 		<note></note>
@@ -1442,7 +1592,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css :valid">
+	<item search=":valid">
 		<description></description>
 		<name>:valid</name>
 		<note></note>
@@ -1452,7 +1602,7 @@
 		<type>Pseudo-class</type>
 	</item>
 
-	<item search="php var_dump var dump">
+	<item search="var_dump var dump">
 		<description></description>
 		<name>var_dump()</name>
 		<note></note>
@@ -1462,7 +1612,7 @@
 		<type>Function</type>
 	</item>
 
-	<item search="css width">
+	<item search="width">
 		<description></description>
 		<name>width</name>
 		<note></note>
@@ -1473,8 +1623,8 @@
 	</item>
 
 
-
-	<item search="nodejs listen">
+	<!--
+	<item search="listen">
 		<description></description>
 		<name>listen()</name>
 		<note></note>
@@ -1483,4 +1633,5 @@
 		<tech>NodeJS</tech>
 		<type>Function</type>
 	</item>
+	-->
 </items>
