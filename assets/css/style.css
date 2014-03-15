@@ -174,19 +174,17 @@ article .title .subtitle {
 }
 
 /* fix by tech */
-article.css .tech {
-	background: #d45b43;
-}
-article.css .title, article.css .description {
-	border-left: .15rem solid #d45b43;
-}
+article.angularjs .tech {background: #d45b43;}
+article.angularjs .title, article.angularjs .description {border-left: .15rem solid #d45b43;}
 
-article.php .tech {
-	background: #8c8cc5;
-}
-article.php .title, article.php .description {
-	border-left: .15rem solid #8c8cc5;
-}
+article.css .tech {background: #f16529;}
+article.css .title, article.css .description {border-left: .15rem solid #f16529;}
+
+article.js .tech {background: #f0db4f;color: #333;}
+article.js .title, article.js .description {border-left: .15rem solid #f0db4f;}
+
+article.php .tech {background: #8c8cc5;}
+article.php .title, article.php .description {border-left: .15rem solid #8c8cc5;}
 /* end fix by tech */
 
 /* END ARTICLE */
