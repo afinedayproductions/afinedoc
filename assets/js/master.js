@@ -87,6 +87,7 @@ var searchHandler = {
 
 			});*/
 			viewRenderer.init(itemHandler.items);
+			viewRenderer.vanish();
 
 
 			// We call the detailHandler to be able to show the full article
@@ -190,13 +191,16 @@ var viewRenderer = {
 	init: function(items) {
 
 		items.forEach(function(item) {
+
 			// Create resume article
 			this.createResumeArticle(item);
 
 			// Add every part in the article
 			this._article.appendChild(this._tech);
 			this._article.appendChild(this._title);
+			this._article.classList.add('vanish');
 			document.querySelector('#content').appendChild(this._article);
+
 		}.bind(this));
 
 	},
@@ -264,6 +268,14 @@ var viewRenderer = {
 		this._title.appendChild(this._titleLink);
 		this._title.appendChild(this._titleType);
 		this._title.appendChild(this._titleSubtitle);
+	},
+
+	vanish: function() {
+		window.setTimeout(function() {
+			[].forEach.call(document.querySelectorAll('article'), function(article) {
+				article.classList.remove('vanish');
+			});
+		}, 0);
 	}
 
 };
