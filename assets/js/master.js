@@ -3,6 +3,7 @@ var searchHandler = {
 	findItem: function(tech, name) {
 
 		var returnedItem = false;
+		name = name.replace('$', '\\$');
 
 		[].forEach.call(this.documentXML.querySelectorAll('item'), function(item) {
 
@@ -10,9 +11,9 @@ var searchHandler = {
 			var itemSearch = item.attributes.search.value;
 
 			// If the search is part of the available searches for the item
-			if(itemSearch.search(tech + ' ' + name) > -1) {
+			if(!returnedItem && item.querySelector('tech').textContent.toLowerCase() === tech && (itemSearch.search(name) > -1)) {
 				// Return the item
-				if(!returnedItem) returnedItem = item;
+				returnedItem = item;
 			}
 
 		});
@@ -42,7 +43,7 @@ var searchHandler = {
 
 	onSearchChange: function() {
 
-		var search = this._input.value.toLowerCase();
+		var search = this._input.value.toLowerCase().replace('$', '\\$');
 		var cachedItemHandler = [];
 
 		// If search is empty, we clear all articles
@@ -80,11 +81,13 @@ var searchHandler = {
 			viewRenderer.clearRenderer();
 
 			// We create the article element for each item
-			itemHandler.items.forEach(function(item) {
+			/*itemHandler.items.forEach(function(item) {
 
-				viewRenderer.createArticle(item);
+				viewRenderer.init(item);
 
-			});
+			});*/
+			viewRenderer.init(itemHandler.items);
+
 
 			// We call the detailHandler to be able to show the full article
 			detailHandler.init();
@@ -170,7 +173,7 @@ var itemHandler = {
 // What we can do later :
 // add a .toHide class to make css transition / animation to disapear
 // set a timeout to the [].forEach.call to wait the animation to complete
-// set a timeout to createArticle to wait animation to complete 
+// set a timeout to init to wait animation to complete 
 // (maybe a second argument BOOL to know if we wait an animtion to complete or if there's no animation to wait and create article directly)
 var viewRenderer = {
 
@@ -184,19 +187,21 @@ var viewRenderer = {
 
 	},
 
-	createArticle: function(item) {
+	init: function(items) {
 
-		// Create resume article
-		this.createResumeArticle(item);
+		items.forEach(function(item) {
+			// Create resume article
+			this.createResumeArticle(item);
 
-		// Add every part in the article
-		this._article.appendChild(this._tech);
-		this._article.appendChild(this._title);
-		document.querySelector('#content').appendChild(this._article);
+			// Add every part in the article
+			this._article.appendChild(this._tech);
+			this._article.appendChild(this._title);
+			document.querySelector('#content').appendChild(this._article);
+		}.bind(this));
 
 	},
 
-	createFullArticle: function(item) {
+	initFullArticle: function(item) {
 
 		// Create resume article
 		this.createResumeArticle(item);
@@ -280,7 +285,7 @@ var detailHandler = {
 				var item = searchHandler.findItem(tech, name);
 
 				// We create the full render
-				viewRenderer.createFullArticle(item);
+				viewRenderer.initFullArticle(item);
 
 			}, false);
 		});
