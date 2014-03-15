@@ -32,7 +32,7 @@
 		<type>Service</type>
 	</item>
 
-	<item search="scope">
+	<item search="$scope">
 		<description></description>
 		<name>$scope</name>
 		<note></note>
@@ -1406,7 +1406,7 @@
 		<description></description>
 		<name>str_replace()</name>
 		<note></note>
-		<resume>Randomly shuffles a string</resume>
+		<resume>Replace all occurrences of the search string with the replacement string</resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1416,7 +1416,7 @@
 		<description></description>
 		<name>str_shuffle()</name>
 		<note></note>
-		<resume>Replace all occurrences of the search string with the replacement string</resume>
+		<resume>Randomly shuffles a string</resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
