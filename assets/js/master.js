@@ -202,11 +202,18 @@ var viewRenderer = {
 			// Create resume article
 			this.createResumeArticle(item);
 
+			//  We create a wrapping <a>
+			this._a = document.createElement('a');
+			this._a.href = this._link; // create in createResumeArticle
+			this._a.className = 'article-link';
+			this._a.innerHTML = ' ';
+			this._a.appendChild(this._article);
+
 			// Add every part in the article
 			this._article.appendChild(this._tech);
 			this._article.appendChild(this._title);
 			this._article.classList.add('vanish');
-			document.querySelector('#content').appendChild(this._article);
+			document.querySelector('#content').appendChild(this._a);
 
 		}.bind(this));
 
@@ -248,11 +255,13 @@ var viewRenderer = {
 	createResumeArticle: function(item) {
 
 		// creating article
+		var tech = item.querySelector('tech').textContent;
+		var name = item.querySelector('name').textContent;
 		this._article = document.createElement('article');
 		this._article.className = item.querySelector('tech').textContent.toLowerCase();
+		this._link = '#' + tech.toLowerCase() + '-' + name.toLowerCase();
 
 		// creating .tech
-		var tech = item.querySelector('tech').textContent;
 		this._tech = document.createElement('div');
 		this._tech.className = 'tech';
 		this._techLink = document.createElement('span');
@@ -260,20 +269,17 @@ var viewRenderer = {
 		this._tech.appendChild(this._techLink);
 
 		// creating .title
-		var name = item.querySelector('name').textContent;
 		this._title = document.createElement('div');
 		this._title.className = 'title';
-		this._titleLink = document.createElement('a');
-		this._titleLink.className = 'link-title';
-		this._titleLink.href = '#' + tech.toLowerCase() + '-' + name.toLowerCase();
-		this._titleLink.innerHTML = name;
+		this._titleSpan = document.createElement('span');
+		this._titleSpan.innerHTML = name;
 		this._titleType = document.createElement('span');
 		this._titleType.className = 'type';
 		this._titleType.innerHTML = item.querySelector('type').textContent;
 		this._titleSubtitle = document.createElement('span');
 		this._titleSubtitle.className = 'subtitle';
 		this._titleSubtitle.innerHTML = item.querySelector('resume').textContent;
-		this._title.appendChild(this._titleLink);
+		this._title.appendChild(this._titleSpan);
 		this._title.appendChild(this._titleType);
 		this._title.appendChild(this._titleSubtitle);
 	},
@@ -294,12 +300,12 @@ var detailHandler = {
 
 	init: function() {
 
-		[].forEach.call(document.querySelectorAll('article .title a'), function(link) {
+		[].forEach.call(document.querySelectorAll('.article-link'), function(link) {
 			link.addEventListener('click', function() {
 
 				// With the tech and the name, we can find again what was the clicked article
-				var tech = this.parentNode.parentNode.querySelector('.tech span').textContent.toLowerCase();
-				var name = this.textContent.toLowerCase();
+				var tech = this.querySelector('.tech span').textContent.toLowerCase();
+				var name = this.querySelector('.title span').textContent.toLowerCase();
 
 				// We search for the item
 				var item = searchHandler.findItem(tech, name);
