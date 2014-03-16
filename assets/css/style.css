@@ -13,7 +13,7 @@ a {
 }
 
 body {
-	background: #fcfcf9;
+	background: #fcfdff;
 	font-family: 'Duru Sans';
 	font-size: 1.1rem;
 	line-height: 1.4;
@@ -30,6 +30,7 @@ code {
 }
 
 #content {
+	padding-top: 12rem; /* header height */
 	padding-bottom: 3rem; /* footer height */
 }
 #content, header {
@@ -51,7 +52,13 @@ input, textarea {
 /* HEADER */
 
 header {
-	margin-top: 1rem;
+	position: fixed;
+	top: 0; right: 0; left: 0;
+
+	background: #fcfdff;
+	border-bottom: 1px solid #ccc;
+	padding: 1rem 0;
+	z-index: 98;
 }
 
 header h1 {
@@ -366,7 +373,7 @@ footer {
 	position: fixed;
 	top: auto; right: 0; bottom: 0; left: 0;
 
-	background: #fcfcf9;
+	background: #fcfdff;
 	border-top: 1px solid #aaa;
 	color: #888;
 	font-size: 0.85rem;
