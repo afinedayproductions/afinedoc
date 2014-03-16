@@ -1,3 +1,19 @@
+/* MARKDOWNHANDLER */
+var markdownHandler = {
+
+	//! Showdown.js must be already loaded
+
+	init: function() {
+		this.showdown = new Showdown.converter();
+	},
+
+	getMarkdown: function(item) {
+		return this.showdown.makeHtml(item.querySelector('description').textContent);
+	}
+};
+/* END MARKDOWNHANDLER*/
+
+/* SEARCHHANDLER */
 var searchHandler = {
 
 	findItem: function(tech, name) {
@@ -81,14 +97,8 @@ var searchHandler = {
 			viewRenderer.clearRenderer();
 
 			// We create the article element for each item
-			/*itemHandler.items.forEach(function(item) {
-
-				viewRenderer.init(item);
-
-			});*/
 			viewRenderer.init(itemHandler.items);
 			viewRenderer.vanish();
-
 
 			// We call the detailHandler to be able to show the full article
 			detailHandler.init();
@@ -171,11 +181,6 @@ var itemHandler = {
 /* END ITEMHANDLER */
 
 /* VIEWRENDERER */
-// What we can do later :
-// add a .toHide class to make css transition / animation to disapear
-// set a timeout to the [].forEach.call to wait the animation to complete
-// set a timeout to init to wait animation to complete 
-// (maybe a second argument BOOL to know if we wait an animtion to complete or if there's no animation to wait and create article directly)
 var viewRenderer = {
 
 	clearRenderer: function() {
@@ -209,10 +214,11 @@ var viewRenderer = {
 
 		// Create resume article
 		this.createResumeArticle(item);
+		this._article.classList.add('alone');
 
 		this._description = document.createElement('div');
 		this._description.className = 'description';
-		this._description.innerHTML = item.querySelector('description').textContent;
+		this._description.innerHTML = markdownHandler.getMarkdown(item);
 		this._titleNote = document.createElement('div');
 		this._titleNote.className = 'note';
 		var textNote = item.querySelector('note').textContent;
@@ -386,6 +392,9 @@ window.Afinedoc = {
 
 		// We load XML document
 		dataXMLLoader.load();
+
+		// markdownHandler
+		markdownHandler.init();
 
 		// When the page is fully loaded, hide the loading screen
 		window.addEventListener('load', function() {

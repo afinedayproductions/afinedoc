@@ -3,7 +3,7 @@
 <items>
 
 	<item search="$http">
-		<description>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat, quibusdam reiciendis eum placeat mollitia quae sapiente nostrum omnis non illo nesciunt odio ut ipsam distinctio dolores ipsum dolore.</description>
+		<description></description>
 		<name>$http</name>
 		<note></note>
 		<resume>Facilitates communication with the remote HTTP servers via the XMLHttpRequest object or via JSONP</resume>
@@ -43,7 +43,10 @@
 	</item>
 
 	<item search="addslashes">
-		<description></description>
+		<description>
+### Syntax
+    string addslashes( string $str )
+		</description>
 		<name>addslashes()</name>
 		<note></note>
 		<resume>Add a backslash before quotes, double-quotes and backslashes in string variables</resume>

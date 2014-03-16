@@ -11,11 +11,13 @@
 
 	    <!-- CSS -->
 		<link rel="stylesheet" href="<?php echo css_url('style'); ?>">
-		<?php foreach($css as $url): ?>
-		    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $url; ?>" >
-		<?php endforeach; ?>
 
-		<script src="<?php echo js_url('master'); ?>"></script>
+		<?php foreach($css as $url): ?>
+
+		    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $url; ?>" >
+
+		<?php endforeach; ?>
+		
 	</head>
 
 	<body>
@@ -80,8 +82,13 @@
 		<!-- end footer -->
 		
 		<!-- JAVASCRIPT -->
+		<script src="<?php echo js_url('showdown'); ?>"></script>
+		<script src="<?php echo js_url('master'); ?>"></script>
+
 		<?php foreach($js as $url): ?>
+
 		    <script src="<?php echo $url; ?>"></script>
+
 		<?php endforeach; ?>
 
 	</body>
