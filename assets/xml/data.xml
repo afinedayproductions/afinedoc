@@ -45,7 +45,8 @@
 	<item search="addslashes">
 		<description>
 ### Syntax
-    string addslashes( string $str )
+
+	(string) $misc = addslashes( (string) $str )
 		</description>
 		<name>addslashes()</name>
 		<note></note>
@@ -86,9 +87,13 @@
 	</item>
 
 	<item search="array">
-		<description></description>
+		<description>
+### Syntax
+
+	(array) $misc = (array) array ([ (mixed) $… ] );
+		</description>
 		<name>array()</name>
-		<note><strong>Alias:</strong> &lt;code&gt;new Array()&lt;/code&gt; — &lt;code&gt;[]&lt;/code&gt;</note>
+		<note><strong>Alias:</strong>&lt;code&gt;[]&lt;/code&gt;</note>
 		<resume>Create a new array</resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
@@ -96,7 +101,11 @@
 	</item>
 
 	<item search="array_diff array diff">
-		<description></description>
+		<description>
+### Syntax
+
+	(array) $misc = array_diff ( (array) $array1 , (array) $array2 [, (array) $… ] );
+		</description>
 		<name>array_diff()</name>
 		<note></note>
 		<resume>Computes the difference between arrays</resume>
@@ -126,7 +135,11 @@
 	</item>
 
 	<item search="array_pop array pop">
-		<description></description>
+		<description>
+### Syntax
+
+	(mixed) $misc = array_pop ( (array) $array );
+		</description>
 		<name>array_pop()</name>
 		<note></note>
 		<resume>Remove the last element of an array</resume>
@@ -146,7 +159,11 @@
 	</item>
 
 	<item search="array_push array push">
-		<description></description>
+		<description>
+### Syntax
+
+	(int) $misc = array_push ( (array) $array , (mixed) $value1 [, (mixed) $… ] );
+		</description>
 		<name>array_push()</name>
 		<note></note>
 		<resume>Add one or more elements in the end of an array</resume>
@@ -166,7 +183,11 @@
 	</item>
 
 	<item search="array_shift array shift">
-		<description></description>
+		<description>
+### Syntax
+
+	(mixed) $misc = array_shift ( (array) $array );
+		</description>
 		<name>array_shift()</name>
 		<note></note>
 		<resume>Remove the first element of an array</resume>
@@ -186,7 +207,11 @@
 	</item>
 
 	<item search="array_slice array slice">
-		<description></description>
+		<description>
+### Syntax
+
+	(array) $misc = array_slice ( (array) $array , (int) $offset [, (int) $length = NULL [, (bool) $preserve_keys = false ]] );
+		</description>
 		<name>array_slice()</name>
 		<note></note>
 		<resume>Extract a slice of an array</resume>
@@ -206,7 +231,11 @@
 	</item>
 
 	<item search="array_unshift array unshift">
-		<description></description>
+		<description>
+### Syntax
+
+	(mixed) $misc = array_unshift ( (array) $array , (mixed) $value1 [, mixed $… ] );
+		</description>
 		<name>array_unshift()</name>
 		<note></note>
 		<resume>Add one or more elements in the beginning of an array</resume>
@@ -226,7 +255,11 @@
 	</item>
 
 	<item search="arsort">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = arsort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+		</description>
 		<name>arsort()</name>
 		<note></note>
 		<resume>Sort an array in reverse order and maintain key association</resume>
@@ -236,7 +269,11 @@
 	</item>
 
 	<item search="asort">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = asort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+		</description>
 		<name>asort()</name>
 		<note></note>
 		<resume>Sort an array and maintain key association</resume>
@@ -306,7 +343,11 @@
 	</item>
 
 	<item search="base64_decode base64 decode">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = base64_decode ( (string $data) [, (bool) $strict = false ] );
+		</description>
 		<name>base64_decode()</name>
 		<note></note>
 		<resume>Decode data encoded with MIME base64</resume>
@@ -316,7 +357,11 @@
 	</item>
 
 	<item search="base64_encode base64 encode">
-		<description></description>
+		<description>
+### Syntax			
+
+	(string) $misc = base64_encode ( (string $data) );
+		</description>
 		<name>base64_encode()</name>
 		<note></note>
 		<resume>Encode data with MIME base64</resume>
@@ -326,7 +371,11 @@
 	</item>
 
 	<item search="basename">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = basename ( (string) $path [, (string) $suffix ] );
+		</description>
 		<name>basename()</name>
 		<note></note>
 		<resume>Returns the ending element of a path</resume>
@@ -456,7 +505,11 @@
 	</item>
 
 	<item search="ceil">
-		<description></description>
+		<description>
+### Syntax
+
+	(float) $misc = ceil ( (float) $value );
+		</description>
 		<name>ceil()</name>
 		<note></note>
 		<resume>Round decimal numbers up</resume>
@@ -476,7 +529,11 @@
 	</item>
 
 	<item search="chmod">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = chmod ( (string) $filename , (int) $mode );
+		</description>
 		<name>chmod()</name>
 		<note></note>
 		<resume>Changes the file mode</resume>
@@ -486,7 +543,11 @@
 	</item>
 
 	<item search="chown">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = chown ( (string) $filename , (mixed) $user );
+		</description>
 		<name>chown()</name>
 		<note></note>
 		<resume>Changes the file owner</resume>
@@ -496,7 +557,11 @@
 	</item>
 
 	<item search="closedir">
-		<description></description>
+		<description>
+### Syntax
+
+	(void) closedir ([ (resource) $dir_handle ] );
+		</description>
 		<name>closedir()</name>
 		<note></note>
 		<resume>Close a directory handle</resume>
@@ -516,7 +581,11 @@
 	</item>
 
 	<item search="copy">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = copy ( (string) $source , (string) $dest [, (resource) $context ] );
+		</description>
 		<name>copy()</name>
 		<note></note>
 		<resume>Copies a file</resume>
@@ -526,7 +595,11 @@
 	</item>
 
 	<item search="count">
-		<description></description>
+		<description>
+### Syntax
+
+	(int) $misc = ( (mixed) $array_or_countable [, (int) $mode = COUNT_NORMAL ] );
+		</description>
 		<name>count()</name>
 		<note><strong>Alias:</strong> &lt;code&gt;sizeof&lt;/code&gt;</note>
 		<resume>Count elements in an array or count something in a Countable object</resume>
@@ -536,7 +609,11 @@
 	</item>
 
 	<item search="current">
-		<description></description>
+		<description>
+### Syntax
+
+	(mixed) $misc = current ( (array) $array );
+		</description>
 		<name>current()</name>
 		<note></note>
 		<resume>Return the current pointed element in an array</resume>
@@ -556,7 +633,11 @@
 	</item>
 
 	<item search="date">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = date ( (string) $format [, (int) $timestamp = time() ] );
+		</description>
 		<name>date()</name>
 		<note></note>
 		<resume>Format a date</resume>
@@ -566,7 +647,11 @@
 	</item>
 
 	<item search="date_default_timezone_set date default timezone set">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = date_default_timezone_set ( (string) $timezone_identifier );
+		</description>
 		<name>date_default_timezone_set()</name>
 		<note></note>
 		<resume>Sets the default timezone used by date / time functions</resume>
@@ -596,7 +681,11 @@
 	</item>
 
 	<item search="echo">
-		<description></description>
+		<description>
+### Syntax
+
+	(void) echo ( (string) $arg1 [, (string) $... ] );
+		</description>
 		<name>echo</name>
 		<note></note>
 		<resume>Output strings</resume>
@@ -606,7 +695,11 @@
 	</item>
 
 	<item search="end">
-		<description></description>
+		<description>
+### Syntax
+
+	(mixed) $misc = end ( (array) $array );
+		</description>
 		<name>end()</name>
 		<note></note>
 		<resume>Point to the last element of an array</resume>
@@ -616,7 +709,11 @@
 	</item>
 
 	<item search="empty">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = empty ( (mixed) $var );
+		</description>
 		<name>empty()</name>
 		<note></note>
 		<resume>Finds whether an element is empty</resume>
@@ -625,8 +722,26 @@
 		<type>Function</type>
 	</item>
 
+	<item search="explode">
+		<description>
+### Syntax
+
+	(array) $misc = explode ( (string) $delimiter , (string) $string [, (int) $limit ] );
+		</description>
+		<name>explode()</name>
+		<note></note>
+		<resume>Split a string into an array</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
 	<item search="fclose">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = fclose ( (resource) $handle );
+		</description>
 		<name>fclose()</name>
 		<note></note>
 		<resume>Close an open file pointer</resume>
@@ -636,7 +751,11 @@
 	</item>
 
 	<item search="file_exist file exist">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = file_exists ( (string) $filename );
+		</description>
 		<name>file_exist()</name>
 		<note></note>
 		<resume>Checks whether a file or a directory exists</resume>
@@ -646,7 +765,11 @@
 	</item>
 
 	<item search="filesize">
-		<description></description>
+		<description>
+### Syntax
+
+	(int) $misc = filesize ( (string) $filename );
+		</description>
 		<name>filesize()</name>
 		<note></note>
 		<resume>Gets file size in bytes</resume>
@@ -656,7 +779,11 @@
 	</item>
 
 	<item search="floor">
-		<description></description>
+		<description>
+### Syntax
+
+	(float) $misc = floor ( (float) $value );
+		</description>
 		<name>floor()</name>
 		<note></note>
 		<resume>Round decimal number down</resume>
@@ -756,7 +883,11 @@
 	</item>
 
 	<item search="fopen">
-		<description></description>
+		<description>
+### Syntax
+
+	(resource) $misc = fopen ( (string) $filename , (string) $mode [, (bool) $use_include_path = (false) [, (resource) $context ]] );
+		</description>
 		<name>fopen()</name>
 		<note></note>
 		<resume>Open a file</resume>
@@ -766,7 +897,11 @@
 	</item>
 
 	<item search="hash">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = hash ( (string $algo) , (string) $data [, (bool) $raw_output = false ] );
+		</description>
 		<name>hash()</name>
 		<note></note>
 		<resume>Returns a hash string</resume>
@@ -786,17 +921,29 @@
 	</item>
 
 	<item search="implode">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = implode ( (string) $glue , (array) $pieces );
+ 
+or
+
+	(string) $misc = implode ( (array) $pieces );
+		</description>
 		<name>implode()</name>
 		<note><strong>Alias:</strong> &lt;code&gt;join&lt;/code&gt;</note>
-		<resume>Converts a string into an array</resume>
+		<resume>Converts an array into a string</resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
 	</item>
 
 	<item search="is_array is array">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = is_array ( (mixed) $var );
+		</description>
 		<name>is_array()</name>
 		<note></note>
 		<resume>Finds whether an element is an array</resume>
@@ -806,7 +953,11 @@
 	</item>
 
 	<item search="is_bool is bool">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = is_bool ( (mixed) $var );
+		</description>
 		<name>is_bool()</name>
 		<note></note>
 		<resume>Finds whether an element is a boolean</resume>
@@ -816,7 +967,11 @@
 	</item>
 
 	<item search="is_dir is dir">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = is_dir ( (string) $filename );
+		</description>
 		<name>is_dir()</name>
 		<note></note>
 		<resume>Finds whether an element is a directory</resume>
@@ -826,7 +981,11 @@
 	</item>
 
 	<item search="is_file is file">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = is_file ( (string) $filename );
+		</description>
 		<name>is_file()</name>
 		<note></note>
 		<resume>Finds whether an element is a file</resume>
@@ -836,7 +995,11 @@
 	</item>
 
 	<item search="is_float is float">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = is_float ( (mixed) $var );
+		</description>
 		<name>is_float()</name>
 		<note></note>
 		<resume>Finds whether an element is a float</resume>
@@ -846,7 +1009,11 @@
 	</item>
 
 	<item search="is_int is int">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = is_int ( (mixed) $var );
+		</description>
 		<name>is_int()</name>
 		<note></note>
 		<resume>Finds whether an element is an integer</resume>
@@ -856,7 +1023,11 @@
 	</item>
 
 	<item search="is_nan is nan">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = is_nan ( (float) $val );
+		</description>
 		<name>is_nan()</name>
 		<note></note>
 		<resume>Finds whether an element is &lt;code&gt;NaN&lt;/code&gt; (Not a Number)</resume>
@@ -866,7 +1037,11 @@
 	</item>
 
 	<item search="is_null is null">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = is_null ( (mixed) $var );
+		</description>
 		<name>is_null()</name>
 		<note></note>
 		<resume>Finds whether an element is &lt;code&gt;NULL&lt;/code&gt;</resume>
@@ -876,7 +1051,11 @@
 	</item>
 
 	<item search="is_numeric is numeric">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = is_numeric ( (mixed) $var );
+		</description>
 		<name>is_numeric()</name>
 		<note></note>
 		<resume>Finds whether an element is a number or a numeric string</resume>
@@ -886,7 +1065,11 @@
 	</item>
 
 	<item search="is_object is object">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = is_object ( (mixed) $var );
+		</description>
 		<name>is_object()</name>
 		<note></note>
 		<resume>Finds whether an element is an object</resume>
@@ -896,7 +1079,11 @@
 	</item>
 
 	<item search="is_string is string">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = is_string ( (mixed) $var );
+		</description>
 		<name>is_string()</name>
 		<note></note>
 		<resume>Finds whether an element is a string</resume>
@@ -906,7 +1093,11 @@
 	</item>
 
 	<item search="is_uploaded_file is uploaded file">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = is_uploaded_file ( (string) $filename );
+		</description>
 		<name>is_uploaded_file()</name>
 		<note></note>
 		<resume>Finds whether an element was uploaded by HTTP POST</resume>
@@ -916,7 +1107,11 @@
 	</item>
 
 	<item search="isset">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = isset ( (mixed) $var [, (mixed) $… ] );
+		</description>
 		<name>isset()</name>
 		<note></note>
 		<resume>Finds whether a variable exists and is not &lt;code&gt;NULL&lt;/code&gt;</resume>
@@ -926,7 +1121,11 @@
 	</item>
 
 	<item search="json_decode json decode">
-		<description></description>
+		<description>
+### Syntax
+
+	(mixed) $misc = json_decode ( (string) $json [, (bool) $assoc = false [, (int) $depth = 512 [, (int) $options = 0 ]]] );
+		</description>
 		<name>json_decode()</name>
 		<note></note>
 		<resume>Converts a JSON string into an array</resume>
@@ -936,7 +1135,11 @@
 	</item>
 
 	<item search="json_encode json encode">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = json_encode ( (mixed) $value [, (int) $options = 0 [, (int) $depth = 512 ]] );
+		</description>
 		<name>json_encode()</name>
 		<note></note>
 		<resume>Converts an element into a JSON string</resume>
@@ -946,7 +1149,11 @@
 	</item>
 
 	<item search="key">
-		<description></description>
+		<description>
+### Syntax
+
+	(mixed) $misc = key ( (array) $array );
+		</description>
 		<name>key()</name>
 		<note></note>
 		<resume>Return the key value of the current element pointed in an array</resume>
@@ -956,7 +1163,11 @@
 	</item>
 
 	<item search="krsort">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = krsort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+		</description>
 		<name>krsort()</name>
 		<note></note>
 		<resume>Sort an array in reverse order by key</resume>
@@ -966,7 +1177,11 @@
 	</item>
 
 	<item search="ksort">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = ksort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+		</description>
 		<name>ksort()</name>
 		<note></note>
 		<resume>Sort an array by key</resume>
@@ -986,7 +1201,11 @@
 	</item>
 
 	<item search="ltrim">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = ltrim ( (string) $str [, (string) $character_mask ] );
+		</description>
 		<name>ltrim()</name>
 		<note></note>
 		<resume>Removes characters from the left extremity of a string</resume>
@@ -996,7 +1215,11 @@
 	</item>
 
 	<item search="mail">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = mail ( (string) $to , (string) $subject , (string) $message [, (string) $additional_headers [, (string) $additional_parameters ]] );
+		</description>
 		<name>mail()</name>
 		<note></note>
 		<resume>Send a mail</resume>
@@ -1016,7 +1239,11 @@
 	</item>
 
 	<item search="mkdir">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = mkdir ( (string) $pathname [, (int) $mode = 0777 [, (bool) $recursive = false [, (resource) $context ]]] );
+		</description>
 		<name>mkdir()</name>
 		<note></note>
 		<resume>Creates a directory</resume>
@@ -1066,7 +1293,15 @@
 	</item>
 
 	<item search="mt_rand mt rand">
-		<description></description>
+		<description>
+### Syntax
+
+	(int) $misc =  mt_rand ( void );
+
+or
+
+	(int) $misc = mt_rand ( (int) $min , (int) $max );
+		</description>
 		<name>mt_rand()</name>
 		<note></note>
 		<resume>Generates a random number</resume>
@@ -1076,7 +1311,11 @@
 	</item>
 
 	<item search="next">
-		<description></description>
+		<description>
+### Syntax
+
+	(mixed) $misc = next ( (array) $array );
+		</description>
 		<name>next()</name>
 		<note></note>
 		<resume>Point to the next element of an array</resume>
@@ -1136,7 +1375,11 @@
 	</item>
 
 	<item search="nl2br">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = nl2br ( (string) $string [, (bool) $is_xhtml = true ] );
+		</description>
 		<name>nl2br()</name>
 		<note></note>
 		<resume>Converts all new line in a string into an HTML line break</resume>
@@ -1156,7 +1399,11 @@
 	</item>
 
 	<item search="opendir">
-		<description></description>
+		<description>
+### Syntax
+
+	(resource) $misc = opendir ( (string) $path [, (resource) $context ] );
+		</description>
 		<name>opendir()</name>
 		<note></note>
 		<resume>Open a directory handle</resume>
@@ -1266,7 +1513,11 @@
 	</item>
 
 	<item search="pi">
-		<description></description>
+		<description>
+### Syntax
+
+	(float) $misc = pi ( void );
+		</description>
 		<name>pi()</name>
 		<note></note>
 		<resume>Return the value of pi</resume>
@@ -1276,7 +1527,11 @@
 	</item>
 
 	<item search="pow">
-		<description></description>
+		<description>
+### Syntax
+
+	(number) $misc = pow ( (number) $base , (number) $exp );
+		</description>
 		<name>pow()</name>
 		<note></note>
 		<resume>Returns an exponential value</resume>
@@ -1286,7 +1541,11 @@
 	</item>
 
 	<item search="prev">
-		<description></description>
+		<description>
+### Syntax
+
+	(mixed) $misc = prev ( (array) $array );
+		</description>
 		<name>prev()</name>
 		<note></note>
 		<resume>Point to the previous element of an array</resume>
@@ -1296,7 +1555,11 @@
 	</item>
 
 	<item search="readdir">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = readdir ( [ (resource) $dir_handle ] );
+		</description>
 		<name>readdir()</name>
 		<note></note>
 		<resume>Read an entry from a directory handle</resume>
@@ -1306,7 +1569,11 @@
 	</item>
 
 	<item search="rename">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = rename ( (string) $oldname , (string) $newname [, (resource) $context ] );
+		</description>
 		<name>rename()</name>
 		<note></note>
 		<resume>Rename a file of a directory</resume>
@@ -1326,7 +1593,11 @@
 	</item>
 
 	<item search="reset">
-		<description></description>
+		<description>
+### Syntax
+
+	(mixed) $misc = reset ( (array) $array );
+		</description>
 		<name>reset()</name>
 		<note></note>
 		<resume>Point to the first element of an array</resume>
@@ -1336,7 +1607,11 @@
 	</item>
 
 	<item search="rmdir">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = rmdir ( (string) $dirname [, (resource) $context ] );
+		</description>
 		<name>rmdir()</name>
 		<note></note>
 		<resume>Remove an empty directory</resume>
@@ -1346,7 +1621,11 @@
 	</item>
 
 	<item search="rsort">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = rsort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+		</description>
 		<name>rsort()</name>
 		<note></note>
 		<resume>Sort an array in reverse order but don't maintain index association</resume>
@@ -1356,7 +1635,11 @@
 	</item>
 
 	<item search="rtrim">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = rtrim ( (string) $str [, (string) $character_mask ] );
+		</description>
 		<name>rtrim()</name>
 		<note></note>
 		<resume>Removes characters from the right extremity of a string</resume>
@@ -1366,7 +1649,11 @@
 	</item>
 
 	<item search="serialize">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = serialize ( (mixed) $value );
+		</description>
 		<name>serialize()</name>
 		<note></note>
 		<resume>Converts an element into a storable representation</resume>
@@ -1376,7 +1663,11 @@
 	</item>
 
 	<item search="shuffle">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = shuffle ( (array) $array );
+		</description>
 		<name>shuffle()</name>
 		<note></note>
 		<resume>Randomize the order of elements in an array</resume>
@@ -1386,7 +1677,11 @@
 	</item>
 
 	<item search="sqrt">
-		<description></description>
+		<description>
+### Syntax
+
+	(float) $misc = sqrt ( (float) $arg );
+		</description>
 		<name>sqrt()</name>
 		<note></note>
 		<resume>Returns the square root of an element</resume>
@@ -1396,7 +1691,11 @@
 	</item>
 
 	<item search="sort">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = sort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+		</description>
 		<name>sort()</name>
 		<note></note>
 		<resume>Sort an array but don't maintain index association</resume>
@@ -1406,7 +1705,11 @@
 	</item>
 
 	<item search="str_replace str replace">
-		<description></description>
+		<description>
+### Syntax
+
+	(mixed) $misc = str_replace ( (mixed) $search , (mixed) $replace , (mixed) $subject [, (int) $count ] );
+		</description>
 		<name>str_replace()</name>
 		<note></note>
 		<resume>Replace all occurrences of the search string with the replacement string</resume>
@@ -1416,7 +1719,11 @@
 	</item>
 
 	<item search="str_shuffle str shuffle">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = str_shuffle ( (string) $str );
+		</description>
 		<name>str_shuffle()</name>
 		<note></note>
 		<resume>Randomly shuffles a string</resume>
@@ -1426,7 +1733,11 @@
 	</item>
 
 	<item search="strip_tags strip tags">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = strip_tags ( (string) $str [, (string) $allowable_tags ] );
+		</description>
 		<name>strip_tags()</name>
 		<note></note>
 		<resume>Removes HTML and PHP tags from a string</resume>
@@ -1436,7 +1747,11 @@
 	</item>
 
 	<item search="strlen">
-		<description></description>
+		<description>
+### Syntax
+
+	(int) $misc = strlen ( (string) $string );
+		</description>
 		<name>strlen()</name>
 		<note></note>
 		<resume>Returns the string length</resume>
@@ -1446,7 +1761,11 @@
 	</item>
 
 	<item search="strpos">
-		<description></description>
+		<description>
+### Syntax
+
+	(mixed) $misc = strpos ( (string) $haystack , (mixed) $needle [, (int) $offset = 0 ] );
+		</description>
 		<name>strpos()</name>
 		<note></note>
 		<resume>Find the position of the first occurrence of a character in a string</resume>
@@ -1456,7 +1775,11 @@
 	</item>
 
 	<item search="strrchr">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = strrchr ( (string) $haystack , (mixed) $needle );
+		</description>
 		<name>strrchr()</name>
 		<note></note>
 		<resume>Find the last occurrence of a character in a string</resume>
@@ -1466,7 +1789,11 @@
 	</item>
 
 	<item search="strrpos">
-		<description></description>
+		<description>
+### Syntax
+
+	(int) $misc = strrpos ( (string) $haystack , (mixed) $needle [, (int) $offset = 0 ] );
+		</description>
 		<name>strrpos()</name>
 		<note></note>
 		<resume>Find the position of the last occurrence of a character in a string</resume>
@@ -1476,7 +1803,11 @@
 	</item>
 
 	<item search="strstr">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = strstr ( (string) $haystack , (mixed) $needle [, (bool) $before_needle = false ] );
+		</description>
 		<name>strstr()</name>
 		<note><strong>Alias:</strong> &lt;code&gt;strchr&lt;/code&gt;</note>
 		<resume>Find the first occurrence of a character in a string</resume>
@@ -1486,7 +1817,11 @@
 	</item>
 
 	<item search="substr">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = substr ( (string) $string , (int) $start [, (int) $length ] );
+		</description>
 		<name>substr()</name>
 		<note></note>
 		<resume>Returns part of a string</resume>
@@ -1566,7 +1901,11 @@
 	</item>
 
 	<item search="trim">
-		<description></description>
+		<description>
+### Syntax
+
+	(string) $misc = trim ( (string) $str [, (string) $character_mask = " \t\n\r\0\x0B" ] );
+		</description>
 		<name>trim()</name>
 		<note></note>
 		<resume>Remove characters from both extremities of a string</resume>
@@ -1576,7 +1915,11 @@
 	</item>
 
 	<item search="unlink">
-		<description></description>
+		<description>
+### Syntax
+
+	(bool) $misc = unlink ( (string) $filename [, (resource) $context ] );
+		</description>
 		<name>unlink()</name>
 		<note><strong>Alias:</strong> &lt;code&gt;delete&lt;/code&gt;</note>
 		<resume>Deletes a file</resume>
@@ -1586,7 +1929,11 @@
 	</item>
 
 	<item search="unserialize">
-		<description></description>
+		<description>
+### Syntax
+
+	(mixed) $misc = unserialize ( (string) $str );
+		</description>
 		<name>unserialize()</name>
 		<note></note>
 		<resume>Converts a storable representation into an PHP value</resume>
@@ -1606,7 +1953,11 @@
 	</item>
 
 	<item search="var_dump var dump">
-		<description></description>
+		<description>
+### Syntax
+
+	(void) var_dump ( (mixed) $expression [, (mixed) $… ] );
+		</description>
 		<name>var_dump()</name>
 		<note></note>
 		<resume>Dumps information about a variable</resume>

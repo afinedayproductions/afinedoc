@@ -3,13 +3,15 @@ var markdownHandler = {
 
 	//! Showdown.js must be already loaded
 
-	init: function() {
-		this.showdown = new Showdown.converter();
-	},
-
 	getMarkdown: function(item) {
 		return this.showdown.makeHtml(item.querySelector('description').textContent);
+	},
+
+	init: function() {
+		this.showdown = new Showdown.converter();
 	}
+
+	
 };
 /* END MARKDOWNHANDLER*/
 

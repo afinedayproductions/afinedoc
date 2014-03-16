@@ -17,7 +17,7 @@
 		    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $url; ?>" >
 
 		<?php endforeach; ?>
-		
+
 	</head>
 
 	<body>
@@ -74,7 +74,7 @@
 
 		<footer>
 			<p>
-				©2014+ <?php echo anchor('', 'Afinedoc.com'); ?> 
+				©2014+ <?php echo anchor('', 'Afinedoc.com'); ?> — <?php echo anchor('assets/txt/humans.txt', 'humans.txt!'); ?> — <?php echo anchor('assets/txt/to-do-list.txt', 'to-do-list.txt!'); ?>
 				<br>
 				By par <?php echo anchor('http://www.afinedayproductions.fr', 'F.Mathis — afinedayproductions', array('title' => 'www.afinedayproductions.fr — F.Mathis', 'target' => '_blank')); ?>
 			</p>

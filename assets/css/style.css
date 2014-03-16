@@ -14,6 +14,7 @@ a {
 
 body {
 	background: #fcfdff;
+	color: #1a1a1a;
 	font-family: 'Duru Sans', sans-serif;
 	font-size: 1.1rem;
 	line-height: 1.4;
@@ -24,12 +25,25 @@ code {
 	background: rgba(255,255,255,.85);
 	border: 1px solid #eee;
 	border-radius: 3px;
+	color: #1a1a1a;
+	display: inline-block;
 	font-size: 1.35em; /* em, not rem */
 	padding: 0 .33rem 1px;
 	white-space: nowrap;
 }
+	pre {
+		background: rgba(255,255,255,.85);
+		border: 1px solid #eee;
+		border-radius: 3px;
+		margin: 1rem 0;
+		padding: .15rem .5rem;
+	}
 	pre code {
-		padding: .25rem .5rem;
+		background: none;
+		border: none;
+		line-height: 1.75;
+		padding: 0;
+		white-space: normal;
 	}
 
 #content {
@@ -49,11 +63,9 @@ input, textarea {
 	border: 0;
 	outline: 0;
 }
-
 /* MISC. */
 
 /* HEADER */
-
 header {
 	position: fixed;
 	top: 0; right: 0; left: 0;
@@ -70,12 +82,12 @@ header h1 {
 	margin-bottom: -1rem;
 }
 header h2 {
-	color: #888;
+	color: #777;
 	font-size: 0.85rem;
 }
 
 header sup {
-	color: #888;
+	color: #777;
 	font-size: .75rem;
 	text-transform: uppercase;
 	vertical-align: 1.25rem;
@@ -150,6 +162,8 @@ article:last-of-type {
 
 article .description {
 	border-left: .15rem solid #aaa;
+	color: #777;
+	font-size: .85rem;
 	padding: .5rem 1rem;
 }
 article .description h3 {
@@ -157,14 +171,9 @@ article .description h3 {
 	font-family: 'Chaparral Pro', serif;
 	font-size: 1rem;
 	-webkit-font-smoothing: initial;
-	margin-bottom: 1rem;
 	padding: .25rem;
 }
 
-article .note, article .type {
-	color: #888;
-	font-size: 0.85rem;
-}
 article .note {
 	margin-top: 1rem;
 }
@@ -195,9 +204,14 @@ article .title .link-title {
 	font-size: 1.5rem;
 }
 article .title .subtitle {
-	color: #888;
+	color: #777;
 	font-size: 1rem;
 	margin-top: .5rem;
+}
+
+article .type {
+	color: #777;
+	font-size: 0.85rem;
 }
 
 /* vanish transition */
@@ -395,7 +409,7 @@ footer {
 
 	background: #fcfdff;
 	border-top: 1px solid #aaa;
-	color: #888;
+	color: #777;
 	font-size: 0.85rem;
 	margin: auto;
 	padding: .5rem 0;

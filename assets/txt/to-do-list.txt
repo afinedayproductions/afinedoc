@@ -1,0 +1,19 @@
+/* WHAT WAS DONE */
+	DD/MM/AAAA
+	16.03.2014
+		- Add showdown.js for Markdown to HTML conversion
+		
+		data.xml:
+			- Add "### Syntax" to PHP items
+
+
+/* TO-DO LIST */
+	- Find a dynamic highlight solution for <pre> <code>
+	
+	data.xml:
+		- Add "### Syntax" to AngularJS items
+		- Add "### Syntax" to JavaScript items
+		- Add "### Syntax" to CSS items
+
+		- Add "### Parameters" to items
+		- Add "### Return value" to items
