@@ -1966,6 +1966,16 @@ or
 		<type>Function</type>
 	</item>
 
+	<item search=":visited">
+		<description></description>
+		<name>:visited</name>
+		<note></note>
+		<resume>Select &lt;code&gt;:visited&lt;/code&gt; links</resume>
+		<seealso></seealso>
+		<tech>CSS</tech>
+		<type>Pseudo-class</type>
+	</item>
+
 	<item search="width">
 		<description></description>
 		<name>width</name>
