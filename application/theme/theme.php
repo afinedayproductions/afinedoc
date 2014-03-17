@@ -6,15 +6,18 @@
 		<!-- TITLE -->
 		<title><?php echo $second_part_title . $title; ?></title>
 
-		<!-- META --> 
-	    <meta http-equiv="Content-Type" content="text/html; charset=<?php echo $charset; ?>" >
+		<!-- META -->
+		<meta http-equiv="Content-Type" content="text/html; charset=<?php echo $charset; ?>" >
 
-	    <!-- CSS -->
+		<!-- FAVICON -->
+		<link rel="icon" type="image/png" href="<?php echo img_url('logo/afineday-16x.png'); ?>">
+
+		<!-- CSS -->
 		<link rel="stylesheet" href="<?php echo css_url('style'); ?>">
 
 		<?php foreach($css as $url): ?>
 
-		    <link rel="stylesheet" type="text/css" media="screen" href="<?php echo $url; ?>" >
+			<link rel="stylesheet" type="text/css" media="screen" href="<?php echo $url; ?>" >
 
 		<?php endforeach; ?>
 
@@ -25,7 +28,7 @@
 		<div id="loading-screen">
 			<div class="loader"></div>
 		</div>
-		<!-- en #loading-screen -->
+		<!-- end #loading-screen -->
 
 		<header>
 
@@ -87,7 +90,7 @@
 
 		<?php foreach($js as $url): ?>
 
-		    <script src="<?php echo $url; ?>"></script>
+			<script src="<?php echo $url; ?>"></script>
 
 		<?php endforeach; ?>
 
