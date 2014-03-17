@@ -42,6 +42,16 @@
 		<type>Service</type>
 	</item>
 
+	<item search="a">
+		<description></description>
+		<name>`<a>`</name>
+		<note></note>
+		<resume>Defines a link or an anchor</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="addslashes">
 		<description>
 ### Syntax
@@ -268,6 +278,16 @@
 		<type>Function</type>
 	</item>
 
+	<item search="article">
+		<description></description>
+		<name>`<article>`</name>
+		<note></note>
+		<resume>Defines an article</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="asort">
 		<description>
 ### Syntax
@@ -280,6 +300,26 @@
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
+	</item>
+
+	<item search="aside">
+		<description></description>
+		<name>`<aside>`</name>
+		<note></note>
+		<resume>Defines content aside from the page content</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="audio">
+		<description></description>
+		<name>`<audio>`</name>
+		<note></note>
+		<resume>Defines sound content</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="background">
@@ -394,6 +434,16 @@
 		<type>Pseudo-element</type>
 	</item>
 
+	<item search="body">
+		<description></description>
+		<name>`<body>`</name>
+		<note></note>
+		<resume>Defines the document's body</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="border">
 		<description></description>
 		<name>border</name>
@@ -504,6 +554,36 @@
 		<type>Property</type>
 	</item>
 
+	<item search="br">
+		<description></description>
+		<name>`<br>`</name>
+		<note></note>
+		<resume>Defines a single line-break</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="button">
+		<description></description>
+		<name>`<button>`</name>
+		<note></note>
+		<resume>Defines a clickable button</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="canvas">
+		<description></description>
+		<name>`<canvas>`</name>
+		<note></note>
+		<resume>Defines an area used to draw graphics, via scripting (javascript)</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="ceil">
 		<description>
 ### Syntax
@@ -568,6 +648,16 @@
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
+	</item>
+
+	<item search="code">
+		<description></description>
+		<name>`<code>`</name>
+		<note></note>
+		<resume>Defines a piece of computer code</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="color">
@@ -680,6 +770,16 @@
 		<type>Property</type>
 	</item>
 
+	<item search="div">
+		<description></description>
+		<name>`<div>`</name>
+		<note></note>
+		<resume>Defines a section in a document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="echo">
 		<description>
 ### Syntax
@@ -692,6 +792,16 @@
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Key-word</type>
+	</item>
+
+	<item search="em">
+		<description></description>
+		<name>`<em>`</name>
+		<note><strong>Alias:</strong> &lt;<i>&gt;</note>
+		<resume>Defines emphazed text</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="end">
@@ -750,6 +860,36 @@
 		<type>Function</type>
 	</item>
 
+	<item search="fieldset">
+		<description></description>
+		<name>`<fieldset>`</name>
+		<note></note>
+		<resume>Group related element in a form</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="figcaption">
+		<description></description>
+		<name>`<figcaption>`</name>
+		<note></note>
+		<resume>Defines a caption for a `<figure>` element</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="figure">
+		<description></description>
+		<name>`<figure>`</name>
+		<note></note>
+		<resume>Specifies self-contained content</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="file_exist file exist">
 		<description>
 ### Syntax
@@ -800,16 +940,6 @@
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
-	</item>
-
-	<item search="function.bind function bind">
-		<description></description>
-		<name>Function.bind()</name>
-		<note></note>
-		<resume>Creates a new function whose the provided context argument become the &lt;code&gt;this&lt;/code&gt; keyword</resume>
-		<seealso></seealso>
-		<tech>JS</tech>
-		<type>Method</type>
 	</item>
 
 	<item search="font">
@@ -882,6 +1012,16 @@
 		<type>Property</type>
 	</item>
 
+	<item search="footer">
+		<description></description>
+		<name>`<footer>`</name>
+		<note></note>
+		<resume>Defines a footer for a document or `<section>`</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="fopen">
 		<description>
 ### Syntax
@@ -894,6 +1034,36 @@
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
+	</item>
+
+	<item search="form">
+		<description></description>
+		<name>`<form>`</name>
+		<note></note>
+		<resume>Defines a HTML for for user inputs</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="function.bind function bind">
+		<description></description>
+		<name>Function.bind()</name>
+		<note></note>
+		<resume>Creates a new function whose the provided context argument become the &lt;code&gt;this&lt;/code&gt; keyword</resume>
+		<seealso></seealso>
+		<tech>JS</tech>
+		<type>Method</type>
+	</item>
+
+	<item search="h1 h2 h3 h4 h5 h6">
+		<description></description>
+		<name>`<h1>` to `<h6>`</name>
+		<note></note>
+		<resume>Defines HTML headings</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="hash">
@@ -910,6 +1080,26 @@
 		<type>Function</type>
 	</item>
 
+	<item search="head">
+		<description></description>
+		<name>`<head>`</name>
+		<note></note>
+		<resume>Defines information about the document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="header">
+		<description></description>
+		<name>`<header>`</name>
+		<note></note>
+		<resume>Defines a header for a document or section</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="height">
 		<description></description>
 		<name>height</name>
@@ -918,6 +1108,26 @@
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
+	</item>
+
+	<item search="html">
+		<description></description>
+		<name>`<html>`</name>
+		<note></note>
+		<resume>Defines the root of a HTML document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="img">
+		<description></description>
+		<name>`<img>`</name>
+		<note></note>
+		<resume>Defines an image</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="implode">
@@ -936,6 +1146,16 @@ or
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
+	</item>
+
+	<item search="input">
+		<description></description>
+		<name>`<input>`</name>
+		<note></note>
+		<resume>Defines an input control</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="is_array is array">
@@ -1190,6 +1410,36 @@ or
 		<type>Function</type>
 	</item>
 
+	<item search="label">
+		<description></description>
+		<name>`<label>`</name>
+		<note></note>
+		<resume>Defines a label for an `<input>` element</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="legend">
+		<description></description>
+		<name>`<legend>`</name>
+		<note></note>
+		<resume>Defines a legend for a `<fieldset>` element</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="li">
+		<description></description>
+		<name>`<li>`</name>
+		<note></note>
+		<resume>Defines a list item</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="line-height line height">
 		<description></description>
 		<name>line-height</name>
@@ -1228,6 +1478,16 @@ or
 		<type>Function</type>
 	</item>
 
+	<item search="main">
+		<description></description>
+		<name>`<main>`</name>
+		<note></note>
+		<resume>Defines the main content of a document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="margin">
 		<description></description>
 		<name>margin</name>
@@ -1236,6 +1496,26 @@ or
 		<seealso>&lt;code&gt;margin-bottom&lt;/code&gt; — &lt;code&gt;margin-left&lt;/code&gt; — &lt;code&gt;margin-right&lt;/code&gt; — &lt;code&gt;margin-top&lt;/code&gt;</seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
+	</item>
+
+	<item search="menu">
+		<description></description>
+		<name>`<menu>`</name>
+		<note></note>
+		<resume>Defines a list / menu of command</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="meta">
+		<description></description>
+		<name>`<meta>`</name>
+		<note></note>
+		<resume>Defines metadata about a HTML document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="mkdir">
@@ -1308,6 +1588,16 @@ or
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
+	</item>
+
+	<item search="nav">
+		<description></description>
+		<name>`<nav>`</name>
+		<note></note>
+		<resume>Defines navigation links</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="next">
@@ -1388,6 +1678,16 @@ or
 		<type>Function</type>
 	</item>
 
+	<item search="noscript">
+		<description></description>
+		<name>`<noscript>`</name>
+		<note></note>
+		<resume>Defines an alternate content for user that do not support client-side scripts</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search=":not">
 		<description></description>
 		<name>:not(&lt;code&gt;selector&lt;/code&gt;)</name>
@@ -1396,6 +1696,16 @@ or
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
+	</item>
+
+	<item search="ol">
+		<description></description>
+		<name>`<ol>`</name>
+		<note></note>
+		<resume>Defines an ordored list</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="opendir">
@@ -1410,6 +1720,26 @@ or
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
+	</item>
+
+	<item search="optgroup">
+		<description></description>
+		<name>`<optgroup>`</name>
+		<note></note>
+		<resume>Defines a group of related options in a '<select>`</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="option">
+		<description></description>
+		<name>`<option>`</name>
+		<note></note>
+		<resume>Defines an option in a `<select>`</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="outline">
@@ -1482,6 +1812,16 @@ or
 		<type>Property</type>
 	</item>
 
+	<item search="p">
+		<description></description>
+		<name>`<p>`</name>
+		<note></note>
+		<resume>Defines a paragraph</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="padding">
 		<description></description>
 		<name>padding</name>
@@ -1538,6 +1878,16 @@ or
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
+	</item>
+
+	<item search="pre">
+		<description></description>
+		<name>`<pre>`</name>
+		<note></note>
+		<resume>Defines preformatted text</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="prev">
@@ -1648,6 +1998,36 @@ or
 		<type>Function</type>
 	</item>
 
+	<item search="script">
+		<description></description>
+		<name>`<script>`</name>
+		<note></note>
+		<resume>Defines a client-side script</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="section">
+		<description></description>
+		<name>`<section>`</name>
+		<note></note>
+		<resume>Defines a section in a document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="select">
+		<description></description>
+		<name>`<select>`</name>
+		<note></note>
+		<resume>Defines a drop-down list</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="serialize">
 		<description>
 ### Syntax
@@ -1676,18 +2056,24 @@ or
 		<type>Function</type>
 	</item>
 
-	<item search="sqrt">
-		<description>
-### Syntax
-
-	(float) $misc = sqrt ( (float) $arg );
-		</description>
-		<name>sqrt()</name>
+	<item search="source">
+		<description></description>
+		<name>`<source>`</name>
 		<note></note>
-		<resume>Returns the square root of an element</resume>
+		<resume>Defines a media resource for `<audio>` and `<video>`</resume>
 		<seealso></seealso>
-		<tech>PHP</tech>
-		<type>Function</type>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="span">
+		<description></description>
+		<name>`<span>`</name>
+		<note></note>
+		<resume>Defines a section in an inline element</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="sort">
@@ -1699,6 +2085,20 @@ or
 		<name>sort()</name>
 		<note></note>
 		<resume>Sort an array but don't maintain index association</resume>
+		<seealso></seealso>
+		<tech>PHP</tech>
+		<type>Function</type>
+	</item>
+
+	<item search="sqrt">
+		<description>
+### Syntax
+
+	(float) $misc = sqrt ( (float) $arg );
+		</description>
+		<name>sqrt()</name>
+		<note></note>
+		<resume>Returns the square root of an element</resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1760,6 +2160,16 @@ or
 		<type>Function</type>
 	</item>
 
+	<item search="strong">
+		<description></description>
+		<name>`<strong>`</name>
+		<note></note>
+		<resume>Defines important text</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="strpos">
 		<description>
 ### Syntax
@@ -1816,6 +2226,26 @@ or
 		<type>Function</type>
 	</item>
 
+	<item search="style">
+		<description></description>
+		<name>`<style>`</name>
+		<note></note>
+		<resume>Defines style information for a document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="sub">
+		<description></description>
+		<name>`<sub>`</name>
+		<note></note>
+		<resume>Defines subscripted text</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="substr">
 		<description>
 ### Syntax
@@ -1828,6 +2258,36 @@ or
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
+	</item>
+
+	<item search="sup">
+		<description></description>
+		<name>`<sup>`</name>
+		<note></note>
+		<resume>Defines supscripted text</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="table">
+		<description></description>
+		<name>`<table>`</name>
+		<note></note>
+		<resume>Defines a table</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="td">
+		<description></description>
+		<name>``</name>
+		<note></note>
+		<resume>Defines a cell in a `<table>`</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="text-align text align">
@@ -1850,6 +2310,26 @@ or
 		<type>Property</type>
 	</item>
 
+	<item search="textarea">
+		<description></description>
+		<name>`<textarea>`</name>
+		<note></note>
+		<resume>Defines a multiline input control</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="th">
+		<description></description>
+		<name>`<th>`</name>
+		<note></note>
+		<resume>Defines a header cell in a `<table>`</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="time">
 		<description></description>
 		<name>time()</name>
@@ -1858,6 +2338,26 @@ or
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
+	</item>
+
+	<item search="title">
+		<description></description>
+		<name>`<title>`</name>
+		<note></note>
+		<resume>Defines a title for the document</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
+	<item search="tr">
+		<description></description>
+		<name>`<tr>`</name>
+		<note></note>
+		<resume>Defines a row in a `<table>`</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search="transition">
@@ -1914,6 +2414,16 @@ or
 		<type>Function</type>
 	</item>
 
+	<item search="ul">
+		<description></description>
+		<name>`<ul>`</name>
+		<note></note>
+		<resume>Defines an unordered list</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
+	</item>
+
 	<item search="unlink">
 		<description>
 ### Syntax
@@ -1964,6 +2474,16 @@ or
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
+	</item>
+
+	<item search="video">
+		<description></description>
+		<name>`<video>`</name>
+		<note></note>
+		<resume>Defines a video or a movie</resume>
+		<seealso></seealso>
+		<tech>HTML</tech>
+		<type>Tag</type>
 	</item>
 
 	<item search=":visited">

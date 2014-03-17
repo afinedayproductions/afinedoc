@@ -46,6 +46,10 @@
 						<label for="css">CSS</label>
 					</li>
 					<li>
+						<input type="radio" name="technologies" value="html" id="html">
+						<label for="html">HTML</label>
+					</li>
+					<li>
 						<input type="radio" name="technologies" value="js" id="js">
 						<label for="js">JavaScript</label>
 					</li>

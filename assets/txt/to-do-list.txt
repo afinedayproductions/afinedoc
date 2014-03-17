@@ -6,14 +6,23 @@
 		data.xml:
 			- Add "### Syntax" to PHP items
 
+	17.03.2014
+		theme.php:
+			- Add HTML in <menu>
+		data.xml:
+			- Add ":verified" item.
+
 
 /* TO-DO LIST */
 	- Find a dynamic highlight solution for <pre> <code>
+
+	- Find a solution to put directly <tag> as content in data.xml and it outputs well
 	
 	data.xml:
 		- Add "### Syntax" to AngularJS items
 		- Add "### Syntax" to JavaScript items
 		- Add "### Syntax" to CSS items
+		- Add "### Syntax" to HTML items
 
 		- Add "### Parameters" to items
 		- Add "### Return value" to items
