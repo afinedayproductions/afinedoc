@@ -1,10 +1,15 @@
 /* WHAT WAS DONE */
 	DD/MM/AAAA
-	16.03.2014
-		- Add showdown.js for Markdown to HTML conversion
-		
-		data.xml:
-			- Add "### Syntax" to PHP items
+
+	18.03.214
+	data.xml:
+		- Output <tag> as content thanks to <![CDATA[<tag>]]>
+		- Add "### Syntax" to HTML items
+		- HTML: Difference between Tag, Block tag & Inline tag
+
+	master.js:
+		- Handle <tag> with markdown notation
+		- Fix <a><article></article></a> remove in clearRenderer()
 
 	17.03.2014
 		theme.php:
@@ -12,17 +17,25 @@
 		data.xml:
 			- Add ":verified" item.
 
+	16.03.2014
+		- Add showdown.js for Markdown to HTML conversion
+		
+		data.xml:
+			- Add "### Syntax" to PHP items
+
+	
 
 /* TO-DO LIST */
 	- Find a dynamic highlight solution for <pre> <code>
 
-	- Find a solution to put directly <tag> as content in data.xml and it outputs well
+	- Find why <pre><code>lorem imsup</code></pre> do not display break lines and indent
 	
 	data.xml:
 		- Add "### Syntax" to AngularJS items
 		- Add "### Syntax" to JavaScript items
 		- Add "### Syntax" to CSS items
-		- Add "### Syntax" to HTML items
+
+		- Add "### Attributes" to HTML items
 
 		- Add "### Parameters" to items
 		- Add "### Return value" to items

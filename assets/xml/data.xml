@@ -13,7 +13,7 @@
 		<resume>Defines a link or an anchor</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Inline tag</type>
 	</item>
 
 	<item search="addslashes">
@@ -253,7 +253,7 @@
 		<resume>Defines an article</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="asort">
@@ -281,27 +281,25 @@
 		<resume>Defines content aside from the page content</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="audio">
 		<description>
 ### Syntax
 
-	
 	<![CDATA[
 	<audio>
 		<source></source>
 	</audio>
 	]]>
-
 		</description>
 		<name>audio</name>
 		<note></note>
 		<resume>Defines sound content</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="background">
@@ -417,13 +415,19 @@
 	</item>
 
 	<item search="body">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<body>]]>
+		lorem ipsum
+	<![CDATA[</body>]]>
+		</description>
 		<name>body</name>
 		<note></note>
 		<resume>Defines the document's body</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="border">
@@ -537,7 +541,11 @@
 	</item>
 
 	<item search="br">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<br>]]>
+		</description>
 		<name>br</name>
 		<note></note>
 		<resume>Defines a single line-break</resume>
@@ -547,23 +555,31 @@
 	</item>
 
 	<item search="button">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<button>]]>
+		</description>
 		<name>button</name>
 		<note></note>
 		<resume>Defines a clickable button</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Inline tag</type>
 	</item>
 
 	<item search="canvas">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<canvas>]]>lorem ipsum<![CDATA[</canvas>]]>
+		</description>
 		<name>canvas</name>
 		<note></note>
 		<resume>Defines an area used to draw graphics, via scripting (javascript)</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="ceil">
@@ -633,13 +649,17 @@
 	</item>
 
 	<item search="code">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<code>]]>lorem ipsum<![CDATA[</code>]]>
+		</description>
 		<name>code</name>
 		<note></note>
 		<resume>Defines a piece of computer code</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Inline tag</type>
 	</item>
 
 	<item search="color">
@@ -753,13 +773,17 @@
 	</item>
 
 	<item search="div">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<div>]]>lorem ipsum<![CDATA[</div>]]>
+		</description>
 		<name>div</name>
 		<note></note>
 		<resume>Defines a section in a document</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="echo">
@@ -777,13 +801,17 @@
 	</item>
 
 	<item search="em">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<em>]]>lorem ipsum<![CDATA[</em>]]>
+		</description>
 		<name>em</name>
 		<note>&lt;strong&gt;Alias:&lt;/strong&gt; &lt;i&gt;</note>
 		<resume>Defines emphazed text</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Inline tag</type>
 	</item>
 
 	<item search="end">
@@ -843,33 +871,47 @@
 	</item>
 
 	<item search="fieldset">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<fieldset>]]>lorem ipsum<![CDATA[</fieldset>]]>
+		</description>
 		<name>fieldset</name>
 		<note></note>
 		<resume>Group related element in a form</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="figcaption">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<figure>]]>
+		<![CDATA[<figcaption>]]>lorem ipsum<![CDATA[</figcaption>]]>
+	<![CDATA[</figure>]]>
+		</description>
 		<name>figcaption</name>
 		<note></note>
 		<resume>Defines a caption for a `<![CDATA[<figure>]]>` element</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="figure">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<figure>]]>lorem ipsum<![CDATA[</figure>]]>
+		</description>
 		<name>figure</name>
 		<note></note>
 		<resume>Specifies self-contained content</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="file_exist file exist">
@@ -995,13 +1037,17 @@
 	</item>
 
 	<item search="footer">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<footer>]]>lorem ipsum<![CDATA[</footer>]]>
+		</description>
 		<name>footer</name>
 		<note></note>
 		<resume>Defines a footer for a document or `<![CDATA[<section>]]>`</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="fopen">
@@ -1019,13 +1065,17 @@
 	</item>
 
 	<item search="form">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<form>]]>lorem ipsum<![CDATA[</form>]]>
+		</description>
 		<name>form</name>
 		<note></note>
 		<resume>Defines a HTML for for user inputs</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="function.bind function bind">
@@ -1039,13 +1089,17 @@
 	</item>
 
 	<item search="h1 h2 h3 h4 h5 h6">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<h1>]]>lorem ipsum<![CDATA[</h1>]]>
+		</description>
 		<name>h1 to h6</name>
 		<note></note>
 		<resume>Defines HTML headings</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="hash">
@@ -1063,7 +1117,11 @@
 	</item>
 
 	<item search="head">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<head>]]>lorem ipsum<![CDATA[</head>]]>
+		</description>
 		<name>head</name>
 		<note></note>
 		<resume>Defines information about the document</resume>
@@ -1073,13 +1131,17 @@
 	</item>
 
 	<item search="header">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<header>]]>lorem ipsum<![CDATA[</header>]]>
+		</description>
 		<name>header</name>
 		<note></note>
 		<resume>Defines a header for a document or section</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="height">
@@ -1093,7 +1155,11 @@
 	</item>
 
 	<item search="html">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<html>]]>lorem ipsum<![CDATA[</html>]]>
+		</description>
 		<name>html</name>
 		<note></note>
 		<resume>Defines the root of a HTML document</resume>
@@ -1113,13 +1179,17 @@
 	</item>
 
 	<item search="img">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<img>]]>
+		</description>
 		<name>img</name>
 		<note></note>
 		<resume>Defines an image</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Inline tag</type>
 	</item>
 
 	<item search="implode">
@@ -1141,13 +1211,17 @@ or
 	</item>
 
 	<item search="input">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<input>]]>
+		</description>
 		<name>input</name>
 		<note></note>
 		<resume>Defines an input control</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Inline tag</type>
 	</item>
 
 	<item search="is_array is array">
@@ -1403,17 +1477,27 @@ or
 	</item>
 
 	<item search="label">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<label>]]>lorem ipsum<![CDATA[</label>]]>
+		</description>
 		<name>label</name>
 		<note></note>
 		<resume>Defines a label for an `<![CDATA[<input>]]>` element</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="legend">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<fieldset>]]>
+		<![CDATA[<legend>]]>lorem ipsum<![CDATA[</legend>]]>
+	<![CDATA[</fieldset>]]>
+		</description>
 		<name>legend</name>
 		<note></note>
 		<resume>Defines a legend for a `<![CDATA[<fieldset>]]>` element</resume>
@@ -1423,13 +1507,26 @@ or
 	</item>
 
 	<item search="li">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<ul>]]>
+		<![CDATA[<li>]]>lorem ipsum<![CDATA[</li>]]>
+	<![CDATA[</ul>]]>
+
+or
+
+	<![CDATA[<ol>]]>
+		<![CDATA[<li>]]>lorem ipsum<![CDATA[</li>]]>
+	<![CDATA[</ol>]]>
+
+		</description>
 		<name>li</name>
 		<note></note>
 		<resume>Defines a list item</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="line-height line height">
@@ -1471,13 +1568,17 @@ or
 	</item>
 
 	<item search="main">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<main>]]>lorem ipsum<![CDATA[</main>]]>
+		</description>
 		<name>main</name>
 		<note></note>
 		<resume>Defines the main content of a document</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="margin">
@@ -1491,17 +1592,25 @@ or
 	</item>
 
 	<item search="menu">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<menu>]]>lorem ipsum<![CDATA[</menu>]]>
+		</description>
 		<name>menu</name>
 		<note></note>
 		<resume>Defines a list / menu of command</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="meta">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<meta>]]>
+		</description>
 		<name>meta</name>
 		<note></note>
 		<resume>Defines metadata about a HTML document</resume>
@@ -1583,13 +1692,17 @@ or
 	</item>
 
 	<item search="nav">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<nav>]]>lorem ipsum<![CDATA[</nav>]]>
+		</description>
 		<name>nav</name>
 		<note></note>
 		<resume>Defines navigation links</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="next">
@@ -1671,7 +1784,11 @@ or
 	</item>
 
 	<item search="noscript">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<noscript>]]>lorem ipsum<![CDATA[</noscript>]]>
+		</description>
 		<name>noscript</name>
 		<note></note>
 		<resume>Defines an alternate content for user that do not support client-side scripts</resume>
@@ -1691,13 +1808,19 @@ or
 	</item>
 
 	<item search="ol">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<ol>]]>
+		<![CDATA[<li>]]>lorem ipsum<![CDATA[</li>]]>
+	<![CDATA[</ol>]]>
+		</description>
 		<name>ol</name>
 		<note></note>
 		<resume>Defines an ordored list</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="opendir">
@@ -1715,7 +1838,15 @@ or
 	</item>
 
 	<item search="optgroup">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<select>]]>
+		<![CDATA[<optgroup>]]>
+			<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
+		<![CDATA[</optgroup>]]>
+	<![CDATA[</select>]]>
+		</description>
 		<name>optgroup</name>
 		<note></note>
 		<resume>Defines a group of related options in a `<![CDATA[<select>]]>`</resume>
@@ -1725,7 +1856,21 @@ or
 	</item>
 
 	<item search="option">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<select>]]>
+		<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
+	<![CDATA[</select>]]>
+
+or
+
+	<![CDATA[<select>]]>
+		<![CDATA[<optgroup>]]>
+			<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
+		<![CDATA[</optgroup>]]>
+	<![CDATA[</select>]]>
+		</description>
 		<name>option</name>
 		<note></note>
 		<resume>Defines an option in a `<![CDATA[<select>]]>`</resume>
@@ -1805,13 +1950,17 @@ or
 	</item>
 
 	<item search="p">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<p>]]>lorem ipsum<![CDATA[</p>]]>
+		</description>
 		<name>p</name>
 		<note></note>
 		<resume>Defines a paragraph</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="padding">
@@ -1873,13 +2022,17 @@ or
 	</item>
 
 	<item search="pre">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<pre>]]>lorem ipsum<![CDATA[</pre>]]>
+		</description>
 		<name>pre</name>
 		<note></note>
 		<resume>Defines preformatted text</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="prev">
@@ -2021,7 +2174,11 @@ or
 	</item>
 
 	<item search="script">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<script>]]>lorem ipsum<![CDATA[</script>]]>
+		</description>
 		<name>script</name>
 		<note></note>
 		<resume>Defines a client-side script</resume>
@@ -2031,23 +2188,41 @@ or
 	</item>
 
 	<item search="section">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<section>]]>lorem ipsum<![CDATA[</section>]]>
+		</description>
 		<name>section</name>
 		<note></note>
 		<resume>Defines a section in a document</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="select">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<select>]]>
+		<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
+	<![CDATA[</select>]]>
+
+or
+
+	<![CDATA[<select>]]>
+		<![CDATA[<optgroup>]]>
+			<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
+		<![CDATA[</optgroup>]]>
+	<![CDATA[</select>]]>
+		</description>
 		<name>select</name>
 		<note></note>
 		<resume>Defines a drop-down list</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Inline tag</type>
 	</item>
 
 	<item search="serialize">
@@ -2079,7 +2254,19 @@ or
 	</item>
 
 	<item search="source">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<audio>]]>
+		<![CDATA[<source>]]>
+	<![CDATA[</audio>]]>
+
+or
+
+	<![CDATA[<video>]]>
+		<![CDATA[<source>]]>
+	<![CDATA[</video>]]>
+		</description>
 		<name>source</name>
 		<note></note>
 		<resume>Defines a media resource for `<![CDATA[<audio>]]>` and `<![CDATA[<video>]]>`</resume>
@@ -2089,13 +2276,17 @@ or
 	</item>
 
 	<item search="span">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<span>]]>lorem ipsum<![CDATA[</span>]]>
+		</description>
 		<name>span</name>
 		<note></note>
 		<resume>Defines a section in an inline element</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Inline tag</type>
 	</item>
 
 	<item search="sort">
@@ -2183,13 +2374,17 @@ or
 	</item>
 
 	<item search="strong">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<strong>]]>lorem ipsum<![CDATA[</strong>]]>
+		</description>
 		<name>strong</name>
 		<note></note>
 		<resume>Defines important text</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Inline tag</type>
 	</item>
 
 	<item search="strpos">
@@ -2249,7 +2444,11 @@ or
 	</item>
 
 	<item search="style">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<style>]]>lorem ipsum<![CDATA[</style>]]>
+		</description>
 		<name>style</name>
 		<note></note>
 		<resume>Defines style information for a document</resume>
@@ -2259,13 +2458,17 @@ or
 	</item>
 
 	<item search="sub">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<sub>]]>lorem ipsum<![CDATA[</sub>]]>
+		</description>
 		<name>sub</name>
 		<note></note>
 		<resume>Defines subscripted text</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Inline tag</type>
 	</item>
 
 	<item search="substr">
@@ -2283,27 +2486,39 @@ or
 	</item>
 
 	<item search="sup">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<sup>]]>lorem ipsum<![CDATA[</sup>]]>
+		</description>
 		<name>sup</name>
 		<note></note>
 		<resume>Defines supscripted text</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Inline tag</type>
 	</item>
 
 	<item search="table">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<table>]]>lorem ipsum<![CDATA[</table>]]>
+		</description>
 		<name>table</name>
 		<note></note>
 		<resume>Defines a table</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="td">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<td>]]>lorem ipsum<![CDATA[</td>]]>
+		</description>
 		<name>td</name>
 		<note></note>
 		<resume>Defines a cell in a `<![CDATA[<table>]]>`</resume>
@@ -2333,17 +2548,25 @@ or
 	</item>
 
 	<item search="textarea">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<textarea>]]>lorem ipsum<![CDATA[</textarea>]]>
+		</description>
 		<name>textarea</name>
 		<note></note>
 		<resume>Defines a multiline input control</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Inline tag</type>
 	</item>
 
 	<item search="th">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<th>]]>lorem ipsum<![CDATA[</th>]]>
+		</description>
 		<name>th</name>
 		<note></note>
 		<resume>Defines a header cell in a `<![CDATA[<table>]]>`</resume>
@@ -2363,7 +2586,13 @@ or
 	</item>
 
 	<item search="title">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<head>]]>
+		<![CDATA[<title>]]>lorem ipsum<![CDATA[</title>]]>
+	<![CDATA[</head>]]>
+		</description>
 		<name>title</name>
 		<note></note>
 		<resume>Defines a title for the document</resume>
@@ -2373,7 +2602,11 @@ or
 	</item>
 
 	<item search="tr">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<tr>]]>lorem ipsum<![CDATA[</tr>]]>
+		</description>
 		<name>tr</name>
 		<note></note>
 		<resume>Defines a row in a `<![CDATA[<table>]]>`</resume>
@@ -2437,13 +2670,19 @@ or
 	</item>
 
 	<item search="ul">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<ul>]]>
+		<![CDATA[<li>]]>lorem ipsum<![CDATA[</li>]]>
+	<![CDATA[</ul>]]>
+		</description>
 		<name>ul</name>
 		<note></note>
 		<resume>Defines an unordered list</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search="unlink">
@@ -2499,13 +2738,19 @@ or
 	</item>
 
 	<item search="video">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<video>]]>
+		<![CDATA[<source>]]>
+	<![CDATA[</video>]]>
+		</description>
 		<name>video</name>
 		<note></note>
 		<resume>Defines a video or a movie</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
-		<type>Tag</type>
+		<type>Block tag</type>
 	</item>
 
 	<item search=":visited">
