@@ -74,7 +74,6 @@ var searchHandler = {
 			// Value of the search attribute of the item
 			var itemSearch = item.attributes.search.value;
 			// Technology of the item
-			console.log(item.querySelector('name'));
 			var tech = item.querySelector('tech').textContent.toLowerCase();
 
 			// If the search is part of the available searches for the item
@@ -189,7 +188,7 @@ var viewRenderer = {
 
 		[].forEach.call(document.querySelectorAll('article'), function(article) {
 
-			article.parentNode.removeChild(article);
+			article.parentNode.remove();
 
 		});
 

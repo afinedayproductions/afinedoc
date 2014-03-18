@@ -3,7 +3,11 @@
 <items>
 
 	<item search="a">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<a href="" title="" target="">]]>lorem ipsum<![CDATA[</a>]]>
+		</description>
 		<name>a</name>
 		<note></note>
 		<resume>Defines a link or an anchor</resume>
@@ -239,7 +243,11 @@
 	</item>
 
 	<item search="article">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<article>]]>lorem ipsum<![CDATA[</article>]]>
+		</description>
 		<name>article</name>
 		<note></note>
 		<resume>Defines an article</resume>
@@ -263,7 +271,11 @@
 	</item>
 
 	<item search="aside">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<aside>]]>lorem ipsum<![CDATA[</aside>]]>
+		</description>
 		<name>aside</name>
 		<note></note>
 		<resume>Defines content aside from the page content</resume>
@@ -273,7 +285,13 @@
 	</item>
 
 	<item search="audio">
-		<description></description>
+		<description>
+### Syntax
+
+	<![CDATA[<audio>]]>
+		<![CDATA[<source>]]><![CDATA[</source>]]>
+	<![CDATA[</audio>]]>
+		</description>
 		<name>audio</name>
 		<note></note>
 		<resume>Defines sound content</resume>
