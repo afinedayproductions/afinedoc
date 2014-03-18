@@ -8,7 +8,11 @@ var markdownHandler = {
 	},
 
 	setHTML: function(item, selector) {
-		return this.showdown.makeHtml(item.querySelector(selector).textContent);
+		var html = item.querySelector(selector).textContent;
+
+		if(selector == 'name') html = html.replace('_', '\\_'); // handle emphrased text in name
+
+		return this.showdown.makeHtml(html);
 	}
 	
 };
@@ -188,7 +192,10 @@ var viewRenderer = {
 
 		[].forEach.call(document.querySelectorAll('article'), function(article) {
 
-			article.parentNode.remove();
+			// Removes only the article
+			if(article.className.search('alone') > -1) article.parentNode.removeChild(article);
+			// Removes the parent of article
+			else article.parentNode.parentNode.removeChild(article.parentNode);
 
 		});
 
@@ -229,7 +236,7 @@ var viewRenderer = {
 		this._description.innerHTML = markdownHandler.setHTML(item, 'description');
 		this._titleNote = document.createElement('div');
 		this._titleNote.className = 'note';
-		var textNote = item.querySelector('note').textContent;
+		var textNote = markdownHandler.setHTML(item, 'note');
 		this._titleNote.innerHTML = textNote;
 
 

@@ -288,9 +288,13 @@
 		<description>
 ### Syntax
 
-	<![CDATA[<audio>]]>
-		<![CDATA[<source>]]><![CDATA[</source>]]>
-	<![CDATA[</audio>]]>
+	
+	<![CDATA[
+	<audio>
+		<source></source>
+	</audio>
+	]]>
+
 		</description>
 		<name>audio</name>
 		<note></note>
