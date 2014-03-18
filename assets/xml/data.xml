@@ -2,49 +2,9 @@
 
 <items>
 
-	<item search="$http">
-		<description></description>
-		<name>$http</name>
-		<note></note>
-		<resume>Facilitates communication with the remote HTTP servers via the XMLHttpRequest object or via JSONP</resume>
-		<seealso></seealso>
-		<tech>AngularJS</tech>
-		<type>Service</type>
-	</item>
-
-	<item search="$q">
-		<description></description>
-		<name>$q</name>
-		<note></note>
-		<resume>A promise / deferred implementation</resume>
-		<seealso></seealso>
-		<tech>AngularJS</tech>
-		<type>Service</type>
-	</item>
-
-	<item search="$rootScope">
-		<description></description>
-		<name>$rootScope</name>
-		<note></note>
-		<resume>Global scope of the application</resume>
-		<seealso></seealso>
-		<tech>AngularJS</tech>
-		<type>Service</type>
-	</item>
-
-	<item search="$scope">
-		<description></description>
-		<name>$scope</name>
-		<note></note>
-		<resume>Current scope of the controller</resume>
-		<seealso></seealso>
-		<tech>AngularJS</tech>
-		<type>Service</type>
-	</item>
-
 	<item search="a">
 		<description></description>
-		<name>`<a>`</name>
+		<name>a</name>
 		<note></note>
 		<resume>Defines a link or an anchor</resume>
 		<seealso></seealso>
@@ -69,7 +29,7 @@
 	<item search=":after ::after">
 		<description></description>
 		<name>:after</name>
-		<note><strong>Alias:</strong> &lt;code&gt;::after&lt;/code&gt;</note>
+		<note>**Alias:** `::after`</note>
 		<resume>Create a pseudo-element whom is the last child of the matched element</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
@@ -103,7 +63,7 @@
 	(array) $misc = (array) array ([ (mixed) $… ] );
 		</description>
 		<name>array()</name>
-		<note><strong>Alias:</strong>&lt;code&gt;[]&lt;/code&gt;</note>
+		<note>*Alias:* `[]`</note>
 		<resume>Create a new array</resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
@@ -280,7 +240,7 @@
 
 	<item search="article">
 		<description></description>
-		<name>`<article>`</name>
+		<name>article</name>
 		<note></note>
 		<resume>Defines an article</resume>
 		<seealso></seealso>
@@ -304,7 +264,7 @@
 
 	<item search="aside">
 		<description></description>
-		<name>`<aside>`</name>
+		<name>aside</name>
 		<note></note>
 		<resume>Defines content aside from the page content</resume>
 		<seealso></seealso>
@@ -314,7 +274,7 @@
 
 	<item search="audio">
 		<description></description>
-		<name>`<audio>`</name>
+		<name>audio</name>
 		<note></note>
 		<resume>Defines sound content</resume>
 		<seealso></seealso>
@@ -325,7 +285,7 @@
 	<item search="background">
 		<description></description>
 		<name>background</name>
-		<note><strong>Shortcut for:</strong> &lt;code&gt;background-color&lt;/code&gt; — &lt;code&gt;background-image&lt;/code&gt; — &lt;code&gt;background-position&lt;/code&gt; — &lt;code&gt;background-repeat&lt;/code&gt; and &lt;code&gt;background-attachment&lt;/code&gt;</note>
+		<note>**Shortcut for:** `background-color` — `background-image` — `background-position` — `background-repeat` and `background-attachment`</note>
 		<resume>Sets all background properties</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
@@ -336,7 +296,7 @@
 		<description></description>
 		<name>background-attachment</name>
 		<note></note>
-		<resume>Specify if a &lt;code&gt;background-image&lt;/code&gt; scrolls this the current element or is fixed within the wiewport</resume>
+		<resume>Specify if a `background-image` scrolls this the current element or is fixed within the wiewport</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -376,7 +336,7 @@
 		<description></description>
 		<name>background-repeat</name>
 		<note></note>
-		<resume>Specify if a &lt;code&gt;background-image&lt;/code&gt; is repeated and how</resume>
+		<resume>Specify if a `background-image` is repeated and how</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -427,7 +387,7 @@
 	<item search=":before ::before">
 		<description></description>
 		<name>:before</name>
-		<note><strong>Alias:</strong> &lt;code&gt;::before&lt;/code&gt;</note>
+		<note><strong>Alias:</strong> `::before`</note>
 		<resume>Create a pseudo-element whom is the first child of the matched element</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
@@ -436,7 +396,7 @@
 
 	<item search="body">
 		<description></description>
-		<name>`<body>`</name>
+		<name>body</name>
 		<note></note>
 		<resume>Defines the document's body</resume>
 		<seealso></seealso>
@@ -447,7 +407,7 @@
 	<item search="border">
 		<description></description>
 		<name>border</name>
-		<note><strong>Shortcut for:</strong> &lt;code&gt;border-bottom&lt;/code&gt; — &lt;code&gt;border-left&lt;/code&gt; — &lt;code&gt;border-right&lt;/code&gt; and &lt;code&gt;border-top&lt;/code&gt;</note>
+		<note><strong>Shortcut for:</strong> `border-bottom` — `border-left` — `border-right` and `border-top`</note>
 		<resume>Sets the border to each side of the box</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
@@ -457,7 +417,7 @@
 	<item search="border-bottom border bottom">
 		<description></description>
 		<name>border-bottom</name>
-		<note><strong>Shortcut for:</strong> &lt;code&gt;border-bottom-color&lt;/code&gt; — &lt;code&gt;border-bottom-style&lt;/code&gt; and &lt;code&gt;border-bottom-width&lt;/code&gt;</note>
+		<note><strong>Shortcut for:</strong> `border-bottom-color` — `border-bottom-style` and `border-bottom-width`</note>
 		<resume>Sets the bottom border of an element</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
@@ -487,7 +447,7 @@
 	<item search="border-left border left">
 		<description></description>
 		<name>border-left</name>
-		<note><strong>Shortcut for:</strong> &lt;code&gt;border-left-color&lt;/code&gt; — &lt;code&gt;border-left-style&lt;/code&gt; and &lt;code&gt;border-left-width&lt;/code&gt;</note>
+		<note><strong>Shortcut for:</strong> `border-left-color` — `border-left-style` and `border-left-width`</note>
 		<resume>Sets the left border of an element</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
@@ -497,7 +457,7 @@
 	<item search="border-radius border radius">
 		<description></description>
 		<name>border-radius</name>
-		<note><strong>Shortcut for:</strong> &lt;code&gt;border-bottom-left-radius&lt;/code&gt; — &lt;code&gt;border-bottom-right-radius&lt;/code&gt; — &lt;code&gt;border-top-left-radius&lt;/code&gt; and &lt;code&gt;border-top-right-radius&lt;/code&gt;</note>
+		<note><strong>Shortcut for:</strong> `border-bottom-left-radius` — `border-bottom-right-radius` — `border-top-left-radius` and `border-top-right-radius`</note>
 		<resume>Sets the radius to each corner of an element</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
@@ -507,7 +467,7 @@
 	<item search="border-right border right">
 		<description></description>
 		<name>border-right</name>
-		<note><strong>Shortcut for:</strong> &lt;code&gt;border-right-color&lt;/code&gt; — &lt;code&gt;border-right-style&lt;/code&gt; and &lt;code&gt;border-right-width&lt;/code&gt;</note>
+		<note><strong>Shortcut for:</strong> `border-right-color` — `border-right-style` and `border-right-width`</note>
 		<resume>Sets the right border of an element</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
@@ -517,7 +477,7 @@
 	<item search="border-top border top">
 		<description></description>
 		<name>border-top</name>
-		<note><strong>Shortcut for:</strong> &lt;code&gt;border-top-color&lt;/code&gt; — &lt;code&gt;border-top-style&lt;/code&gt; and &lt;code&gt;border-top-width&lt;/code&gt;</note>
+		<note><strong>Shortcut for:</strong> `border-top-color` — `border-top-style` and `border-top-width`</note>
 		<resume>Sets the top border of an element</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
@@ -556,7 +516,7 @@
 
 	<item search="br">
 		<description></description>
-		<name>`<br>`</name>
+		<name>br</name>
 		<note></note>
 		<resume>Defines a single line-break</resume>
 		<seealso></seealso>
@@ -566,7 +526,7 @@
 
 	<item search="button">
 		<description></description>
-		<name>`<button>`</name>
+		<name>button</name>
 		<note></note>
 		<resume>Defines a clickable button</resume>
 		<seealso></seealso>
@@ -576,7 +536,7 @@
 
 	<item search="canvas">
 		<description></description>
-		<name>`<canvas>`</name>
+		<name>canvas</name>
 		<note></note>
 		<resume>Defines an area used to draw graphics, via scripting (javascript)</resume>
 		<seealso></seealso>
@@ -652,7 +612,7 @@
 
 	<item search="code">
 		<description></description>
-		<name>`<code>`</name>
+		<name>code</name>
 		<note></note>
 		<resume>Defines a piece of computer code</resume>
 		<seealso></seealso>
@@ -691,7 +651,7 @@
 	(int) $misc = ( (mixed) $array_or_countable [, (int) $mode = COUNT_NORMAL ] );
 		</description>
 		<name>count()</name>
-		<note><strong>Alias:</strong> &lt;code&gt;sizeof&lt;/code&gt;</note>
+		<note><strong>Alias:</strong> `sizeof`</note>
 		<resume>Count elements in an array or count something in a Countable object</resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
@@ -772,7 +732,7 @@
 
 	<item search="div">
 		<description></description>
-		<name>`<div>`</name>
+		<name>div</name>
 		<note></note>
 		<resume>Defines a section in a document</resume>
 		<seealso></seealso>
@@ -796,8 +756,8 @@
 
 	<item search="em">
 		<description></description>
-		<name>`<em>`</name>
-		<note><strong>Alias:</strong> &lt;<i>&gt;</note>
+		<name>em</name>
+		<note>&lt;strong&gt;Alias:&lt;/strong&gt; &lt;i&gt;</note>
 		<resume>Defines emphazed text</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
@@ -862,7 +822,7 @@
 
 	<item search="fieldset">
 		<description></description>
-		<name>`<fieldset>`</name>
+		<name>fieldset</name>
 		<note></note>
 		<resume>Group related element in a form</resume>
 		<seealso></seealso>
@@ -872,9 +832,9 @@
 
 	<item search="figcaption">
 		<description></description>
-		<name>`<figcaption>`</name>
+		<name>figcaption</name>
 		<note></note>
-		<resume>Defines a caption for a `<figure>` element</resume>
+		<resume>Defines a caption for a `<![CDATA[<figure>]]>` element</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -882,7 +842,7 @@
 
 	<item search="figure">
 		<description></description>
-		<name>`<figure>`</name>
+		<name>figure</name>
 		<note></note>
 		<resume>Specifies self-contained content</resume>
 		<seealso></seealso>
@@ -945,7 +905,7 @@
 	<item search="font">
 		<description></description>
 		<name>font</name>
-		<note><strong>Shortcut for:</strong> &lt;code&gt;font-family&lt;/code&gt; — &lt;code&gt;font-size&lt;/code&gt; — &lt;code&gt;font-weight&lt;/code&gt; — &lt;code&gt;font-style&lt;/code&gt; — &lt;code&gt;font-variant&lt;/code&gt; and &lt;code&gt;line-height&lt;/code&gt;</note>
+		<note><strong>Shortcut for:</strong> `font-family` — `font-size` — `font-weight` — `font-style` — `font-variant` and `line-height`</note>
 		<resume>Sets all font properties</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
@@ -1014,9 +974,9 @@
 
 	<item search="footer">
 		<description></description>
-		<name>`<footer>`</name>
+		<name>footer</name>
 		<note></note>
-		<resume>Defines a footer for a document or `<section>`</resume>
+		<resume>Defines a footer for a document or `<![CDATA[<section>]]>`</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -1038,7 +998,7 @@
 
 	<item search="form">
 		<description></description>
-		<name>`<form>`</name>
+		<name>form</name>
 		<note></note>
 		<resume>Defines a HTML for for user inputs</resume>
 		<seealso></seealso>
@@ -1050,7 +1010,7 @@
 		<description></description>
 		<name>Function.bind()</name>
 		<note></note>
-		<resume>Creates a new function whose the provided context argument become the &lt;code&gt;this&lt;/code&gt; keyword</resume>
+		<resume>Creates a new function whose the provided context argument become the `this` keyword</resume>
 		<seealso></seealso>
 		<tech>JS</tech>
 		<type>Method</type>
@@ -1058,7 +1018,7 @@
 
 	<item search="h1 h2 h3 h4 h5 h6">
 		<description></description>
-		<name>`<h1>` to `<h6>`</name>
+		<name>h1 to h6</name>
 		<note></note>
 		<resume>Defines HTML headings</resume>
 		<seealso></seealso>
@@ -1082,7 +1042,7 @@
 
 	<item search="head">
 		<description></description>
-		<name>`<head>`</name>
+		<name>head</name>
 		<note></note>
 		<resume>Defines information about the document</resume>
 		<seealso></seealso>
@@ -1092,7 +1052,7 @@
 
 	<item search="header">
 		<description></description>
-		<name>`<header>`</name>
+		<name>header</name>
 		<note></note>
 		<resume>Defines a header for a document or section</resume>
 		<seealso></seealso>
@@ -1112,7 +1072,7 @@
 
 	<item search="html">
 		<description></description>
-		<name>`<html>`</name>
+		<name>html</name>
 		<note></note>
 		<resume>Defines the root of a HTML document</resume>
 		<seealso></seealso>
@@ -1120,9 +1080,19 @@
 		<type>Tag</type>
 	</item>
 
+	<item search="$http">
+		<description></description>
+		<name>$http</name>
+		<note></note>
+		<resume>Facilitates communication with the remote HTTP servers via the XMLHttpRequest object or via JSONP</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Service</type>
+	</item>
+
 	<item search="img">
 		<description></description>
-		<name>`<img>`</name>
+		<name>img</name>
 		<note></note>
 		<resume>Defines an image</resume>
 		<seealso></seealso>
@@ -1141,7 +1111,7 @@ or
 	(string) $misc = implode ( (array) $pieces );
 		</description>
 		<name>implode()</name>
-		<note><strong>Alias:</strong> &lt;code&gt;join&lt;/code&gt;</note>
+		<note><strong>Alias:</strong> `join`</note>
 		<resume>Converts an array into a string</resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
@@ -1150,7 +1120,7 @@ or
 
 	<item search="input">
 		<description></description>
-		<name>`<input>`</name>
+		<name>input</name>
 		<note></note>
 		<resume>Defines an input control</resume>
 		<seealso></seealso>
@@ -1250,7 +1220,7 @@ or
 		</description>
 		<name>is_nan()</name>
 		<note></note>
-		<resume>Finds whether an element is &lt;code&gt;NaN&lt;/code&gt; (Not a Number)</resume>
+		<resume>Finds whether an element is `NaN` (Not a Number)</resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1264,7 +1234,7 @@ or
 		</description>
 		<name>is_null()</name>
 		<note></note>
-		<resume>Finds whether an element is &lt;code&gt;NULL&lt;/code&gt;</resume>
+		<resume>Finds whether an element is `NULL`</resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1334,7 +1304,7 @@ or
 		</description>
 		<name>isset()</name>
 		<note></note>
-		<resume>Finds whether a variable exists and is not &lt;code&gt;NULL&lt;/code&gt;</resume>
+		<resume>Finds whether a variable exists and is not `NULL`</resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1412,9 +1382,9 @@ or
 
 	<item search="label">
 		<description></description>
-		<name>`<label>`</name>
+		<name>label</name>
 		<note></note>
-		<resume>Defines a label for an `<input>` element</resume>
+		<resume>Defines a label for an `<![CDATA[<input>]]>` element</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -1422,9 +1392,9 @@ or
 
 	<item search="legend">
 		<description></description>
-		<name>`<legend>`</name>
+		<name>legend</name>
 		<note></note>
-		<resume>Defines a legend for a `<fieldset>` element</resume>
+		<resume>Defines a legend for a `<![CDATA[<fieldset>]]>` element</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -1432,7 +1402,7 @@ or
 
 	<item search="li">
 		<description></description>
-		<name>`<li>`</name>
+		<name>li</name>
 		<note></note>
 		<resume>Defines a list item</resume>
 		<seealso></seealso>
@@ -1480,7 +1450,7 @@ or
 
 	<item search="main">
 		<description></description>
-		<name>`<main>`</name>
+		<name>main</name>
 		<note></note>
 		<resume>Defines the main content of a document</resume>
 		<seealso></seealso>
@@ -1493,14 +1463,14 @@ or
 		<name>margin</name>
 		<note></note>
 		<resume>Sets the margin to each side of an element</resume>
-		<seealso>&lt;code&gt;margin-bottom&lt;/code&gt; — &lt;code&gt;margin-left&lt;/code&gt; — &lt;code&gt;margin-right&lt;/code&gt; — &lt;code&gt;margin-top&lt;/code&gt;</seealso>
+		<seealso>`margin-bottom` — `margin-left` — `margin-right` — `margin-top`</seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
 	</item>
 
 	<item search="menu">
 		<description></description>
-		<name>`<menu>`</name>
+		<name>menu</name>
 		<note></note>
 		<resume>Defines a list / menu of command</resume>
 		<seealso></seealso>
@@ -1510,7 +1480,7 @@ or
 
 	<item search="meta">
 		<description></description>
-		<name>`<meta>`</name>
+		<name>meta</name>
 		<note></note>
 		<resume>Defines metadata about a HTML document</resume>
 		<seealso></seealso>
@@ -1592,7 +1562,7 @@ or
 
 	<item search="nav">
 		<description></description>
-		<name>`<nav>`</name>
+		<name>nav</name>
 		<note></note>
 		<resume>Defines navigation links</resume>
 		<seealso></seealso>
@@ -1680,7 +1650,7 @@ or
 
 	<item search="noscript">
 		<description></description>
-		<name>`<noscript>`</name>
+		<name>noscript</name>
 		<note></note>
 		<resume>Defines an alternate content for user that do not support client-side scripts</resume>
 		<seealso></seealso>
@@ -1690,9 +1660,9 @@ or
 
 	<item search=":not">
 		<description></description>
-		<name>:not(&lt;code&gt;selector&lt;/code&gt;)</name>
+		<name>:not(`selector`)</name>
 		<note></note>
-		<resume>Select element if it not matches the selector in the &lt;code&gt;:not()&lt;/code&gt; function</resume>
+		<resume>Select element if it not matches the selector in the `:not()` function</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
@@ -1700,7 +1670,7 @@ or
 
 	<item search="ol">
 		<description></description>
-		<name>`<ol>`</name>
+		<name>ol</name>
 		<note></note>
 		<resume>Defines an ordored list</resume>
 		<seealso></seealso>
@@ -1724,9 +1694,9 @@ or
 
 	<item search="optgroup">
 		<description></description>
-		<name>`<optgroup>`</name>
+		<name>optgroup</name>
 		<note></note>
-		<resume>Defines a group of related options in a '<select>`</resume>
+		<resume>Defines a group of related options in a `<![CDATA[<select>]]>`</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -1734,9 +1704,9 @@ or
 
 	<item search="option">
 		<description></description>
-		<name>`<option>`</name>
+		<name>option</name>
 		<note></note>
-		<resume>Defines an option in a `<select>`</resume>
+		<resume>Defines an option in a `<![CDATA[<select>]]>`</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -1745,7 +1715,7 @@ or
 	<item search="outline">
 		<description></description>
 		<name>outline</name>
-		<note><strong>Shortcut for:</strong> &lt;code&gt;outline-color&lt;/code&gt; — &lt;code&gt;outline-width&lt;/code&gt; and &lt;code&gt;outline-style&lt;/code&gt;</note>
+		<note><strong>Shortcut for:</strong> `outline-color` — `outline-width` and `outline-style`</note>
 		<resume>Sets the outline render of an element</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
@@ -1814,7 +1784,7 @@ or
 
 	<item search="p">
 		<description></description>
-		<name>`<p>`</name>
+		<name>p</name>
 		<note></note>
 		<resume>Defines a paragraph</resume>
 		<seealso></seealso>
@@ -1825,7 +1795,7 @@ or
 	<item search="padding">
 		<description></description>
 		<name>padding</name>
-		<note><strong>Shortcut for:</strong> &lt;code&gt;padding-bottom&lt;/code&gt; — &lt;code&gt;padding-left&lt;/code&gt; — &lt;code&gt;padding-right&lt;/code&gt; and &lt;code&gt;padding-top&lt;/code&gt;</note>
+		<note><strong>Shortcut for:</strong> `padding-bottom` — `padding-left` — `padding-right` and `padding-top`</note>
 		<resume>Sets the padding to each side of an element</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
@@ -1882,7 +1852,7 @@ or
 
 	<item search="pre">
 		<description></description>
-		<name>`<pre>`</name>
+		<name>pre</name>
 		<note></note>
 		<resume>Defines preformatted text</resume>
 		<seealso></seealso>
@@ -1902,6 +1872,16 @@ or
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
+	</item>
+
+	<item search="$q">
+		<description></description>
+		<name>$q</name>
+		<note></note>
+		<resume>A promise / deferred implementation</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Service</type>
 	</item>
 
 	<item search="readdir">
@@ -1936,7 +1916,7 @@ or
 		<description></description>
 		<name>:required</name>
 		<note></note>
-		<resume>Select &lt;code&gt;required&lt;/code&gt; inputs</resume>
+		<resume>Select `required` inputs</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
@@ -1970,6 +1950,16 @@ or
 		<type>Function</type>
 	</item>
 
+	<item search="$rootScope">
+		<description></description>
+		<name>$rootScope</name>
+		<note></note>
+		<resume>Global scope of the application</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Service</type>
+	</item>
+
 	<item search="rsort">
 		<description>
 ### Syntax
@@ -1998,9 +1988,19 @@ or
 		<type>Function</type>
 	</item>
 
+	<item search="$scope">
+		<description></description>
+		<name>$scope</name>
+		<note></note>
+		<resume>Current scope of the controller</resume>
+		<seealso></seealso>
+		<tech>AngularJS</tech>
+		<type>Service</type>
+	</item>
+
 	<item search="script">
 		<description></description>
-		<name>`<script>`</name>
+		<name>script</name>
 		<note></note>
 		<resume>Defines a client-side script</resume>
 		<seealso></seealso>
@@ -2010,7 +2010,7 @@ or
 
 	<item search="section">
 		<description></description>
-		<name>`<section>`</name>
+		<name>section</name>
 		<note></note>
 		<resume>Defines a section in a document</resume>
 		<seealso></seealso>
@@ -2020,7 +2020,7 @@ or
 
 	<item search="select">
 		<description></description>
-		<name>`<select>`</name>
+		<name>select</name>
 		<note></note>
 		<resume>Defines a drop-down list</resume>
 		<seealso></seealso>
@@ -2058,9 +2058,9 @@ or
 
 	<item search="source">
 		<description></description>
-		<name>`<source>`</name>
+		<name>source</name>
 		<note></note>
-		<resume>Defines a media resource for `<audio>` and `<video>`</resume>
+		<resume>Defines a media resource for `<![CDATA[<audio>]]>` and `<![CDATA[<video>]]>`</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -2068,7 +2068,7 @@ or
 
 	<item search="span">
 		<description></description>
-		<name>`<span>`</name>
+		<name>span</name>
 		<note></note>
 		<resume>Defines a section in an inline element</resume>
 		<seealso></seealso>
@@ -2162,7 +2162,7 @@ or
 
 	<item search="strong">
 		<description></description>
-		<name>`<strong>`</name>
+		<name>strong</name>
 		<note></note>
 		<resume>Defines important text</resume>
 		<seealso></seealso>
@@ -2219,7 +2219,7 @@ or
 	(string) $misc = strstr ( (string) $haystack , (mixed) $needle [, (bool) $before_needle = false ] );
 		</description>
 		<name>strstr()</name>
-		<note><strong>Alias:</strong> &lt;code&gt;strchr&lt;/code&gt;</note>
+		<note><strong>Alias:</strong> `strchr`</note>
 		<resume>Find the first occurrence of a character in a string</resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
@@ -2228,7 +2228,7 @@ or
 
 	<item search="style">
 		<description></description>
-		<name>`<style>`</name>
+		<name>style</name>
 		<note></note>
 		<resume>Defines style information for a document</resume>
 		<seealso></seealso>
@@ -2238,7 +2238,7 @@ or
 
 	<item search="sub">
 		<description></description>
-		<name>`<sub>`</name>
+		<name>sub</name>
 		<note></note>
 		<resume>Defines subscripted text</resume>
 		<seealso></seealso>
@@ -2262,7 +2262,7 @@ or
 
 	<item search="sup">
 		<description></description>
-		<name>`<sup>`</name>
+		<name>sup</name>
 		<note></note>
 		<resume>Defines supscripted text</resume>
 		<seealso></seealso>
@@ -2272,7 +2272,7 @@ or
 
 	<item search="table">
 		<description></description>
-		<name>`<table>`</name>
+		<name>table</name>
 		<note></note>
 		<resume>Defines a table</resume>
 		<seealso></seealso>
@@ -2282,9 +2282,9 @@ or
 
 	<item search="td">
 		<description></description>
-		<name>``</name>
+		<name>td</name>
 		<note></note>
-		<resume>Defines a cell in a `<table>`</resume>
+		<resume>Defines a cell in a `<![CDATA[<table>]]>`</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -2304,7 +2304,7 @@ or
 		<description></description>
 		<name>text-decoration</name>
 		<note></note>
-		<resume>Sets the text formatting &lt;code&gt;underline&lt;/code&gt;, &lt;code&gt;overline&lt;/code&gt; and &lt;code&gt;line-through&lt;/code&gt;</resume>
+		<resume>Sets the text formatting `underline`, `overline` and `line-through`</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2312,7 +2312,7 @@ or
 
 	<item search="textarea">
 		<description></description>
-		<name>`<textarea>`</name>
+		<name>textarea</name>
 		<note></note>
 		<resume>Defines a multiline input control</resume>
 		<seealso></seealso>
@@ -2322,9 +2322,9 @@ or
 
 	<item search="th">
 		<description></description>
-		<name>`<th>`</name>
+		<name>th</name>
 		<note></note>
-		<resume>Defines a header cell in a `<table>`</resume>
+		<resume>Defines a header cell in a `<![CDATA[<table>]]>`</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -2342,7 +2342,7 @@ or
 
 	<item search="title">
 		<description></description>
-		<name>`<title>`</name>
+		<name>title</name>
 		<note></note>
 		<resume>Defines a title for the document</resume>
 		<seealso></seealso>
@@ -2352,9 +2352,9 @@ or
 
 	<item search="tr">
 		<description></description>
-		<name>`<tr>`</name>
+		<name>tr</name>
 		<note></note>
-		<resume>Defines a row in a `<table>`</resume>
+		<resume>Defines a row in a `<![CDATA[<table>]]>`</resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -2363,7 +2363,7 @@ or
 	<item search="transition">
 		<description></description>
 		<name>transition</name>
-		<note><strong>Shortcut for:</strong> &lt;code&gt;transition-property&lt;/code&gt; — &lt;code&gt;transition-duration&lt;/code&gt; — &lt;code&gt;transition-delay&lt;/code&gt; and &lt;code&gt;transition-timing-function&lt;/code&gt;</note>
+		<note><strong>Shortcut for:</strong> `transition-property` — `transition-duration` — `transition-delay` and `transition-timing-function`</note>
 		<resume>Specify a transition when an element style property changes</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
@@ -2416,7 +2416,7 @@ or
 
 	<item search="ul">
 		<description></description>
-		<name>`<ul>`</name>
+		<name>ul</name>
 		<note></note>
 		<resume>Defines an unordered list</resume>
 		<seealso></seealso>
@@ -2431,7 +2431,7 @@ or
 	(bool) $misc = unlink ( (string) $filename [, (resource) $context ] );
 		</description>
 		<name>unlink()</name>
-		<note><strong>Alias:</strong> &lt;code&gt;delete&lt;/code&gt;</note>
+		<note><strong>Alias:</strong> `delete`</note>
 		<resume>Deletes a file</resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
@@ -2456,7 +2456,7 @@ or
 		<description></description>
 		<name>:valid</name>
 		<note></note>
-		<resume>True if input is not empty and matches with the &lt;code&gt;type&lt;/code&gt; attribute</resume>
+		<resume>True if input is not empty and matches with the `type` attribute</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
@@ -2478,7 +2478,7 @@ or
 
 	<item search="video">
 		<description></description>
-		<name>`<video>`</name>
+		<name>video</name>
 		<note></note>
 		<resume>Defines a video or a movie</resume>
 		<seealso></seealso>
@@ -2490,7 +2490,7 @@ or
 		<description></description>
 		<name>:visited</name>
 		<note></note>
-		<resume>Select &lt;code&gt;:visited&lt;/code&gt; links</resume>
+		<resume>Select `:visited` links</resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>

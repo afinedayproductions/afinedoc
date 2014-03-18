@@ -3,14 +3,13 @@ var markdownHandler = {
 
 	//! Showdown.js must be already loaded
 
-	getMarkdown: function(item) {
-		return this.showdown.makeHtml(item.querySelector('description').textContent);
-	},
-
 	init: function() {
 		this.showdown = new Showdown.converter();
-	}
+	},
 
+	setHTML: function(item, selector) {
+		return this.showdown.makeHtml(item.querySelector(selector).textContent);
+	}
 	
 };
 /* END MARKDOWNHANDLER*/
@@ -75,6 +74,7 @@ var searchHandler = {
 			// Value of the search attribute of the item
 			var itemSearch = item.attributes.search.value;
 			// Technology of the item
+			console.log(item.querySelector('name'));
 			var tech = item.querySelector('tech').textContent.toLowerCase();
 
 			// If the search is part of the available searches for the item
@@ -227,7 +227,7 @@ var viewRenderer = {
 
 		this._description = document.createElement('div');
 		this._description.className = 'description';
-		this._description.innerHTML = markdownHandler.getMarkdown(item);
+		this._description.innerHTML = markdownHandler.setHTML(item, 'description');
 		this._titleNote = document.createElement('div');
 		this._titleNote.className = 'note';
 		var textNote = item.querySelector('note').textContent;
@@ -257,6 +257,7 @@ var viewRenderer = {
 		// creating article
 		var tech = item.querySelector('tech').textContent;
 		var name = item.querySelector('name').textContent;
+		var nameHTML = markdownHandler.setHTML(item, 'name');
 		this._article = document.createElement('article');
 		this._article.className = item.querySelector('tech').textContent.toLowerCase();
 		this._link = '#' + tech.toLowerCase() + '-' + name.toLowerCase();
@@ -272,13 +273,13 @@ var viewRenderer = {
 		this._title = document.createElement('div');
 		this._title.className = 'title';
 		this._titleSpan = document.createElement('span');
-		this._titleSpan.innerHTML = name;
+		this._titleSpan.innerHTML = nameHTML;
 		this._titleType = document.createElement('span');
 		this._titleType.className = 'type';
 		this._titleType.innerHTML = item.querySelector('type').textContent;
 		this._titleSubtitle = document.createElement('span');
 		this._titleSubtitle.className = 'subtitle';
-		this._titleSubtitle.innerHTML = item.querySelector('resume').textContent;
+		this._titleSubtitle.innerHTML = markdownHandler.setHTML(item, 'resume');
 		this._title.appendChild(this._titleSpan);
 		this._title.appendChild(this._titleType);
 		this._title.appendChild(this._titleSubtitle);
