@@ -6,7 +6,18 @@
 		<description>
 ### Syntax
 
-	<![CDATA[<a href="" title="" target="">]]>lorem ipsum<![CDATA[</a>]]>
+	<![CDATA[<a>]]>lorem ipsum<![CDATA[</a>]]>
+
+### Attributes
+
+#### download
+
+#### href
+
+#### title
+
+#### target
+
 		</description>
 		<name>a</name>
 		<note></note>
@@ -293,6 +304,22 @@
 		<source></source>
 	</audio>
 	]]>
+
+### Attributes
+
+#### autoplay
+
+#### controls
+
+#### loop
+
+#### muted
+
+#### preload
+
+#### src
+
+#### volume
 		</description>
 		<name>audio</name>
 		<note></note>
@@ -559,6 +586,16 @@
 ### Syntax
 
 	<![CDATA[<button>]]>
+
+### Attributes
+
+#### disabled
+
+#### name
+
+#### type
+
+#### value
 		</description>
 		<name>button</name>
 		<note></note>
@@ -1069,6 +1106,16 @@
 ### Syntax
 
 	<![CDATA[<form>]]>lorem ipsum<![CDATA[</form>]]>
+
+### Attributes
+
+#### action
+
+#### enctype
+
+#### method
+
+#### name
 		</description>
 		<name>form</name>
 		<note></note>
@@ -1183,6 +1230,20 @@
 ### Syntax
 
 	<![CDATA[<img>]]>
+
+### Attributes
+
+#### alt
+
+#### height
+
+#### src
+
+#### target
+
+#### title
+
+#### width
 		</description>
 		<name>img</name>
 		<note></note>
@@ -1215,6 +1276,32 @@ or
 ### Syntax
 
 	<![CDATA[<input>]]>
+
+#### autocomplete
+
+#### autofocus
+
+#### checked
+
+#### disabled
+
+#### maxlength
+
+#### multiple
+
+#### name
+
+#### placeholder
+
+#### readonly
+
+#### required
+
+#### size
+
+#### type
+
+#### value
 		</description>
 		<name>input</name>
 		<note></note>
@@ -1481,6 +1568,10 @@ or
 ### Syntax
 
 	<![CDATA[<label>]]>lorem ipsum<![CDATA[</label>]]>
+
+### Attributes
+
+#### for
 		</description>
 		<name>label</name>
 		<note></note>
@@ -1610,6 +1701,16 @@ or
 ### Syntax
 
 	<![CDATA[<meta>]]>
+
+### Attributes
+
+#### charset
+
+#### content
+
+#### http-equiv
+
+#### name
 		</description>
 		<name>meta</name>
 		<note></note>
@@ -1846,6 +1947,12 @@ or
 			<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
 		<![CDATA[</optgroup>]]>
 	<![CDATA[</select>]]>
+
+### Attributes
+
+#### disabled
+
+#### label
 		</description>
 		<name>optgroup</name>
 		<note></note>
@@ -1870,6 +1977,16 @@ or
 			<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
 		<![CDATA[</optgroup>]]>
 	<![CDATA[</select>]]>
+
+### Attributes
+
+#### disabled
+
+#### label
+
+#### selected
+
+#### value
 		</description>
 		<name>option</name>
 		<note></note>
@@ -2178,6 +2295,14 @@ or
 ### Syntax
 
 	<![CDATA[<script>]]>lorem ipsum<![CDATA[</script>]]>
+
+### Attributes
+
+#### async
+
+#### src
+
+#### type
 		</description>
 		<name>script</name>
 		<note></note>
@@ -2216,6 +2341,18 @@ or
 			<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
 		<![CDATA[</optgroup>]]>
 	<![CDATA[</select>]]>
+
+### Attributes
+
+#### autofocus
+
+#### disabled
+
+#### multiple
+
+#### name
+
+#### required
 		</description>
 		<name>select</name>
 		<note></note>
@@ -2266,6 +2403,12 @@ or
 	<![CDATA[<video>]]>
 		<![CDATA[<source>]]>
 	<![CDATA[</video>]]>
+
+### Attributes
+
+#### src
+
+#### type
 		</description>
 		<name>source</name>
 		<note></note>
@@ -2504,6 +2647,14 @@ or
 ### Syntax
 
 	<![CDATA[<table>]]>lorem ipsum<![CDATA[</table>]]>
+
+### Attributes
+
+#### border
+
+#### cellpadding
+
+#### cellspacing
 		</description>
 		<name>table</name>
 		<note></note>
@@ -2552,6 +2703,26 @@ or
 ### Syntax
 
 	<![CDATA[<textarea>]]>lorem ipsum<![CDATA[</textarea>]]>
+
+### Attributes
+
+#### autofocus
+
+#### cols
+
+#### disabled
+
+#### maxlength
+
+#### name
+
+#### placeholder
+
+#### readonly
+
+#### required
+
+#### rows
 		</description>
 		<name>textarea</name>
 		<note></note>
@@ -2744,6 +2915,22 @@ or
 	<![CDATA[<video>]]>
 		<![CDATA[<source>]]>
 	<![CDATA[</video>]]>
+
+### Attributes
+
+#### autoplay
+
+#### controls
+
+#### loop
+
+#### muted
+
+#### preload
+
+#### src
+
+#### volume
 		</description>
 		<name>video</name>
 		<note></note>

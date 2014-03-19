@@ -1,7 +1,11 @@
 /* WHAT WAS DONE */
 	DD/MM/AAAA
 
-	18.03.214
+	19.03.2014
+		data.xml:
+			- Start adding "### Attributes" to HTML items
+
+	18.03.2014
 	data.xml:
 		- Output <tag> as content thanks to <![CDATA[<tag>]]>
 		- Add "### Syntax" to HTML items
