@@ -10,8 +10,6 @@ var markdownHandler = {
 	setHTML: function(item, selector) {
 		var html = item.querySelector(selector).textContent;
 
-		if(selector == 'name') html = html.replace('_', '\\_'); // handle emphrased text in name
-
 		return this.showdown.makeHtml(html);
 	}
 	
@@ -25,6 +23,8 @@ var searchHandler = {
 
 		var returnedItem = false;
 		name = name.replace('$', '\\$');
+		name = name.replace('<', '');
+		name = name.replace('>', '');
 
 		[].forEach.call(this.documentXML.querySelectorAll('item'), function(item) {
 
@@ -259,7 +259,6 @@ var viewRenderer = {
 	},
 
 	createResumeArticle: function(item) {
-
 		// creating article
 		var tech = item.querySelector('tech').textContent;
 		var name = item.querySelector('name').textContent;

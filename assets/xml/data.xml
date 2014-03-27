@@ -4,9 +4,10 @@
 
 	<item search="a">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<a>]]>lorem ipsum<![CDATA[</a>]]>
+	<a>lorem ipsum</a>
 
 ### Attributes
 
@@ -17,11 +18,11 @@
 #### title
 
 #### target
-
+]]>
 		</description>
-		<name>a</name>
+		<name><![CDATA[`<a>`]]></name>
 		<note></note>
-		<resume>Defines a link or an anchor</resume>
+		<resume><![CDATA[Defines a link or an anchor]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Inline tag</type>
@@ -29,13 +30,15 @@
 
 	<item search="addslashes">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = addslashes( (string) $str )
+]]>
 		</description>
-		<name>addslashes()</name>
+		<name><![CDATA[`addslashes()`]]></name>
 		<note></note>
-		<resume>Add a backslash before quotes, double-quotes and backslashes in string variables</resume>
+		<resume><![CDATA[Add a backslash before quotes, double-quotes and backslashes in string variables]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -43,9 +46,9 @@
 
 	<item search=":after ::after">
 		<description></description>
-		<name>:after</name>
-		<note>**Alias:** `::after`</note>
-		<resume>Create a pseudo-element whom is the last child of the matched element</resume>
+		<name><![CDATA[`:after`]]></name>
+		<note><![CDATA[**Alias:** `::after`]]></note>
+		<resume><![CDATA[Create a pseudo-element whom is the last child of the matched element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-element</type>
@@ -53,9 +56,9 @@
 
 	<item search="angular.foreach angular foreach">
 		<description></description>
-		<name>angular.forEach()</name>
+		<name><![CDATA[`angular.forEach()`]]></name>
 		<note></note>
-		<resume>Executes a provided function once per array or object element</resume>
+		<resume><![CDATA[Executes a provided function once per array or object element]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Function</type>
@@ -63,9 +66,9 @@
 
 	<item search="angular.module angular module">
 		<description></description>
-		<name>angular.module()</name>
+		<name><![CDATA[`angular.module()`]]></name>
 		<note></note>
-		<resume>Create, register and retrieve Angular modules</resume>
+		<resume><![CDATA[Create, register and retrieve Angular modules]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Function</type>
@@ -73,13 +76,15 @@
 
 	<item search="array">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(array) $misc = (array) array ([ (mixed) $… ] );
+]]>
 		</description>
-		<name>array()</name>
-		<note>*Alias:* `[]`</note>
-		<resume>Create a new array</resume>
+		<name><![CDATA[`array()`]]></name>
+		<note><![CDATA[*Alias:* `[]`]]></note>
+		<resume><![CDATA[Create a new array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -87,13 +92,15 @@
 
 	<item search="array_diff array diff">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(array) $misc = array_diff ( (array) $array1 , (array) $array2 [, (array) $… ] );
+]]>
 		</description>
-		<name>array_diff()</name>
+		<name><![CDATA[`array_diff()`]]></name>
 		<note></note>
-		<resume>Computes the difference between arrays</resume>
+		<resume><![CDATA[Computes the difference between arrays]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -101,9 +108,9 @@
 
 	<item search="array.foreach array foreach">
 		<description></description>
-		<name>Array.forEach()</name>
+		<name><![CDATA[`Array.forEach()`]]></name>
 		<note></note>
-		<resume>Executes a provided function once per array element</resume>
+		<resume><![CDATA[Executes a provided function once per array element]]></resume>
 		<seealso></seealso>
 		<tech>JS</tech>
 		<type>Method</type>
@@ -111,9 +118,9 @@
 
 	<item search="array.length array length">
 		<description></description>
-		<name>Array.length</name>
+		<name><![CDATA[`Array.length`]]></name>
 		<note></note>
-		<resume>Return the number of elements of the array</resume>
+		<resume><![CDATA[Return the number of elements of the array]]></resume>
 		<seealso></seealso>
 		<tech>JS</tech>
 		<type>Property</type>
@@ -121,13 +128,15 @@
 
 	<item search="array_pop array pop">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(mixed) $misc = array_pop ( (array) $array );
+]]>
 		</description>
-		<name>array_pop()</name>
+		<name><![CDATA[`array_pop()`]]></name>
 		<note></note>
-		<resume>Remove the last element of an array</resume>
+		<resume><![CDATA[Remove the last element of an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -135,9 +144,9 @@
 
 	<item search="array.pop array pop">
 		<description></description>
-		<name>Array.pop()</name>
+		<name><![CDATA[`Array.pop()`]]></name>
 		<note></note>
-		<resume>Remove the last element of the array</resume>
+		<resume><![CDATA[Remove the last element of the array]]></resume>
 		<seealso></seealso>
 		<tech>JS</tech>
 		<type>Method</type>
@@ -145,13 +154,15 @@
 
 	<item search="array_push array push">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(int) $misc = array_push ( (array) $array , (mixed) $value1 [, (mixed) $… ] );
+]]>
 		</description>
-		<name>array_push()</name>
+		<name><![CDATA[`array_push()`]]></name>
 		<note></note>
-		<resume>Add one or more elements in the end of an array</resume>
+		<resume><![CDATA[Add one or more elements in the end of an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -159,9 +170,9 @@
 
 	<item search="array.push array push">
 		<description></description>
-		<name>Array.push()</name>
+		<name><![CDATA[`Array.push()`]]></name>
 		<note></note>
-		<resume>Add one or more elements in the end of the array</resume>
+		<resume><![CDATA[Add one or more elements in the end of the array]]></resume>
 		<seealso></seealso>
 		<tech>JS</tech>
 		<type>Method</type>
@@ -169,13 +180,15 @@
 
 	<item search="array_shift array shift">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(mixed) $misc = array_shift ( (array) $array );
+]]>
 		</description>
-		<name>array_shift()</name>
+		<name><![CDATA[`array_shift()`]]></name>
 		<note></note>
-		<resume>Remove the first element of an array</resume>
+		<resume><![CDATA[Remove the first element of an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -183,9 +196,9 @@
 
 	<item search="array.shift array shift">
 		<description></description>
-		<name>Array.shift()</name>
+		<name><![CDATA[`Array.shift()`]]></name>
 		<note></note>
-		<resume>Remove the first element of the array</resume>
+		<resume><![CDATA[Remove the first element of the array]]></resume>
 		<seealso></seealso>
 		<tech>JS</tech>
 		<type>Method</type>
@@ -193,13 +206,15 @@
 
 	<item search="array_slice array slice">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(array) $misc = array_slice ( (array) $array , (int) $offset [, (int) $length = NULL [, (bool) $preserve_keys = false ]] );
+]]>
 		</description>
-		<name>array_slice()</name>
+		<name><![CDATA[`array_slice()`]]></name>
 		<note></note>
-		<resume>Extract a slice of an array</resume>
+		<resume><![CDATA[Extract a slice of an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -207,9 +222,9 @@
 
 	<item search="array.slice array slice">
 		<description></description>
-		<name>Array.slice()</name>
+		<name><![CDATA[`Array.slice()`]]></name>
 		<note></note>
-		<resume>Extract a slice of the array</resume>
+		<resume><![CDATA[Extract a slice of the array]]></resume>
 		<seealso></seealso>
 		<tech>JS</tech>
 		<type>Method</type>
@@ -217,13 +232,15 @@
 
 	<item search="array_unshift array unshift">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(mixed) $misc = array_unshift ( (array) $array , (mixed) $value1 [, mixed $… ] );
+]]>
 		</description>
-		<name>array_unshift()</name>
+		<name><![CDATA[`array_unshift()`]]></name>
 		<note></note>
-		<resume>Add one or more elements in the beginning of an array</resume>
+		<resume><![CDATA[Add one or more elements in the beginning of an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -231,9 +248,9 @@
 
 	<item search="array.unshift array unshift">
 		<description></description>
-		<name>Array.unshift()</name>
+		<name><![CDATA[`Array.unshift()`]]></name>
 		<note></note>
-		<resume>Add one or more elements in the begginning of the array</resume>
+		<resume><![CDATA[Add one or more elements in the begginning of the array]]></resume>
 		<seealso></seealso>
 		<tech>JS</tech>
 		<type>Method</type>
@@ -241,13 +258,15 @@
 
 	<item search="arsort">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = arsort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+]]>
 		</description>
-		<name>arsort()</name>
+		<name><![CDATA[`arsort()`]]></name>
 		<note></note>
-		<resume>Sort an array in reverse order and maintain key association</resume>
+		<resume><![CDATA[Sort an array in reverse order and maintain key association]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -255,13 +274,15 @@
 
 	<item search="article">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<article>]]>lorem ipsum<![CDATA[</article>]]>
+	<article>lorem ipsum</article>
+]]>
 		</description>
-		<name>article</name>
+		<name><![CDATA[`article`]]></name>
 		<note></note>
-		<resume>Defines an article</resume>
+		<resume><![CDATA[Defines an article]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -269,13 +290,15 @@
 
 	<item search="asort">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = asort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+]]>
 		</description>
-		<name>asort()</name>
+		<name><![CDATA[`asort()`]]></name>
 		<note></note>
-		<resume>Sort an array and maintain key association</resume>
+		<resume><![CDATA[Sort an array and maintain key association]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -283,13 +306,15 @@
 
 	<item search="aside">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<aside>]]>lorem ipsum<![CDATA[</aside>]]>
+	<aside>lorem ipsum</aside>
+]]>
 		</description>
-		<name>aside</name>
+		<name><![CDATA[`aside`]]></name>
 		<note></note>
-		<resume>Defines content aside from the page content</resume>
+		<resume><![CDATA[Defines content aside from the page content]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -297,13 +322,12 @@
 
 	<item search="audio">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[
 	<audio>
 		<source></source>
 	</audio>
-	]]>
 
 ### Attributes
 
@@ -320,10 +344,11 @@
 #### src
 
 #### volume
+]]>
 		</description>
-		<name>audio</name>
+		<name><![CDATA[`audio`]]></name>
 		<note></note>
-		<resume>Defines sound content</resume>
+		<resume><![CDATA[Defines sound content]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -331,9 +356,9 @@
 
 	<item search="background">
 		<description></description>
-		<name>background</name>
-		<note>**Shortcut for:** `background-color` — `background-image` — `background-position` — `background-repeat` and `background-attachment`</note>
-		<resume>Sets all background properties</resume>
+		<name><![CDATA[`background`]]></name>
+		<note><![CDATA[**Shortcut for:** `background-color` — `background-image` — `background-position` — `background-repeat` and `background-attachment`]]></note>
+		<resume><![CDATA[Sets all background properties]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -341,9 +366,9 @@
 
 	<item search="background-attachment background attachment">
 		<description></description>
-		<name>background-attachment</name>
+		<name><![CDATA[`background-attachment`]]></name>
 		<note></note>
-		<resume>Specify if a `background-image` scrolls this the current element or is fixed within the wiewport</resume>
+		<resume><![CDATA[Specify if a `background-image` scrolls this the current element or is fixed within the wiewport]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -351,9 +376,9 @@
 
 	<item search="background-color background color">
 		<description></description>
-		<name>background-color</name>
+		<name><![CDATA[`background-color`]]></name>
 		<note></note>
-		<resume>Sets the background color of the current element</resume>
+		<resume><![CDATA[Sets the background color of the current element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -361,9 +386,9 @@
 
 	<item search="background-image background image">
 		<description></description>
-		<name>background-image</name>
+		<name><![CDATA[`background-image`]]></name>
 		<note></note>
-		<resume>Sets the background image of the current element</resume>
+		<resume><![CDATA[Sets the background image of the current element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -371,9 +396,9 @@
 
 	<item search="background-position background position">
 		<description></description>
-		<name>background-position</name>
+		<name><![CDATA[`background-position`]]></name>
 		<note></note>
-		<resume>Sets the background position in the current element</resume>
+		<resume><![CDATA[Sets the background position in the current element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -381,9 +406,9 @@
 
 	<item search="background-repeat background repeat">
 		<description></description>
-		<name>background-repeat</name>
+		<name><![CDATA[`background-repeat`]]></name>
 		<note></note>
-		<resume>Specify if a `background-image` is repeated and how</resume>
+		<resume><![CDATA[Specify if a `background-image` is repeated and how]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -391,13 +416,15 @@
 
 	<item search="base64_decode base64 decode">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = base64_decode ( (string $data) [, (bool) $strict = false ] );
+]]>
 		</description>
-		<name>base64_decode()</name>
+		<name><![CDATA[`base64_decode()`]]></name>
 		<note></note>
-		<resume>Decode data encoded with MIME base64</resume>
+		<resume><![CDATA[Decode data encoded with MIME base64]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -405,13 +432,15 @@
 
 	<item search="base64_encode base64 encode">
 		<description>
+<![CDATA[
 ### Syntax			
 
 	(string) $misc = base64_encode ( (string $data) );
+]]>
 		</description>
-		<name>base64_encode()</name>
+		<name><![CDATA[`base64_encode()`]]></name>
 		<note></note>
-		<resume>Encode data with MIME base64</resume>
+		<resume><![CDATA[Encode data with MIME base64]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -419,13 +448,15 @@
 
 	<item search="basename">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = basename ( (string) $path [, (string) $suffix ] );
+]]>
 		</description>
-		<name>basename()</name>
+		<name><![CDATA[`basename()`]]></name>
 		<note></note>
-		<resume>Returns the ending element of a path</resume>
+		<resume><![CDATA[Returns the ending element of a path]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -433,9 +464,9 @@
 
 	<item search=":before ::before">
 		<description></description>
-		<name>:before</name>
-		<note><strong>Alias:</strong> `::before`</note>
-		<resume>Create a pseudo-element whom is the first child of the matched element</resume>
+		<name><![CDATA[`:before`]]></name>
+		<note><![CDATA[**Alias:** `::before`]]></note>
+		<resume><![CDATA[Create a pseudo-element whom is the first child of the matched element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-element</type>
@@ -443,15 +474,17 @@
 
 	<item search="body">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<body>]]>
+	<body>
 		lorem ipsum
-	<![CDATA[</body>]]>
+	</body>
+]]>
 		</description>
-		<name>body</name>
+		<name><![CDATA[`body`]]></name>
 		<note></note>
-		<resume>Defines the document's body</resume>
+		<resume><![CDATA[Defines the document's body]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -459,9 +492,9 @@
 
 	<item search="border">
 		<description></description>
-		<name>border</name>
-		<note><strong>Shortcut for:</strong> `border-bottom` — `border-left` — `border-right` and `border-top`</note>
-		<resume>Sets the border to each side of the box</resume>
+		<name><![CDATA[`border`]]></name>
+		<note><![CDATA[**Shortcut for:** `border-bottom` — `border-left` — `border-right` and `border-top`]]></note>
+		<resume><![CDATA[Sets the border to each side of the box]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -469,9 +502,9 @@
 
 	<item search="border-bottom border bottom">
 		<description></description>
-		<name>border-bottom</name>
-		<note><strong>Shortcut for:</strong> `border-bottom-color` — `border-bottom-style` and `border-bottom-width`</note>
-		<resume>Sets the bottom border of an element</resume>
+		<name><![CDATA[`border-bottom`]]></name>
+		<note><![CDATA[**Shortcut for:** `border-bottom-color` — `border-bottom-style` and `border-bottom-width`]]></note>
+		<resume><![CDATA[Sets the bottom border of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -479,9 +512,9 @@
 
 	<item search="border-bottom-left-radius border bottom left radius">
 		<description></description>
-		<name>border-bottom-left-radius</name>
+		<name><![CDATA[`border-bottom-left-radius`]]></name>
 		<note></note>
-		<resume>Sets the radius to the bottom left corner of an element</resume>
+		<resume><![CDATA[Sets the radius to the bottom left corner of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -489,9 +522,9 @@
 
 	<item search="border-bottom-right-radius border bottom right radius">
 		<description></description>
-		<name>border-bottom-right-radius</name>
+		<name><![CDATA[`border-bottom-right-radius`]]></name>
 		<note></note>
-		<resume>Sets the radius to bottom right corner of an element</resume>
+		<resume><![CDATA[Sets the radius to bottom right corner of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -499,9 +532,9 @@
 
 	<item search="border-left border left">
 		<description></description>
-		<name>border-left</name>
-		<note><strong>Shortcut for:</strong> `border-left-color` — `border-left-style` and `border-left-width`</note>
-		<resume>Sets the left border of an element</resume>
+		<name><![CDATA[`border-left`]]></name>
+		<note><![CDATA[**Shortcut for:** `border-left-color` — `border-left-style` and `border-left-width`]]></note>
+		<resume><![CDATA[Sets the left border of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -509,9 +542,9 @@
 
 	<item search="border-radius border radius">
 		<description></description>
-		<name>border-radius</name>
-		<note><strong>Shortcut for:</strong> `border-bottom-left-radius` — `border-bottom-right-radius` — `border-top-left-radius` and `border-top-right-radius`</note>
-		<resume>Sets the radius to each corner of an element</resume>
+		<name><![CDATA[`border-radius`]]></name>
+		<note><![CDATA[**Shortcut for:** `border-bottom-left-radius` — `border-bottom-right-radius` — `border-top-left-radius` and `border-top-right-radius`]]></note>
+		<resume><![CDATA[Sets the radius to each corner of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -519,9 +552,9 @@
 
 	<item search="border-right border right">
 		<description></description>
-		<name>border-right</name>
-		<note><strong>Shortcut for:</strong> `border-right-color` — `border-right-style` and `border-right-width`</note>
-		<resume>Sets the right border of an element</resume>
+		<name><![CDATA[`border-right`]]></name>
+		<note><![CDATA[**Shortcut for:** `border-right-color` — `border-right-style` and `border-right-width`]]></note>
+		<resume><![CDATA[Sets the right border of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -529,9 +562,9 @@
 
 	<item search="border-top border top">
 		<description></description>
-		<name>border-top</name>
-		<note><strong>Shortcut for:</strong> `border-top-color` — `border-top-style` and `border-top-width`</note>
-		<resume>Sets the top border of an element</resume>
+		<name><![CDATA[`border-top`]]></name>
+		<note><![CDATA[**Shortcut for:** `border-top-color` — `border-top-style` and `border-top-width`]]></note>
+		<resume><![CDATA[Sets the top border of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -539,9 +572,9 @@
 
 	<item search="border-top-left-radius border top left radius">
 		<description></description>
-		<name>border-top-left-radius</name>
+		<name><![CDATA[`border-top-left-radius`]]></name>
 		<note></note>
-		<resume>Sets the radius to the top left corner of an element</resume>
+		<resume><![CDATA[Sets the radius to the top left corner of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -549,9 +582,9 @@
 
 	<item search="border-top-right-radius border top right radius">
 		<description></description>
-		<name>border-top-right-radius</name>
+		<name><![CDATA[`border-top-right-radius`]]></name>
 		<note></note>
-		<resume>Sets the radius to the top right corner of an element</resume>
+		<resume><![CDATA[Sets the radius to the top right corner of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -559,9 +592,9 @@
 
 	<item search="box-sizing box sizing">
 		<description></description>
-		<name>box-sizing</name>
+		<name><![CDATA[`box-sizing`]]></name>
 		<note></note>
-		<resume>Modify default CSS behavior to calculate width and height</resume>
+		<resume><![CDATA[Modify default CSS behavior to calculate width and height]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -569,13 +602,15 @@
 
 	<item search="br">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<br>]]>
+	<br>
+]]>
 		</description>
-		<name>br</name>
+		<name><![CDATA[`br`]]></name>
 		<note></note>
-		<resume>Defines a single line-break</resume>
+		<resume><![CDATA[Defines a single line-break]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -583,9 +618,10 @@
 
 	<item search="button">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<button>]]>
+	<button>
 
 ### Attributes
 
@@ -596,10 +632,11 @@
 #### type
 
 #### value
+]]>
 		</description>
-		<name>button</name>
+		<name><![CDATA[`button`]]></name>
 		<note></note>
-		<resume>Defines a clickable button</resume>
+		<resume><![CDATA[Defines a clickable button]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Inline tag</type>
@@ -607,13 +644,15 @@
 
 	<item search="canvas">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<canvas>]]>lorem ipsum<![CDATA[</canvas>]]>
+	<canvas>lorem ipsum</canvas>
+]]>
 		</description>
-		<name>canvas</name>
+		<name><![CDATA[`canvas`]]></name>
 		<note></note>
-		<resume>Defines an area used to draw graphics, via scripting (javascript)</resume>
+		<resume><![CDATA[Defines an area used to draw graphics, via scripting (javascript)]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -621,13 +660,15 @@
 
 	<item search="ceil">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(float) $misc = ceil ( (float) $value );
+]]>
 		</description>
-		<name>ceil()</name>
+		<name><![CDATA[`ceil()`]]></name>
 		<note></note>
-		<resume>Round decimal numbers up</resume>
+		<resume><![CDATA[Round decimal numbers up]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -635,9 +676,9 @@
 
 	<item search=":checked">
 		<description></description>
-		<name>:checked</name>
+		<name><![CDATA[`:checked`]]></name>
 		<note></note>
-		<resume>Select an input when checked</resume>
+		<resume><![CDATA[Select an input when checked]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
@@ -645,13 +686,15 @@
 
 	<item search="chmod">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = chmod ( (string) $filename , (int) $mode );
+]]>
 		</description>
-		<name>chmod()</name>
+		<name><![CDATA[`chmod()`]]></name>
 		<note></note>
-		<resume>Changes the file mode</resume>
+		<resume><![CDATA[Changes the file mode]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -659,13 +702,15 @@
 
 	<item search="chown">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = chown ( (string) $filename , (mixed) $user );
+]]>
 		</description>
-		<name>chown()</name>
+		<name><![CDATA[`chown()`]]></name>
 		<note></note>
-		<resume>Changes the file owner</resume>
+		<resume><![CDATA[Changes the file owner]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -673,13 +718,15 @@
 
 	<item search="closedir">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(void) closedir ([ (resource) $dir_handle ] );
+]]>
 		</description>
-		<name>closedir()</name>
+		<name><![CDATA[`closedir()`]]></name>
 		<note></note>
-		<resume>Close a directory handle</resume>
+		<resume><![CDATA[Close a directory handle]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -687,13 +734,15 @@
 
 	<item search="code">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<code>]]>lorem ipsum<![CDATA[</code>]]>
+	<code>lorem ipsum</code>
+]]>
 		</description>
-		<name>code</name>
+		<name><![CDATA[`code`]]></name>
 		<note></note>
-		<resume>Defines a piece of computer code</resume>
+		<resume><![CDATA[Defines a piece of computer code]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Inline tag</type>
@@ -701,9 +750,9 @@
 
 	<item search="color">
 		<description></description>
-		<name>color</name>
+		<name><![CDATA[`color`]]></name>
 		<note></note>
-		<resume>Sets the text color in an element and child elements</resume>
+		<resume><![CDATA[Sets the text color in an element and child elements]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -711,13 +760,15 @@
 
 	<item search="copy">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = copy ( (string) $source , (string) $dest [, (resource) $context ] );
+]]>
 		</description>
-		<name>copy()</name>
+		<name><![CDATA[`copy()`]]></name>
 		<note></note>
-		<resume>Copies a file</resume>
+		<resume><![CDATA[Copies a file]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -725,13 +776,15 @@
 
 	<item search="count">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(int) $misc = ( (mixed) $array_or_countable [, (int) $mode = COUNT_NORMAL ] );
+]]>
 		</description>
-		<name>count()</name>
-		<note><strong>Alias:</strong> `sizeof`</note>
-		<resume>Count elements in an array or count something in a Countable object</resume>
+		<name><![CDATA[`count()`]]></name>
+		<note><![CDATA[**Alias:** `sizeof`]]></note>
+		<resume><![CDATA[Count elements in an array or count something in a Countable object]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -739,13 +792,15 @@
 
 	<item search="current">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(mixed) $misc = current ( (array) $array );
+]]>
 		</description>
-		<name>current()</name>
+		<name><![CDATA[`current()`]]></name>
 		<note></note>
-		<resume>Return the current pointed element in an array</resume>
+		<resume><![CDATA[Return the current pointed element in an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -753,9 +808,9 @@
 
 	<item search="cursor">
 		<description></description>
-		<name>cursor</name>
+		<name><![CDATA[`cursor`]]></name>
 		<note></note>
-		<resume>Specify the cursor appearance when over an element</resume>
+		<resume><![CDATA[Specify the cursor appearance when over an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -763,13 +818,15 @@
 
 	<item search="date">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = date ( (string) $format [, (int) $timestamp = time() ] );
+]]>
 		</description>
-		<name>date()</name>
+		<name><![CDATA[`date()`]]></name>
 		<note></note>
-		<resume>Format a date</resume>
+		<resume><![CDATA[Format a date]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -777,13 +834,15 @@
 
 	<item search="date_default_timezone_set date default timezone set">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = date_default_timezone_set ( (string) $timezone_identifier );
+]]>
 		</description>
-		<name>date_default_timezone_set()</name>
+		<name><![CDATA[`date_default_timezone_set()`]]></name>
 		<note></note>
-		<resume>Sets the default timezone used by date / time functions</resume>
+		<resume><![CDATA[Sets the default timezone used by date / time functions]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -791,9 +850,9 @@
 
 	<item search="date.now date now">
 		<description></description>
-		<name>Date.now()</name>
+		<name><![CDATA[`Date.now()`]]></name>
 		<note></note>
-		<resume>Return the current timestamp in milliseconds</resume>
+		<resume><![CDATA[Return the current timestamp in milliseconds]]></resume>
 		<seealso></seealso>
 		<tech>JS</tech>
 		<type>Method</type>
@@ -801,9 +860,9 @@
 
 	<item search="display">
 		<description></description>
-		<name>display</name>
+		<name><![CDATA[`display`]]></name>
 		<note></note>
-		<resume>Modify the type of rendering of the element</resume>
+		<resume><![CDATA[Modify the type of rendering of the element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -811,13 +870,15 @@
 
 	<item search="div">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<div>]]>lorem ipsum<![CDATA[</div>]]>
+	<div>lorem ipsum</div>
+]]>
 		</description>
-		<name>div</name>
+		<name><![CDATA[`div`]]></name>
 		<note></note>
-		<resume>Defines a section in a document</resume>
+		<resume><![CDATA[Defines a section in a document]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -825,13 +886,15 @@
 
 	<item search="echo">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(void) echo ( (string) $arg1 [, (string) $... ] );
+]]>
 		</description>
-		<name>echo</name>
+		<name><![CDATA[`echo`]]></name>
 		<note></note>
-		<resume>Output strings</resume>
+		<resume><![CDATA[Output strings]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Key-word</type>
@@ -839,13 +902,15 @@
 
 	<item search="em">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<em>]]>lorem ipsum<![CDATA[</em>]]>
+	<em>lorem ipsum</em>
+]]>
 		</description>
-		<name>em</name>
-		<note>&lt;strong&gt;Alias:&lt;/strong&gt; &lt;i&gt;</note>
-		<resume>Defines emphazed text</resume>
+		<name><![CDATA[`em`]]></name>
+		<note><![CDATA[**Alias:** <i> (obselete)]]></note>
+		<resume><![CDATA[Defines emphazed text]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Inline tag</type>
@@ -853,13 +918,15 @@
 
 	<item search="end">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(mixed) $misc = end ( (array) $array );
+]]>
 		</description>
-		<name>end()</name>
+		<name><![CDATA[`end()`]]></name>
 		<note></note>
-		<resume>Point to the last element of an array</resume>
+		<resume><![CDATA[Point to the last element of an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -867,13 +934,15 @@
 
 	<item search="empty">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = empty ( (mixed) $var );
+]]>
 		</description>
-		<name>empty()</name>
+		<name><![CDATA[`empty()`]]></name>
 		<note></note>
-		<resume>Finds whether an element is empty</resume>
+		<resume><![CDATA[Finds whether an element is empty]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -881,13 +950,15 @@
 
 	<item search="explode">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(array) $misc = explode ( (string) $delimiter , (string) $string [, (int) $limit ] );
+]]>
 		</description>
-		<name>explode()</name>
+		<name><![CDATA[`explode()`]]></name>
 		<note></note>
-		<resume>Split a string into an array</resume>
+		<resume><![CDATA[Split a string into an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -895,13 +966,15 @@
 
 	<item search="fclose">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = fclose ( (resource) $handle );
+]]>
 		</description>
-		<name>fclose()</name>
+		<name><![CDATA[`fclose()`]]></name>
 		<note></note>
-		<resume>Close an open file pointer</resume>
+		<resume><![CDATA[Close an open file pointer]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -909,13 +982,15 @@
 
 	<item search="fieldset">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<fieldset>]]>lorem ipsum<![CDATA[</fieldset>]]>
+	<fieldset>lorem ipsum</fieldset>
+]]>
 		</description>
-		<name>fieldset</name>
+		<name><![CDATA[`fieldset`]]></name>
 		<note></note>
-		<resume>Group related element in a form</resume>
+		<resume><![CDATA[Group related element in a form]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -923,15 +998,17 @@
 
 	<item search="figcaption">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<figure>]]>
-		<![CDATA[<figcaption>]]>lorem ipsum<![CDATA[</figcaption>]]>
-	<![CDATA[</figure>]]>
+	<figure>
+		<figcaption>lorem ipsum</figcaption>
+	</figure>
+]]>
 		</description>
-		<name>figcaption</name>
+		<name><![CDATA[`figcaption`]]></name>
 		<note></note>
-		<resume>Defines a caption for a `<![CDATA[<figure>]]>` element</resume>
+		<resume><![CDATA[Defines a caption for a `<figure>` element]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -939,13 +1016,15 @@
 
 	<item search="figure">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<figure>]]>lorem ipsum<![CDATA[</figure>]]>
+	<figure>lorem ipsum</figure>
+]]>
 		</description>
-		<name>figure</name>
+		<name><![CDATA[`figure`]]></name>
 		<note></note>
-		<resume>Specifies self-contained content</resume>
+		<resume><![CDATA[Specifies self-contained content]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -953,13 +1032,15 @@
 
 	<item search="file_exist file exist">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = file_exists ( (string) $filename );
+]]>
 		</description>
-		<name>file_exist()</name>
+		<name><![CDATA[`file_exist()`]]></name>
 		<note></note>
-		<resume>Checks whether a file or a directory exists</resume>
+		<resume><![CDATA[Checks whether a file or a directory exists]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -967,13 +1048,15 @@
 
 	<item search="filesize">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(int) $misc = filesize ( (string) $filename );
+]]>
 		</description>
-		<name>filesize()</name>
+		<name><![CDATA[`filesize()`]]></name>
 		<note></note>
-		<resume>Gets file size in bytes</resume>
+		<resume><![CDATA[Gets file size in bytes]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -981,13 +1064,15 @@
 
 	<item search="floor">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(float) $misc = floor ( (float) $value );
+]]>
 		</description>
-		<name>floor()</name>
+		<name><![CDATA[`floor()`]]></name>
 		<note></note>
-		<resume>Round decimal number down</resume>
+		<resume><![CDATA[Round decimal number down]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -995,9 +1080,9 @@
 
 	<item search=":focus">
 		<description></description>
-		<name>:focus</name>
+		<name><![CDATA[`:focus`]]></name>
 		<note></note>
-		<resume>Select element when focused</resume>
+		<resume><![CDATA[Select element when focused]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
@@ -1005,9 +1090,9 @@
 
 	<item search="font">
 		<description></description>
-		<name>font</name>
-		<note><strong>Shortcut for:</strong> `font-family` — `font-size` — `font-weight` — `font-style` — `font-variant` and `line-height`</note>
-		<resume>Sets all font properties</resume>
+		<name><![CDATA[`font`]]></name>
+		<note><![CDATA[**Shortcut for:** `font-family` — `font-size` — `font-weight` — `font-style` — `font-variant` and `line-height`]]></note>
+		<resume><![CDATA[Sets all font properties]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -1015,9 +1100,9 @@
 
 	<item search="font-family font family">
 		<description></description>
-		<name>font-family</name>
+		<name><![CDATA[`font-family`]]></name>
 		<note></note>
-		<resume>Sets the text font and specify callback fonts</resume>
+		<resume><![CDATA[Sets the text font and specify callback fonts]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -1025,9 +1110,9 @@
 
 	<item search="font-size font size">
 		<description></description>
-		<name>font-size</name>
+		<name><![CDATA[`font-size`]]></name>
 		<note></note>
-		<resume>Sets the font height</resume>
+		<resume><![CDATA[Sets the font height]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -1035,9 +1120,9 @@
 
 	<item search="-webkit-font-smoothing webkit-font-smoothing webkit font-smoothing webkit font smoothing">
 		<description></description>
-		<name>-webkit-font-smoothing</name>
-		<note>Only in webkit browser</note>
-		<resume>Controls the anti-aliasing when fonts are rendered</resume>
+		<name><![CDATA[`-webkit-font-smoothing`]]></name>
+		<note><![CDATA[Only in webkit browsers]]></note>
+		<resume><![CDATA[Controls the anti-aliasing when fonts are rendered]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -1045,9 +1130,9 @@
 
 	<item search="font-style font style">
 		<description></description>
-		<name>font-style</name>
+		<name><![CDATA[`font-style`]]></name>
 		<note></note>
-		<resume>Display the italic version of the current font</resume>
+		<resume><![CDATA[Display the italic version of the current font]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -1055,9 +1140,9 @@
 
 	<item search="font-variant font variant">
 		<description></description>
-		<name>font-variant</name>
+		<name><![CDATA[`font-variant`]]></name>
 		<note></note>
-		<resume>Display all lowercase letters as small capital letters</resume>
+		<resume><![CDATA[Display all lowercase letters as small capital letters]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -1065,9 +1150,9 @@
 
 	<item search="font-weight font weight">
 		<description></description>
-		<name>font-weight</name>
+		<name><![CDATA[`font-weight`]]></name>
 		<note></note>
-		<resume>Specify the boldness of the current font</resume>
+		<resume><![CDATA[Specify the boldness of the current font]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -1075,13 +1160,15 @@
 
 	<item search="footer">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<footer>]]>lorem ipsum<![CDATA[</footer>]]>
+	<footer>lorem ipsum</footer>
+]]>
 		</description>
-		<name>footer</name>
+		<name><![CDATA[`footer`]]></name>
 		<note></note>
-		<resume>Defines a footer for a document or `<![CDATA[<section>]]>`</resume>
+		<resume><![CDATA[Defines a footer for a document or `<section>`]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -1089,13 +1176,15 @@
 
 	<item search="fopen">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(resource) $misc = fopen ( (string) $filename , (string) $mode [, (bool) $use_include_path = (false) [, (resource) $context ]] );
+]]>
 		</description>
-		<name>fopen()</name>
+		<name><![CDATA[`fopen()`]]></name>
 		<note></note>
-		<resume>Open a file</resume>
+		<resume><![CDATA[Open a file]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1103,9 +1192,10 @@
 
 	<item search="form">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<form>]]>lorem ipsum<![CDATA[</form>]]>
+	<form>lorem ipsum</form>
 
 ### Attributes
 
@@ -1116,10 +1206,11 @@
 #### method
 
 #### name
+]]>
 		</description>
-		<name>form</name>
+		<name><![CDATA[`form`]]></name>
 		<note></note>
-		<resume>Defines a HTML for for user inputs</resume>
+		<resume><![CDATA[Defines a HTML for for user inputs]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -1127,9 +1218,9 @@
 
 	<item search="function.bind function bind">
 		<description></description>
-		<name>Function.bind()</name>
+		<name><![CDATA[`Function.bind()`]]></name>
 		<note></note>
-		<resume>Creates a new function whose the provided context argument become the `this` keyword</resume>
+		<resume><![CDATA[Creates a new function whose the provided context argument become the `this` keyword]]></resume>
 		<seealso></seealso>
 		<tech>JS</tech>
 		<type>Method</type>
@@ -1137,13 +1228,15 @@
 
 	<item search="h1 h2 h3 h4 h5 h6">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<h1>]]>lorem ipsum<![CDATA[</h1>]]>
+	<h1>lorem ipsum</h1>
+]]>
 		</description>
-		<name>h1 to h6</name>
+		<name><![CDATA[`h1 to h6`]]></name>
 		<note></note>
-		<resume>Defines HTML headings</resume>
+		<resume><![CDATA[Defines HTML headings]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -1151,13 +1244,15 @@
 
 	<item search="hash">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = hash ( (string $algo) , (string) $data [, (bool) $raw_output = false ] );
+]]>
 		</description>
-		<name>hash()</name>
+		<name><![CDATA[`hash()`]]></name>
 		<note></note>
-		<resume>Returns a hash string</resume>
+		<resume><![CDATA[Returns a hash string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1165,13 +1260,17 @@
 
 	<item search="head">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<head>]]>lorem ipsum<![CDATA[</head>]]>
+	<head>
+		lorem ipsum
+	</head>
+]]>
 		</description>
-		<name>head</name>
+		<name><![CDATA[`head`]]></name>
 		<note></note>
-		<resume>Defines information about the document</resume>
+		<resume><![CDATA[Defines information about the document]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -1179,13 +1278,15 @@
 
 	<item search="header">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<header>]]>lorem ipsum<![CDATA[</header>]]>
+	<header>lorem ipsum</header>
+]]>
 		</description>
-		<name>header</name>
+		<name><![CDATA[`header`]]></name>
 		<note></note>
-		<resume>Defines a header for a document or section</resume>
+		<resume><![CDATA[Defines a header for a document or section]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -1193,9 +1294,9 @@
 
 	<item search="height">
 		<description></description>
-		<name>height</name>
+		<name><![CDATA[`height`]]></name>
 		<note></note>
-		<resume>Sets the height of an element</resume>
+		<resume><![CDATA[Sets the height of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -1203,13 +1304,17 @@
 
 	<item search="html">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<html>]]>lorem ipsum<![CDATA[</html>]]>
+	<html>
+		lorem ipsum
+	</html>
+]]>
 		</description>
-		<name>html</name>
+		<name><![CDATA[`html`]]></name>
 		<note></note>
-		<resume>Defines the root of a HTML document</resume>
+		<resume><![CDATA[Defines the root of a HTML document]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -1217,9 +1322,9 @@
 
 	<item search="$http">
 		<description></description>
-		<name>$http</name>
+		<name><![CDATA[`$http`]]></name>
 		<note></note>
-		<resume>Facilitates communication with the remote HTTP servers via the XMLHttpRequest object or via JSONP</resume>
+		<resume><![CDATA[Facilitates communication with the remote HTTP servers via the XMLHttpRequest object or via JSONP]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Service</type>
@@ -1227,9 +1332,10 @@
 
 	<item search="img">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<img>]]>
+	<img>
 
 ### Attributes
 
@@ -1244,10 +1350,11 @@
 #### title
 
 #### width
+]]>
 		</description>
-		<name>img</name>
+		<name><![CDATA[`img`]]></name>
 		<note></note>
-		<resume>Defines an image</resume>
+		<resume><![CDATA[Defines an image]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Inline tag</type>
@@ -1255,6 +1362,7 @@
 
 	<item search="implode">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = implode ( (string) $glue , (array) $pieces );
@@ -1262,10 +1370,11 @@
 or
 
 	(string) $misc = implode ( (array) $pieces );
+]]>
 		</description>
-		<name>implode()</name>
-		<note><strong>Alias:</strong> `join`</note>
-		<resume>Converts an array into a string</resume>
+		<name><![CDATA[`implode()`]]></name>
+		<note><![CDATA[**Alias:** `join`]]></note>
+		<resume><![CDATA[Converts an array into a string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1273,9 +1382,10 @@ or
 
 	<item search="input">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<input>]]>
+	<input>
 
 #### autocomplete
 
@@ -1302,10 +1412,11 @@ or
 #### type
 
 #### value
+]]>
 		</description>
-		<name>input</name>
+		<name><![CDATA[`input`]]></name>
 		<note></note>
-		<resume>Defines an input control</resume>
+		<resume><![CDATA[Defines an input control]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Inline tag</type>
@@ -1313,13 +1424,15 @@ or
 
 	<item search="is_array is array">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = is_array ( (mixed) $var );
+]]>
 		</description>
-		<name>is_array()</name>
+		<name><![CDATA[`is_array()`]]></name>
 		<note></note>
-		<resume>Finds whether an element is an array</resume>
+		<resume><![CDATA[Finds whether an element is an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1327,13 +1440,15 @@ or
 
 	<item search="is_bool is bool">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = is_bool ( (mixed) $var );
+]]>
 		</description>
-		<name>is_bool()</name>
+		<name><![CDATA[`is_bool()`]]></name>
 		<note></note>
-		<resume>Finds whether an element is a boolean</resume>
+		<resume><![CDATA[Finds whether an element is a boolean]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1341,13 +1456,15 @@ or
 
 	<item search="is_dir is dir">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = is_dir ( (string) $filename );
+]]>
 		</description>
-		<name>is_dir()</name>
+		<name><![CDATA[`is_dir()`]]></name>
 		<note></note>
-		<resume>Finds whether an element is a directory</resume>
+		<resume><![CDATA[Finds whether an element is a directory]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1355,13 +1472,15 @@ or
 
 	<item search="is_file is file">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = is_file ( (string) $filename );
+]]>
 		</description>
-		<name>is_file()</name>
+		<name><![CDATA[`is_file()`]]></name>
 		<note></note>
-		<resume>Finds whether an element is a file</resume>
+		<resume><![CDATA[Finds whether an element is a file]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1369,13 +1488,15 @@ or
 
 	<item search="is_float is float">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = is_float ( (mixed) $var );
+]]>
 		</description>
-		<name>is_float()</name>
+		<name><![CDATA[`is_float()`]]></name>
 		<note></note>
-		<resume>Finds whether an element is a float</resume>
+		<resume><![CDATA[Finds whether an element is a float]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1383,13 +1504,15 @@ or
 
 	<item search="is_int is int">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = is_int ( (mixed) $var );
+]]>
 		</description>
-		<name>is_int()</name>
+		<name><![CDATA[`is_int()`]]></name>
 		<note></note>
-		<resume>Finds whether an element is an integer</resume>
+		<resume><![CDATA[Finds whether an element is an integer]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1397,13 +1520,15 @@ or
 
 	<item search="is_nan is nan">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = is_nan ( (float) $val );
+]]>
 		</description>
-		<name>is_nan()</name>
+		<name><![CDATA[`is_nan()`]]></name>
 		<note></note>
-		<resume>Finds whether an element is `NaN` (Not a Number)</resume>
+		<resume><![CDATA[Finds whether an element is `NaN` (Not a Number)]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1411,13 +1536,15 @@ or
 
 	<item search="is_null is null">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = is_null ( (mixed) $var );
+]]>
 		</description>
-		<name>is_null()</name>
+		<name><![CDATA[`is_null()`]]></name>
 		<note></note>
-		<resume>Finds whether an element is `NULL`</resume>
+		<resume><![CDATA[Finds whether an element is `NULL`]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1425,13 +1552,15 @@ or
 
 	<item search="is_numeric is numeric">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = is_numeric ( (mixed) $var );
+]]>
 		</description>
-		<name>is_numeric()</name>
+		<name><![CDATA[`is_numeric()`]]></name>
 		<note></note>
-		<resume>Finds whether an element is a number or a numeric string</resume>
+		<resume><![CDATA[Finds whether an element is a number or a numeric string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1439,13 +1568,15 @@ or
 
 	<item search="is_object is object">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = is_object ( (mixed) $var );
+]]>
 		</description>
-		<name>is_object()</name>
+		<name><![CDATA[`is_object()`]]></name>
 		<note></note>
-		<resume>Finds whether an element is an object</resume>
+		<resume><![CDATA[Finds whether an element is an object]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1453,13 +1584,15 @@ or
 
 	<item search="is_string is string">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = is_string ( (mixed) $var );
+]]>
 		</description>
-		<name>is_string()</name>
+		<name><![CDATA[`is_string()`]]></name>
 		<note></note>
-		<resume>Finds whether an element is a string</resume>
+		<resume><![CDATA[Finds whether an element is a string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1467,13 +1600,15 @@ or
 
 	<item search="is_uploaded_file is uploaded file">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = is_uploaded_file ( (string) $filename );
+]]>
 		</description>
-		<name>is_uploaded_file()</name>
+		<name><![CDATA[`is_uploaded_file()`]]></name>
 		<note></note>
-		<resume>Finds whether an element was uploaded by HTTP POST</resume>
+		<resume><![CDATA[Finds whether an element was uploaded by HTTP POST]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1481,13 +1616,15 @@ or
 
 	<item search="isset">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = isset ( (mixed) $var [, (mixed) $… ] );
+]]>
 		</description>
-		<name>isset()</name>
+		<name><![CDATA[`isset()`]]></name>
 		<note></note>
-		<resume>Finds whether a variable exists and is not `NULL`</resume>
+		<resume><![CDATA[Finds whether a variable exists and is not `NULL`]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1495,13 +1632,15 @@ or
 
 	<item search="json_decode json decode">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(mixed) $misc = json_decode ( (string) $json [, (bool) $assoc = false [, (int) $depth = 512 [, (int) $options = 0 ]]] );
+]]>
 		</description>
-		<name>json_decode()</name>
+		<name><![CDATA[`json_decode()`]]></name>
 		<note></note>
-		<resume>Converts a JSON string into an array</resume>
+		<resume><![CDATA[Converts a JSON string into an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1509,13 +1648,15 @@ or
 
 	<item search="json_encode json encode">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = json_encode ( (mixed) $value [, (int) $options = 0 [, (int) $depth = 512 ]] );
+]]>
 		</description>
-		<name>json_encode()</name>
+		<name><![CDATA[`json_encode()`]]></name>
 		<note></note>
-		<resume>Converts an element into a JSON string</resume>
+		<resume><![CDATA[Converts an element into a JSON string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1523,13 +1664,15 @@ or
 
 	<item search="key">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(mixed) $misc = key ( (array) $array );
+]]>
 		</description>
-		<name>key()</name>
+		<name><![CDATA[`key()`]]></name>
 		<note></note>
-		<resume>Return the key value of the current element pointed in an array</resume>
+		<resume><![CDATA[Return the key value of the current element pointed in an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1537,13 +1680,15 @@ or
 
 	<item search="krsort">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = krsort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+]]>
 		</description>
-		<name>krsort()</name>
+		<name><![CDATA[`krsort()`]]></name>
 		<note></note>
-		<resume>Sort an array in reverse order by key</resume>
+		<resume><![CDATA[Sort an array in reverse order by key]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1551,13 +1696,15 @@ or
 
 	<item search="ksort">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = ksort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+]]>
 		</description>
-		<name>ksort()</name>
+		<name><![CDATA[`ksort()`]]></name>
 		<note></note>
-		<resume>Sort an array by key</resume>
+		<resume><![CDATA[Sort an array by key]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1565,17 +1712,19 @@ or
 
 	<item search="label">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<label>]]>lorem ipsum<![CDATA[</label>]]>
+	<label>lorem ipsum</label>
 
 ### Attributes
 
 #### for
+]]>
 		</description>
-		<name>label</name>
+		<name><![CDATA[`label`]]></name>
 		<note></note>
-		<resume>Defines a label for an `<![CDATA[<input>]]>` element</resume>
+		<resume><![CDATA[Defines a label for an `<input>` element]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -1583,15 +1732,17 @@ or
 
 	<item search="legend">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<fieldset>]]>
-		<![CDATA[<legend>]]>lorem ipsum<![CDATA[</legend>]]>
-	<![CDATA[</fieldset>]]>
+	<fieldset>
+		<legend>lorem ipsum</legend>
+	</fieldset>
+]]>
 		</description>
-		<name>legend</name>
+		<name><![CDATA[`legend`]]></name>
 		<note></note>
-		<resume>Defines a legend for a `<![CDATA[<fieldset>]]>` element</resume>
+		<resume><![CDATA[Defines a legend for a `<fieldset>` element]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -1599,22 +1750,23 @@ or
 
 	<item search="li">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<ul>]]>
-		<![CDATA[<li>]]>lorem ipsum<![CDATA[</li>]]>
-	<![CDATA[</ul>]]>
+	<ul>
+		<li>lorem ipsum</li>
+	</ul>
 
 or
 
-	<![CDATA[<ol>]]>
-		<![CDATA[<li>]]>lorem ipsum<![CDATA[</li>]]>
-	<![CDATA[</ol>]]>
-
+	<ol>
+		<li>lorem ipsum</li>
+	</ol>
+]]>
 		</description>
-		<name>li</name>
+		<name><![CDATA[`li`]]></name>
 		<note></note>
-		<resume>Defines a list item</resume>
+		<resume><![CDATA[Defines a list item]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -1622,9 +1774,9 @@ or
 
 	<item search="line-height line height">
 		<description></description>
-		<name>line-height</name>
+		<name><![CDATA[`line-height`]]></name>
 		<note></note>
-		<resume>Specify the height for a text line</resume>
+		<resume><![CDATA[Specify the height for a text line]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -1632,13 +1784,15 @@ or
 
 	<item search="ltrim">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = ltrim ( (string) $str [, (string) $character_mask ] );
+]]>
 		</description>
-		<name>ltrim()</name>
+		<name><![CDATA[`ltrim()`]]></name>
 		<note></note>
-		<resume>Removes characters from the left extremity of a string</resume>
+		<resume><![CDATA[Removes characters from the left extremity of a string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1646,13 +1800,15 @@ or
 
 	<item search="mail">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = mail ( (string) $to , (string) $subject , (string) $message [, (string) $additional_headers [, (string) $additional_parameters ]] );
+]]>
 		</description>
-		<name>mail()</name>
+		<name><![CDATA[`mail()`]]></name>
 		<note></note>
-		<resume>Send a mail</resume>
+		<resume><![CDATA[Send a mail]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1660,13 +1816,15 @@ or
 
 	<item search="main">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<main>]]>lorem ipsum<![CDATA[</main>]]>
+	<main>lorem ipsum</main>
+]]>
 		</description>
-		<name>main</name>
+		<name><![CDATA[`main`]]></name>
 		<note></note>
-		<resume>Defines the main content of a document</resume>
+		<resume><![CDATA[Defines the main content of a document]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -1674,9 +1832,9 @@ or
 
 	<item search="margin">
 		<description></description>
-		<name>margin</name>
+		<name><![CDATA[`margin`]]></name>
 		<note></note>
-		<resume>Sets the margin to each side of an element</resume>
+		<resume><![CDATA[Sets the margin to each side of an element]]></resume>
 		<seealso>`margin-bottom` — `margin-left` — `margin-right` — `margin-top`</seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -1684,13 +1842,15 @@ or
 
 	<item search="menu">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<menu>]]>lorem ipsum<![CDATA[</menu>]]>
+	<menu>lorem ipsum</menu>
+]]>
 		</description>
-		<name>menu</name>
+		<name><![CDATA[`menu`]]></name>
 		<note></note>
-		<resume>Defines a list / menu of command</resume>
+		<resume><![CDATA[Defines a list / menu of command]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -1698,9 +1858,10 @@ or
 
 	<item search="meta">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<meta>]]>
+	<meta>
 
 ### Attributes
 
@@ -1711,10 +1872,11 @@ or
 #### http-equiv
 
 #### name
+]]>
 		</description>
-		<name>meta</name>
+		<name><![CDATA[`meta`]]></name>
 		<note></note>
-		<resume>Defines metadata about a HTML document</resume>
+		<resume><![CDATA[Defines metadata about a HTML document]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -1722,13 +1884,15 @@ or
 
 	<item search="mkdir">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = mkdir ( (string) $pathname [, (int) $mode = 0777 [, (bool) $recursive = false [, (resource) $context ]]] );
+]]>
 		</description>
-		<name>mkdir()</name>
+		<name><![CDATA[`mkdir()`]]></name>
 		<note></note>
-		<resume>Creates a directory</resume>
+		<resume><![CDATA[Creates a directory]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1736,9 +1900,9 @@ or
 
 	<item search="module.config module config">
 		<description></description>
-		<name>module.config()</name>
+		<name><![CDATA[`module.config()`]]></name>
 		<note></note>
-		<resume>Configure providers or constant</resume>
+		<resume><![CDATA[Configure providers or constant]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Function</type>
@@ -1746,9 +1910,9 @@ or
 
 	<item search="module.controller module controller">
 		<description></description>
-		<name>module.controller()</name>
+		<name><![CDATA[`module.controller()`]]></name>
 		<note></note>
-		<resume>Creates a custom controller</resume>
+		<resume><![CDATA[Creates a custom controller]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Function</type>
@@ -1756,9 +1920,9 @@ or
 
 	<item search="module.factory module factory">
 		<description></description>
-		<name>module.factory()</name>
+		<name><![CDATA[`module.factory()`]]></name>
 		<note></note>
-		<resume>Creates a custom factory</resume>
+		<resume><![CDATA[Creates a custom factory]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Function</type>
@@ -1766,9 +1930,9 @@ or
 
 	<item search="module.service module service">
 		<description></description>
-		<name>module.service()</name>
+		<name><![CDATA[`module.service()`]]></name>
 		<note></note>
-		<resume>Creates a custom service</resume>
+		<resume><![CDATA[Creates a custom service]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Function</type>
@@ -1776,6 +1940,7 @@ or
 
 	<item search="mt_rand mt rand">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(int) $misc =  mt_rand ( void );
@@ -1783,10 +1948,11 @@ or
 or
 
 	(int) $misc = mt_rand ( (int) $min , (int) $max );
+]]>
 		</description>
-		<name>mt_rand()</name>
+		<name><![CDATA[`mt_rand()`]]></name>
 		<note></note>
-		<resume>Generates a random number</resume>
+		<resume><![CDATA[Generates a random number]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1794,13 +1960,15 @@ or
 
 	<item search="nav">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<nav>]]>lorem ipsum<![CDATA[</nav>]]>
+	<nav>lorem ipsum</nav>
+]]>
 		</description>
-		<name>nav</name>
+		<name><![CDATA[`nav`]]></name>
 		<note></note>
-		<resume>Defines navigation links</resume>
+		<resume><![CDATA[Defines navigation links]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -1808,13 +1976,15 @@ or
 
 	<item search="next">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(mixed) $misc = next ( (array) $array );
+]]>
 		</description>
-		<name>next()</name>
+		<name><![CDATA[`next()`]]></name>
 		<note></note>
-		<resume>Point to the next element of an array</resume>
+		<resume><![CDATA[Point to the next element of an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1822,9 +1992,9 @@ or
 
 	<item search="ng-app ngapp">
 		<description></description>
-		<name>ng-app</name>
+		<name><![CDATA[`ng-app`]]></name>
 		<note></note>
-		<resume>Auto-bootstrap an AngularJS application</resume>
+		<resume><![CDATA[Auto-bootstrap an AngularJS application]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Attribute</type>
@@ -1832,9 +2002,9 @@ or
 
 	<item search="ng-controller ngcontroller">
 		<description></description>
-		<name>ng-controller</name>
+		<name><![CDATA[`ng-controller`]]></name>
 		<note></note>
-		<resume>Attaches a controller to the view element</resume>
+		<resume><![CDATA[Attaches a controller to the view element]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Attribute</type>
@@ -1842,9 +2012,9 @@ or
 
 	<item search="ng-hide nghide">
 		<description></description>
-		<name>ng-hide</name>
+		<name><![CDATA[`ng-hide`]]></name>
 		<note></note>
-		<resume>Hides or shows the given HTML element based on the expression provided</resume>
+		<resume><![CDATA[Hides or shows the given HTML element based on the expression provided]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Attribute</type>
@@ -1852,9 +2022,9 @@ or
 
 	<item search="ng-show ngshow">
 		<description></description>
-		<name>ng-show</name>
+		<name><![CDATA[`ng-show`]]></name>
 		<note></note>
-		<resume>Shows or hides the given HTML element based on the expression provided</resume>
+		<resume><![CDATA[Shows or hides the given HTML element based on the expression provided]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Attribute</type>
@@ -1862,9 +2032,9 @@ or
 
 	<item search="ng-view ngview">
 		<description></description>
-		<name>ng-view</name>
-		<note>Implements the &lt;$route&gt; module</note>
-		<resume>Includes the rendered template of the current route into the main layout (index.html) file.</resume>
+		<name><![CDATA[`ng-view`]]></name>
+		<note><![CDATA[Implements the `route` module]]></note>
+		<resume><![CDATA[Includes the rendered template of the current route into the main layout (index.html) file.]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Attribute</type>
@@ -1872,13 +2042,15 @@ or
 
 	<item search="nl2br">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = nl2br ( (string) $string [, (bool) $is_xhtml = true ] );
+]]>
 		</description>
-		<name>nl2br()</name>
+		<name><![CDATA[`nl2br()`]]></name>
 		<note></note>
-		<resume>Converts all new line in a string into an HTML line break</resume>
+		<resume><![CDATA[Converts all new line in a string into an HTML line break]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1886,13 +2058,15 @@ or
 
 	<item search="noscript">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<noscript>]]>lorem ipsum<![CDATA[</noscript>]]>
+	<noscript>lorem ipsum</noscript>
+]]>
 		</description>
-		<name>noscript</name>
+		<name><![CDATA[`noscript`]]></name>
 		<note></note>
-		<resume>Defines an alternate content for user that do not support client-side scripts</resume>
+		<resume><![CDATA[Defines an alternate content for user that do not support client-side scripts]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -1900,9 +2074,9 @@ or
 
 	<item search=":not">
 		<description></description>
-		<name>:not(`selector`)</name>
+		<name><![CDATA[`:not(selector)`]]></name>
 		<note></note>
-		<resume>Select element if it not matches the selector in the `:not()` function</resume>
+		<resume><![CDATA[Select element if it not matches the selector in the `:not()` function]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
@@ -1910,15 +2084,17 @@ or
 
 	<item search="ol">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<ol>]]>
-		<![CDATA[<li>]]>lorem ipsum<![CDATA[</li>]]>
-	<![CDATA[</ol>]]>
+	<ol>
+		<li>lorem ipsum</li>
+	</ol>
+]]>
 		</description>
-		<name>ol</name>
+		<name><![CDATA[`ol`]]></name>
 		<note></note>
-		<resume>Defines an ordored list</resume>
+		<resume><![CDATA[Defines an ordored list]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -1926,13 +2102,15 @@ or
 
 	<item search="opendir">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(resource) $misc = opendir ( (string) $path [, (resource) $context ] );
+]]>
 		</description>
-		<name>opendir()</name>
+		<name><![CDATA[`opendir()`]]></name>
 		<note></note>
-		<resume>Open a directory handle</resume>
+		<resume><![CDATA[Open a directory handle]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -1940,23 +2118,25 @@ or
 
 	<item search="optgroup">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<select>]]>
-		<![CDATA[<optgroup>]]>
-			<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
-		<![CDATA[</optgroup>]]>
-	<![CDATA[</select>]]>
+	<select>
+		<optgroup>
+			<option>lorem ipsum</option>
+		</optgroup>
+	</select>
 
 ### Attributes
 
 #### disabled
 
 #### label
+]]>
 		</description>
-		<name>optgroup</name>
+		<name><![CDATA[`optgroup`]]></name>
 		<note></note>
-		<resume>Defines a group of related options in a `<![CDATA[<select>]]>`</resume>
+		<resume><![CDATA[Defines a group of related options in a `<select>`]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -1964,19 +2144,20 @@ or
 
 	<item search="option">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<select>]]>
-		<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
-	<![CDATA[</select>]]>
+	<select>
+		<option>lorem ipsum</option>
+	</select>
 
 or
 
-	<![CDATA[<select>]]>
-		<![CDATA[<optgroup>]]>
-			<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
-		<![CDATA[</optgroup>]]>
-	<![CDATA[</select>]]>
+	<select>
+		<optgroup>
+			<option>lorem ipsum</option>
+		</optgroup>
+	</select>
 
 ### Attributes
 
@@ -1987,10 +2168,11 @@ or
 #### selected
 
 #### value
+]]>
 		</description>
-		<name>option</name>
+		<name><![CDATA[`option`]]></name>
 		<note></note>
-		<resume>Defines an option in a `<![CDATA[<select>]]>`</resume>
+		<resume><![CDATA[Defines an option in a `<select>`]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -1998,9 +2180,9 @@ or
 
 	<item search="outline">
 		<description></description>
-		<name>outline</name>
-		<note><strong>Shortcut for:</strong> `outline-color` — `outline-width` and `outline-style`</note>
-		<resume>Sets the outline render of an element</resume>
+		<name><![CDATA[`outline`]]></name>
+		<note><![CDATA[**Shortcut for:** `outline-color` — `outline-width` and `outline-style`]]></note>
+		<resume><![CDATA[Sets the outline render of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2008,9 +2190,9 @@ or
 
 	<item search="outline-color outline color">
 		<description></description>
-		<name>outline-color</name>
+		<name><![CDATA[`outline-color`]]></name>
 		<note></note>
-		<resume>Sets the outline color of an element</resume>
+		<resume><![CDATA[Sets the outline color of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2018,9 +2200,9 @@ or
 
 	<item search="outline-style outline style">
 		<description></description>
-		<name>outline-style</name>
+		<name><![CDATA[`outline-style`]]></name>
 		<note></note>
-		<resume>Sets the outline style of an element</resume>
+		<resume><![CDATA[Sets the outline style of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2028,9 +2210,9 @@ or
 
 	<item search="outline-width outline width">
 		<description></description>
-		<name>outline-width</name>
+		<name><![CDATA[`outline-width`]]></name>
 		<note></note>
-		<resume>Sets the outline width of an element</resume>
+		<resume><![CDATA[Sets the outline width of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2038,9 +2220,9 @@ or
 
 	<item search="overflow">
 		<description></description>
-		<name>overflow</name>
+		<name><![CDATA[`overflow`]]></name>
 		<note></note>
-		<resume>Modify default CSS behavior when a text overflow a block element</resume>
+		<resume><![CDATA[Modify default CSS behavior when a text overflow a block element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2048,9 +2230,9 @@ or
 
 	<item search="overflow-x">
 		<description></description>
-		<name>overflow-x</name>
+		<name><![CDATA[`overflow-x`]]></name>
 		<note></note>
-		<resume>Modify default CSS horizontal behavior when a text overflow a block element</resume>
+		<resume><![CDATA[Modify default CSS horizontal behavior when a text overflow a block element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2058,9 +2240,9 @@ or
 
 	<item search="overflow-y">
 		<description></description>
-		<name>overflow-y</name>
+		<name><![CDATA[`overflow-y`]]></name>
 		<note></note>
-		<resume>Modify default CSS vertical behavior when a text overflow a block element</resume>
+		<resume><![CDATA[Modify default CSS vertical behavior when a text overflow a block element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2068,13 +2250,15 @@ or
 
 	<item search="p">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<p>]]>lorem ipsum<![CDATA[</p>]]>
+	<p>lorem ipsum</p>
+]]>
 		</description>
-		<name>p</name>
+		<name><![CDATA[`p`]]></name>
 		<note></note>
-		<resume>Defines a paragraph</resume>
+		<resume><![CDATA[Defines a paragraph]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -2082,9 +2266,9 @@ or
 
 	<item search="padding">
 		<description></description>
-		<name>padding</name>
-		<note><strong>Shortcut for:</strong> `padding-bottom` — `padding-left` — `padding-right` and `padding-top`</note>
-		<resume>Sets the padding to each side of an element</resume>
+		<name><![CDATA[`padding`]]></name>
+		<note><![CDATA[**Shortcut for:** `padding-bottom` — `padding-left` — `padding-right` and `padding-top`]]></note>
+		<resume><![CDATA[Sets the padding to each side of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2092,9 +2276,9 @@ or
 
 	<item search="parseFloat parse float">
 		<description></description>
-		<name>parseFloat()</name>
+		<name><![CDATA[`parseFloat()`]]></name>
 		<note></note>
-		<resume>Parses a string argument and returns a float number</resume>
+		<resume><![CDATA[Parses a string argument and returns a float number]]></resume>
 		<seealso></seealso>
 		<tech>JS</tech>
 		<type>Function</type>
@@ -2102,9 +2286,9 @@ or
 
 	<item search="parseInt parse int">
 		<description></description>
-		<name>parseInt()</name>
+		<name><![CDATA[`parseInt()`]]></name>
 		<note></note>
-		<resume>Parses a string argument and returns an integer of the specified base</resume>
+		<resume><![CDATA[Parses a string argument and returns an integer of the specified base]]></resume>
 		<seealso></seealso>
 		<tech>JS</tech>
 		<type>Function</type>
@@ -2112,13 +2296,15 @@ or
 
 	<item search="pi">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(float) $misc = pi ( void );
+]]>
 		</description>
-		<name>pi()</name>
+		<name><![CDATA[`pi()`]]></name>
 		<note></note>
-		<resume>Return the value of pi</resume>
+		<resume><![CDATA[Return the value of pi]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2126,13 +2312,15 @@ or
 
 	<item search="pow">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(number) $misc = pow ( (number) $base , (number) $exp );
+]]>
 		</description>
-		<name>pow()</name>
+		<name><![CDATA[`pow()`]]></name>
 		<note></note>
-		<resume>Returns an exponential value</resume>
+		<resume><![CDATA[Returns an exponential value]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2140,13 +2328,15 @@ or
 
 	<item search="pre">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<pre>]]>lorem ipsum<![CDATA[</pre>]]>
+	<pre>lorem ipsum</pre>
+]]>
 		</description>
-		<name>pre</name>
+		<name><![CDATA[`pre`]]></name>
 		<note></note>
-		<resume>Defines preformatted text</resume>
+		<resume><![CDATA[Defines preformatted text]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -2154,13 +2344,15 @@ or
 
 	<item search="prev">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(mixed) $misc = prev ( (array) $array );
+]]>
 		</description>
-		<name>prev()</name>
+		<name><![CDATA[`prev()`]]></name>
 		<note></note>
-		<resume>Point to the previous element of an array</resume>
+		<resume><![CDATA[Point to the previous element of an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2168,9 +2360,9 @@ or
 
 	<item search="$q">
 		<description></description>
-		<name>$q</name>
+		<name><![CDATA[`$q`]]></name>
 		<note></note>
-		<resume>A promise / deferred implementation</resume>
+		<resume><![CDATA[A promise / deferred implementation]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Service</type>
@@ -2178,13 +2370,15 @@ or
 
 	<item search="readdir">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = readdir ( [ (resource) $dir_handle ] );
+]]>
 		</description>
-		<name>readdir()</name>
+		<name><![CDATA[`readdir()`]]></name>
 		<note></note>
-		<resume>Read an entry from a directory handle</resume>
+		<resume><![CDATA[Read an entry from a directory handle]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2192,13 +2386,15 @@ or
 
 	<item search="rename">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = rename ( (string) $oldname , (string) $newname [, (resource) $context ] );
+]]>
 		</description>
-		<name>rename()</name>
+		<name><![CDATA[`rename()`]]></name>
 		<note></note>
-		<resume>Rename a file of a directory</resume>
+		<resume><![CDATA[Rename a file of a directory]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2206,9 +2402,9 @@ or
 
 	<item search=":required">
 		<description></description>
-		<name>:required</name>
+		<name><![CDATA[`:required`]]></name>
 		<note></note>
-		<resume>Select `required` inputs</resume>
+		<resume><![CDATA[Select `required` inputs]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
@@ -2216,13 +2412,15 @@ or
 
 	<item search="reset">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(mixed) $misc = reset ( (array) $array );
+]]>
 		</description>
-		<name>reset()</name>
+		<name><![CDATA[`reset()`]]></name>
 		<note></note>
-		<resume>Point to the first element of an array</resume>
+		<resume><![CDATA[Point to the first element of an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2230,13 +2428,15 @@ or
 
 	<item search="rmdir">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = rmdir ( (string) $dirname [, (resource) $context ] );
+]]>
 		</description>
-		<name>rmdir()</name>
+		<name><![CDATA[`rmdir()`]]></name>
 		<note></note>
-		<resume>Remove an empty directory</resume>
+		<resume><![CDATA[Remove an empty directory]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2244,9 +2444,9 @@ or
 
 	<item search="$rootScope">
 		<description></description>
-		<name>$rootScope</name>
+		<name><![CDATA[`$rootScope`]]></name>
 		<note></note>
-		<resume>Global scope of the application</resume>
+		<resume><![CDATA[Global scope of the application]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Service</type>
@@ -2254,13 +2454,15 @@ or
 
 	<item search="rsort">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = rsort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+]]>
 		</description>
-		<name>rsort()</name>
+		<name><![CDATA[`rsort()`]]></name>
 		<note></note>
-		<resume>Sort an array in reverse order but don't maintain index association</resume>
+		<resume><![CDATA[Sort an array in reverse order but don't maintain index association]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2268,13 +2470,15 @@ or
 
 	<item search="rtrim">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = rtrim ( (string) $str [, (string) $character_mask ] );
+]]>
 		</description>
-		<name>rtrim()</name>
+		<name><![CDATA[`rtrim()`]]></name>
 		<note></note>
-		<resume>Removes characters from the right extremity of a string</resume>
+		<resume><![CDATA[Removes characters from the right extremity of a string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2282,9 +2486,9 @@ or
 
 	<item search="$scope">
 		<description></description>
-		<name>$scope</name>
+		<name><![CDATA[`$scope`]]></name>
 		<note></note>
-		<resume>Current scope of the controller</resume>
+		<resume><![CDATA[Current scope of the controller]]></resume>
 		<seealso></seealso>
 		<tech>AngularJS</tech>
 		<type>Service</type>
@@ -2292,9 +2496,10 @@ or
 
 	<item search="script">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<script>]]>lorem ipsum<![CDATA[</script>]]>
+	<script>lorem ipsum</script>
 
 ### Attributes
 
@@ -2303,10 +2508,11 @@ or
 #### src
 
 #### type
+]]>
 		</description>
-		<name>script</name>
+		<name><![CDATA[`script`]]></name>
 		<note></note>
-		<resume>Defines a client-side script</resume>
+		<resume><![CDATA[Defines a client-side script]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -2314,13 +2520,15 @@ or
 
 	<item search="section">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<section>]]>lorem ipsum<![CDATA[</section>]]>
+	<section>lorem ipsum</section>
+]]>
 		</description>
-		<name>section</name>
+		<name><![CDATA[`section`]]></name>
 		<note></note>
-		<resume>Defines a section in a document</resume>
+		<resume><![CDATA[Defines a section in a document]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -2328,19 +2536,20 @@ or
 
 	<item search="select">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<select>]]>
-		<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
-	<![CDATA[</select>]]>
+	<select>
+		<option>lorem ipsum</option>
+	</select>
 
 or
 
-	<![CDATA[<select>]]>
-		<![CDATA[<optgroup>]]>
-			<![CDATA[<option>]]>lorem ipsum<![CDATA[</option>]]>
-		<![CDATA[</optgroup>]]>
-	<![CDATA[</select>]]>
+	<select>
+		<optgroup>
+			<option>lorem ipsum</option>
+		</optgroup>
+	</select>
 
 ### Attributes
 
@@ -2353,10 +2562,11 @@ or
 #### name
 
 #### required
+]]>
 		</description>
-		<name>select</name>
+		<name><![CDATA[`select`]]></name>
 		<note></note>
-		<resume>Defines a drop-down list</resume>
+		<resume><![CDATA[Defines a drop-down list]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Inline tag</type>
@@ -2364,13 +2574,15 @@ or
 
 	<item search="serialize">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = serialize ( (mixed) $value );
+]]>
 		</description>
-		<name>serialize()</name>
+		<name><![CDATA[`serialize()]]></name>
 		<note></note>
-		<resume>Converts an element into a storable representation</resume>
+		<resume><![CDATA[Converts an element into a storable representation]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2378,13 +2590,15 @@ or
 
 	<item search="shuffle">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = shuffle ( (array) $array );
+]]>
 		</description>
-		<name>shuffle()</name>
+		<name><![CDATA[`shuffle()`]]></name>
 		<note></note>
-		<resume>Randomize the order of elements in an array</resume>
+		<resume><![CDATA[Randomize the order of elements in an array]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2392,27 +2606,29 @@ or
 
 	<item search="source">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<audio>]]>
-		<![CDATA[<source>]]>
-	<![CDATA[</audio>]]>
+	<audio>
+		<source>
+	</audio>
 
 or
 
-	<![CDATA[<video>]]>
-		<![CDATA[<source>]]>
-	<![CDATA[</video>]]>
+	<video>
+		<source>
+	</video>
 
 ### Attributes
 
 #### src
 
 #### type
+]]>
 		</description>
-		<name>source</name>
+		<name><![CDATA[`source`]]></name>
 		<note></note>
-		<resume>Defines a media resource for `<![CDATA[<audio>]]>` and `<![CDATA[<video>]]>`</resume>
+		<resume><![CDATA[Defines a media resource for `<audio>` and `<video>`]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -2420,13 +2636,15 @@ or
 
 	<item search="span">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<span>]]>lorem ipsum<![CDATA[</span>]]>
+	<span>lorem ipsum</span>
+]]>
 		</description>
-		<name>span</name>
+		<name><![CDATA[`span`]]></name>
 		<note></note>
-		<resume>Defines a section in an inline element</resume>
+		<resume><![CDATA[Defines a section in an inline element]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Inline tag</type>
@@ -2434,13 +2652,15 @@ or
 
 	<item search="sort">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = sort ( (array) $array [, (int) $sort_flags = SORT_REGULAR ] );
+]]>
 		</description>
-		<name>sort()</name>
+		<name><![CDATA[`sort()`]]></name>
 		<note></note>
-		<resume>Sort an array but don't maintain index association</resume>
+		<resume><![CDATA[Sort an array but don't maintain index association]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2448,13 +2668,15 @@ or
 
 	<item search="sqrt">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(float) $misc = sqrt ( (float) $arg );
+]]>
 		</description>
-		<name>sqrt()</name>
+		<name><![CDATA[`sqrt()`]]></name>
 		<note></note>
-		<resume>Returns the square root of an element</resume>
+		<resume><![CDATA[Returns the square root of an element]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2462,13 +2684,15 @@ or
 
 	<item search="str_replace str replace">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(mixed) $misc = str_replace ( (mixed) $search , (mixed) $replace , (mixed) $subject [, (int) $count ] );
+]]>
 		</description>
-		<name>str_replace()</name>
+		<name><![CDATA[`str_replace()`]]></name>
 		<note></note>
-		<resume>Replace all occurrences of the search string with the replacement string</resume>
+		<resume><![CDATA[Replace all occurrences of the search string with the replacement string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2476,13 +2700,15 @@ or
 
 	<item search="str_shuffle str shuffle">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = str_shuffle ( (string) $str );
+]]>
 		</description>
-		<name>str_shuffle()</name>
+		<name><![CDATA[`str_shuffle()`]]></name>
 		<note></note>
-		<resume>Randomly shuffles a string</resume>
+		<resume><![CDATA[Randomly shuffles a string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2490,13 +2716,15 @@ or
 
 	<item search="strip_tags strip tags">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = strip_tags ( (string) $str [, (string) $allowable_tags ] );
+]]>
 		</description>
-		<name>strip_tags()</name>
+		<name><![CDATA[`strip_tags()`]]></name>
 		<note></note>
-		<resume>Removes HTML and PHP tags from a string</resume>
+		<resume><![CDATA[Removes HTML and PHP tags from a string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2504,13 +2732,15 @@ or
 
 	<item search="strlen">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(int) $misc = strlen ( (string) $string );
+]]>
 		</description>
-		<name>strlen()</name>
+		<name><![CDATA[`strlen()`]]></name>
 		<note></note>
-		<resume>Returns the string length</resume>
+		<resume><![CDATA[Returns the string length]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2518,13 +2748,15 @@ or
 
 	<item search="strong">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<strong>]]>lorem ipsum<![CDATA[</strong>]]>
+	<strong>lorem ipsum</strong>
+]]>
 		</description>
 		<name>strong</name>
-		<note></note>
-		<resume>Defines important text</resume>
+		<note><![CDATA[**Alias:** `<b>` (obselete)]]></note>
+		<resume><![CDATA[Defines important text]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Inline tag</type>
@@ -2532,13 +2764,15 @@ or
 
 	<item search="strpos">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(mixed) $misc = strpos ( (string) $haystack , (mixed) $needle [, (int) $offset = 0 ] );
+]]>
 		</description>
-		<name>strpos()</name>
+		<name><![CDATA[`strpos()`]]></name>
 		<note></note>
-		<resume>Find the position of the first occurrence of a character in a string</resume>
+		<resume><![CDATA[Find the position of the first occurrence of a character in a string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2546,13 +2780,15 @@ or
 
 	<item search="strrchr">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = strrchr ( (string) $haystack , (mixed) $needle );
+]]>
 		</description>
-		<name>strrchr()</name>
+		<name><![CDATA[`strrchr()`]]></name>
 		<note></note>
-		<resume>Find the last occurrence of a character in a string</resume>
+		<resume><![CDATA[Find the last occurrence of a character in a string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2560,13 +2796,15 @@ or
 
 	<item search="strrpos">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(int) $misc = strrpos ( (string) $haystack , (mixed) $needle [, (int) $offset = 0 ] );
+]]>
 		</description>
-		<name>strrpos()</name>
+		<name><![CDATA[`strrpos()`]]></name>
 		<note></note>
-		<resume>Find the position of the last occurrence of a character in a string</resume>
+		<resume><![CDATA[Find the position of the last occurrence of a character in a string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2574,13 +2812,15 @@ or
 
 	<item search="strstr">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = strstr ( (string) $haystack , (mixed) $needle [, (bool) $before_needle = false ] );
+]]>
 		</description>
-		<name>strstr()</name>
-		<note><strong>Alias:</strong> `strchr`</note>
-		<resume>Find the first occurrence of a character in a string</resume>
+		<name><![CDATA[`strstr()`]]></name>
+		<note><![CDATA[**Alias:** `strchr`]]></note>
+		<resume><![CDATA[Find the first occurrence of a character in a string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2588,13 +2828,15 @@ or
 
 	<item search="style">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<style>]]>lorem ipsum<![CDATA[</style>]]>
+	<style>lorem ipsum</style>
+]]>
 		</description>
-		<name>style</name>
+		<name><![CDATA[`style`]]></name>
 		<note></note>
-		<resume>Defines style information for a document</resume>
+		<resume><![CDATA[Defines style information for a document]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -2602,13 +2844,15 @@ or
 
 	<item search="sub">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<sub>]]>lorem ipsum<![CDATA[</sub>]]>
+	<sub>lorem ipsum</sub>
+]]>
 		</description>
-		<name>sub</name>
+		<name><![CDATA[`sub`]]></name>
 		<note></note>
-		<resume>Defines subscripted text</resume>
+		<resume><![CDATA[Defines subscripted text]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Inline tag</type>
@@ -2616,13 +2860,15 @@ or
 
 	<item search="substr">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = substr ( (string) $string , (int) $start [, (int) $length ] );
+]]>
 		</description>
-		<name>substr()</name>
+		<name><![CDATA[`substr()`]]></name>
 		<note></note>
-		<resume>Returns part of a string</resume>
+		<resume><![CDATA[Returns part of a string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2630,13 +2876,15 @@ or
 
 	<item search="sup">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<sup>]]>lorem ipsum<![CDATA[</sup>]]>
+	<sup>lorem ipsum</sup>
+]]>
 		</description>
-		<name>sup</name>
+		<name><![CDATA[`sup`]]></name>
 		<note></note>
-		<resume>Defines supscripted text</resume>
+		<resume><![CDATA[Defines supscripted text]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Inline tag</type>
@@ -2644,9 +2892,10 @@ or
 
 	<item search="table">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<table>]]>lorem ipsum<![CDATA[</table>]]>
+	<table>lorem ipsum</table>
 
 ### Attributes
 
@@ -2655,10 +2904,11 @@ or
 #### cellpadding
 
 #### cellspacing
+]]>
 		</description>
-		<name>table</name>
+		<name><![CDATA[`table`]]></name>
 		<note></note>
-		<resume>Defines a table</resume>
+		<resume><![CDATA[Defines a table]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -2666,13 +2916,15 @@ or
 
 	<item search="td">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<td>]]>lorem ipsum<![CDATA[</td>]]>
+	<td>lorem ipsum</td>
+]]>
 		</description>
-		<name>td</name>
+		<name><![CDATA[`td`]]></name>
 		<note></note>
-		<resume>Defines a cell in a `<![CDATA[<table>]]>`</resume>
+		<resume><![CDATA[Defines a cell in a `<table>`]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -2680,9 +2932,9 @@ or
 
 	<item search="text-align text align">
 		<description></description>
-		<name>text-align</name>
+		<name><![CDATA[`text-align`]]></name>
 		<note></note>
-		<resume>Sets the alignment of the text of an element</resume>
+		<resume><![CDATA[Sets the alignment of the text of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2690,9 +2942,9 @@ or
 
 	<item search="text-decoration text decoration">
 		<description></description>
-		<name>text-decoration</name>
+		<name><![CDATA[`text-decoration`]]></name>
 		<note></note>
-		<resume>Sets the text formatting `underline`, `overline` and `line-through`</resume>
+		<resume><![CDATA[Sets the text formatting `underline`, `overline` and `line-through`]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2700,9 +2952,10 @@ or
 
 	<item search="textarea">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<textarea>]]>lorem ipsum<![CDATA[</textarea>]]>
+	<textarea>lorem ipsum</textarea>
 
 ### Attributes
 
@@ -2723,10 +2976,11 @@ or
 #### required
 
 #### rows
+]]>
 		</description>
-		<name>textarea</name>
+		<name><![CDATA[`textarea`]]></name>
 		<note></note>
-		<resume>Defines a multiline input control</resume>
+		<resume><![CDATA[Defines a multiline input control]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Inline tag</type>
@@ -2734,13 +2988,15 @@ or
 
 	<item search="th">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<th>]]>lorem ipsum<![CDATA[</th>]]>
+	<th>lorem ipsum</th>
+]]>
 		</description>
-		<name>th</name>
+		<name><![CDATA[`th`]]></name>
 		<note></note>
-		<resume>Defines a header cell in a `<![CDATA[<table>]]>`</resume>
+		<resume><![CDATA[Defines a header cell in a `<table>`]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -2748,9 +3004,9 @@ or
 
 	<item search="time">
 		<description></description>
-		<name>time()</name>
+		<name><![CDATA[`time()`]]></name>
 		<note></note>
-		<resume>Return the current timestamp</resume>
+		<resume><![CDATA[Return the current timestamp]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2758,15 +3014,17 @@ or
 
 	<item search="title">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<head>]]>
-		<![CDATA[<title>]]>lorem ipsum<![CDATA[</title>]]>
-	<![CDATA[</head>]]>
+	<head>
+		<title>lorem ipsum</title>
+	</head>
+]]>
 		</description>
-		<name>title</name>
+		<name><![CDATA[`title`]]></name>
 		<note></note>
-		<resume>Defines a title for the document</resume>
+		<resume><![CDATA[Defines a title for the document]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -2774,13 +3032,15 @@ or
 
 	<item search="tr">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<tr>]]>lorem ipsum<![CDATA[</tr>]]>
+	<tr>lorem ipsum</tr>
+]]>
 		</description>
-		<name>tr</name>
+		<name><![CDATA[`tr`]]></name>
 		<note></note>
-		<resume>Defines a row in a `<![CDATA[<table>]]>`</resume>
+		<resume><![CDATA[Defines a row in a `<table>`]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Tag</type>
@@ -2788,9 +3048,9 @@ or
 
 	<item search="transition">
 		<description></description>
-		<name>transition</name>
-		<note><strong>Shortcut for:</strong> `transition-property` — `transition-duration` — `transition-delay` and `transition-timing-function`</note>
-		<resume>Specify a transition when an element style property changes</resume>
+		<name><![CDATA[`transition`]]></name>
+		<note><![CDATA[**Shortcut for:** `transition-property` — `transition-duration` — `transition-delay` and `transition-timing-function`]]></note>
+		<resume><![CDATA[Specify a transition when an element style property changes]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2798,9 +3058,9 @@ or
 
 	<item search="transition-delay transition delay">
 		<description></description>
-		<name>transition-delay</name>
+		<name><![CDATA[`transition-delay`]]></name>
 		<note></note>
-		<resume>Sets a delay before a transition is played</resume>
+		<resume><![CDATA[Sets a delay before a transition is played]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2808,9 +3068,9 @@ or
 
 	<item search="transition-duration transition duration">
 		<description></description>
-		<name>transition-duration</name>
+		<name><![CDATA[`transition-duration`]]></name>
 		<note></note>
-		<resume>Sets how long a transition need to be played</resume>
+		<resume><![CDATA[Sets how long a transition need to be played]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2818,9 +3078,9 @@ or
 
 	<item search="transition-property transition property">
 		<description></description>
-		<name>transition-property</name>
+		<name><![CDATA[`transition-property`]]></name>
 		<note></note>
-		<resume>Specify what properties shall be affect by the transition</resume>
+		<resume><![CDATA[Specify what properties shall be affect by the transition]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>
@@ -2828,13 +3088,15 @@ or
 
 	<item search="trim">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(string) $misc = trim ( (string) $str [, (string) $character_mask = " \t\n\r\0\x0B" ] );
+]]>
 		</description>
-		<name>trim()</name>
+		<name><![CDATA[`trim()`]]></name>
 		<note></note>
-		<resume>Remove characters from both extremities of a string</resume>
+		<resume><![CDATA[Remove characters from both extremities of a string]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2842,15 +3104,17 @@ or
 
 	<item search="ul">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<ul>]]>
-		<![CDATA[<li>]]>lorem ipsum<![CDATA[</li>]]>
-	<![CDATA[</ul>]]>
+	<ul>
+		<li>lorem ipsum</li>
+	</ul>
+]]>
 		</description>
-		<name>ul</name>
+		<name><![CDATA[`ul`]]></name>
 		<note></note>
-		<resume>Defines an unordered list</resume>
+		<resume><![CDATA[Defines an unordered list]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -2858,13 +3122,15 @@ or
 
 	<item search="unlink">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(bool) $misc = unlink ( (string) $filename [, (resource) $context ] );
+]]>
 		</description>
-		<name>unlink()</name>
-		<note><strong>Alias:</strong> `delete`</note>
-		<resume>Deletes a file</resume>
+		<name><![CDATA[`unlink()`]]></name>
+		<note><![CDATA[**Alias:** `delete`]]></note>
+		<resume><![CDATA[Deletes a file]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2872,13 +3138,15 @@ or
 
 	<item search="unserialize">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(mixed) $misc = unserialize ( (string) $str );
+]]>
 		</description>
-		<name>unserialize()</name>
+		<name><![CDATA[`unserialize()`]]></name>
 		<note></note>
-		<resume>Converts a storable representation into an PHP value</resume>
+		<resume><![CDATA[Converts a storable representation into an PHP value]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2886,9 +3154,9 @@ or
 
 	<item search=":valid">
 		<description></description>
-		<name>:valid</name>
+		<name><![CDATA[`:valid`]]></name>
 		<note></note>
-		<resume>True if input is not empty and matches with the `type` attribute</resume>
+		<resume><![CDATA[True if input is not empty and matches with the `type` attribute]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
@@ -2896,13 +3164,15 @@ or
 
 	<item search="var_dump var dump">
 		<description>
+<![CDATA[
 ### Syntax
 
 	(void) var_dump ( (mixed) $expression [, (mixed) $… ] );
+]]>
 		</description>
-		<name>var_dump()</name>
+		<name><![CDATA[`var_dump()`]]></name>
 		<note></note>
-		<resume>Dumps information about a variable</resume>
+		<resume><![CDATA[Dumps information about a variable]]></resume>
 		<seealso></seealso>
 		<tech>PHP</tech>
 		<type>Function</type>
@@ -2910,11 +3180,12 @@ or
 
 	<item search="video">
 		<description>
+<![CDATA[
 ### Syntax
 
-	<![CDATA[<video>]]>
-		<![CDATA[<source>]]>
-	<![CDATA[</video>]]>
+	<video>
+		<source>
+	</video>
 
 ### Attributes
 
@@ -2931,10 +3202,11 @@ or
 #### src
 
 #### volume
+]]>
 		</description>
-		<name>video</name>
+		<name><![CDATA[`video`]]></name>
 		<note></note>
-		<resume>Defines a video or a movie</resume>
+		<resume><![CDATA[Defines a video or a movie]]></resume>
 		<seealso></seealso>
 		<tech>HTML</tech>
 		<type>Block tag</type>
@@ -2942,9 +3214,9 @@ or
 
 	<item search=":visited">
 		<description></description>
-		<name>:visited</name>
+		<name><![CDATA[`:visited`]]></name>
 		<note></note>
-		<resume>Select `:visited` links</resume>
+		<resume><![CDATA[Select `:visited` links]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Pseudo-class</type>
@@ -2952,9 +3224,9 @@ or
 
 	<item search="width">
 		<description></description>
-		<name>width</name>
+		<name><![CDATA[`width`]]></name>
 		<note></note>
-		<resume>Sets the width of an element</resume>
+		<resume><![CDATA[Sets the width of an element]]></resume>
 		<seealso></seealso>
 		<tech>CSS</tech>
 		<type>Property</type>

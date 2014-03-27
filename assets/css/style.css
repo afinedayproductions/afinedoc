@@ -40,8 +40,9 @@ code {
 	}
 	pre code {
 		background: none;
-		border: none;
+		border: 0;
 		line-height: 1.75;
+		overflow-x: scroll;
 		padding: 0;
 		white-space: normal;
 	}
@@ -280,6 +281,14 @@ article .title:hover, article .tech:hover + .title {
 }
 article .title a, article .title span {
 	display: block;
+}
+article .title code {
+	background: none;
+	border: 0;
+	border-radius: 0;
+	color: #1a1a1a;
+	padding: 0;
+	white-space: nowrap;
 }
 article .title .link-title {
 	font-size: 1.5rem;
